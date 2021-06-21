@@ -1,0 +1,626 @@
+﻿using System;
+using Il2CppDummyDll;
+
+// Token: 0x020004B4 RID: 1204
+[Token(Token = "0x200037E")]
+public enum SubEventIDForTextReading
+{
+	// Token: 0x040062EE RID: 25326
+	[Token(Token = "0x4005DCF")]
+	EMPTY = -1,
+	// Token: 0x040062EF RID: 25327
+	[Token(Token = "0x4005DD0")]
+	SUB_EVENT_ID_01001,
+	// Token: 0x040062F0 RID: 25328
+	[Token(Token = "0x4005DD1")]
+	SUB_EVENT_ID_01010,
+	// Token: 0x040062F1 RID: 25329
+	[Token(Token = "0x4005DD2")]
+	SUB_EVENT_ID_01020,
+	// Token: 0x040062F2 RID: 25330
+	[Token(Token = "0x4005DD3")]
+	SUB_EVENT_ID_01030,
+	// Token: 0x040062F3 RID: 25331
+	[Token(Token = "0x4005DD4")]
+	SUB_EVENT_ID_01040,
+	// Token: 0x040062F4 RID: 25332
+	[Token(Token = "0x4005DD5")]
+	SUB_EVENT_ID_01050,
+	// Token: 0x040062F5 RID: 25333
+	[Token(Token = "0x4005DD6")]
+	SUB_EVENT_ID_01060,
+	// Token: 0x040062F6 RID: 25334
+	[Token(Token = "0x4005DD7")]
+	SUB_EVENT_ID_01070,
+	// Token: 0x040062F7 RID: 25335
+	[Token(Token = "0x4005DD8")]
+	SUB_EVENT_ID_01080,
+	// Token: 0x040062F8 RID: 25336
+	[Token(Token = "0x4005DD9")]
+	SUB_EVENT_ID_01090,
+	// Token: 0x040062F9 RID: 25337
+	[Token(Token = "0x4005DDA")]
+	SUB_EVENT_ID_01101,
+	// Token: 0x040062FA RID: 25338
+	[Token(Token = "0x4005DDB")]
+	SUB_EVENT_ID_01110,
+	// Token: 0x040062FB RID: 25339
+	[Token(Token = "0x4005DDC")]
+	SUB_EVENT_ID_01120,
+	// Token: 0x040062FC RID: 25340
+	[Token(Token = "0x4005DDD")]
+	SUB_EVENT_ID_01130,
+	// Token: 0x040062FD RID: 25341
+	[Token(Token = "0x4005DDE")]
+	SUB_EVENT_ID_01140,
+	// Token: 0x040062FE RID: 25342
+	[Token(Token = "0x4005DDF")]
+	SUB_EVENT_ID_01150,
+	// Token: 0x040062FF RID: 25343
+	[Token(Token = "0x4005DE0")]
+	SUB_EVENT_ID_01160,
+	// Token: 0x04006300 RID: 25344
+	[Token(Token = "0x4005DE1")]
+	SUB_EVENT_ID_01170,
+	// Token: 0x04006301 RID: 25345
+	[Token(Token = "0x4005DE2")]
+	SUB_EVENT_ID_01180,
+	// Token: 0x04006302 RID: 25346
+	[Token(Token = "0x4005DE3")]
+	SUB_EVENT_ID_01190,
+	// Token: 0x04006303 RID: 25347
+	[Token(Token = "0x4005DE4")]
+	SUB_EVENT_ID_01201,
+	// Token: 0x04006304 RID: 25348
+	[Token(Token = "0x4005DE5")]
+	SUB_EVENT_ID_01210,
+	// Token: 0x04006305 RID: 25349
+	[Token(Token = "0x4005DE6")]
+	SUB_EVENT_ID_01220,
+	// Token: 0x04006306 RID: 25350
+	[Token(Token = "0x4005DE7")]
+	SUB_EVENT_ID_01230,
+	// Token: 0x04006307 RID: 25351
+	[Token(Token = "0x4005DE8")]
+	SUB_EVENT_ID_01240,
+	// Token: 0x04006308 RID: 25352
+	[Token(Token = "0x4005DE9")]
+	SUB_EVENT_ID_01250,
+	// Token: 0x04006309 RID: 25353
+	[Token(Token = "0x4005DEA")]
+	SUB_EVENT_ID_01260,
+	// Token: 0x0400630A RID: 25354
+	[Token(Token = "0x4005DEB")]
+	SUB_EVENT_ID_01270,
+	// Token: 0x0400630B RID: 25355
+	[Token(Token = "0x4005DEC")]
+	SUB_EVENT_ID_01280,
+	// Token: 0x0400630C RID: 25356
+	[Token(Token = "0x4005DED")]
+	SUB_EVENT_ID_01290,
+	// Token: 0x0400630D RID: 25357
+	[Token(Token = "0x4005DEE")]
+	SUB_EVENT_ID_01301,
+	// Token: 0x0400630E RID: 25358
+	[Token(Token = "0x4005DEF")]
+	SUB_EVENT_ID_01310,
+	// Token: 0x0400630F RID: 25359
+	[Token(Token = "0x4005DF0")]
+	SUB_EVENT_ID_01320,
+	// Token: 0x04006310 RID: 25360
+	[Token(Token = "0x4005DF1")]
+	SUB_EVENT_ID_01330,
+	// Token: 0x04006311 RID: 25361
+	[Token(Token = "0x4005DF2")]
+	SUB_EVENT_ID_01340,
+	// Token: 0x04006312 RID: 25362
+	[Token(Token = "0x4005DF3")]
+	SUB_EVENT_ID_01350,
+	// Token: 0x04006313 RID: 25363
+	[Token(Token = "0x4005DF4")]
+	SUB_EVENT_ID_01360,
+	// Token: 0x04006314 RID: 25364
+	[Token(Token = "0x4005DF5")]
+	SUB_EVENT_ID_01370,
+	// Token: 0x04006315 RID: 25365
+	[Token(Token = "0x4005DF6")]
+	SUB_EVENT_ID_01380,
+	// Token: 0x04006316 RID: 25366
+	[Token(Token = "0x4005DF7")]
+	SUB_EVENT_ID_01390,
+	// Token: 0x04006317 RID: 25367
+	[Token(Token = "0x4005DF8")]
+	SUB_EVENT_ID_01401,
+	// Token: 0x04006318 RID: 25368
+	[Token(Token = "0x4005DF9")]
+	SUB_EVENT_ID_01410,
+	// Token: 0x04006319 RID: 25369
+	[Token(Token = "0x4005DFA")]
+	SUB_EVENT_ID_01420,
+	// Token: 0x0400631A RID: 25370
+	[Token(Token = "0x4005DFB")]
+	SUB_EVENT_ID_01430,
+	// Token: 0x0400631B RID: 25371
+	[Token(Token = "0x4005DFC")]
+	SUB_EVENT_ID_01440,
+	// Token: 0x0400631C RID: 25372
+	[Token(Token = "0x4005DFD")]
+	SUB_EVENT_ID_01450,
+	// Token: 0x0400631D RID: 25373
+	[Token(Token = "0x4005DFE")]
+	SUB_EVENT_ID_01460,
+	// Token: 0x0400631E RID: 25374
+	[Token(Token = "0x4005DFF")]
+	SUB_EVENT_ID_01470,
+	// Token: 0x0400631F RID: 25375
+	[Token(Token = "0x4005E00")]
+	SUB_EVENT_ID_01480,
+	// Token: 0x04006320 RID: 25376
+	[Token(Token = "0x4005E01")]
+	SUB_EVENT_ID_01490,
+	// Token: 0x04006321 RID: 25377
+	[Token(Token = "0x4005E02")]
+	SUB_EVENT_ID_01501,
+	// Token: 0x04006322 RID: 25378
+	[Token(Token = "0x4005E03")]
+	SUB_EVENT_ID_01510,
+	// Token: 0x04006323 RID: 25379
+	[Token(Token = "0x4005E04")]
+	SUB_EVENT_ID_01520,
+	// Token: 0x04006324 RID: 25380
+	[Token(Token = "0x4005E05")]
+	SUB_EVENT_ID_01530,
+	// Token: 0x04006325 RID: 25381
+	[Token(Token = "0x4005E06")]
+	SUB_EVENT_ID_01540,
+	// Token: 0x04006326 RID: 25382
+	[Token(Token = "0x4005E07")]
+	SUB_EVENT_ID_01550,
+	// Token: 0x04006327 RID: 25383
+	[Token(Token = "0x4005E08")]
+	SUB_EVENT_ID_01560,
+	// Token: 0x04006328 RID: 25384
+	[Token(Token = "0x4005E09")]
+	SUB_EVENT_ID_01570,
+	// Token: 0x04006329 RID: 25385
+	[Token(Token = "0x4005E0A")]
+	SUB_EVENT_ID_01580,
+	// Token: 0x0400632A RID: 25386
+	[Token(Token = "0x4005E0B")]
+	SUB_EVENT_ID_01590,
+	// Token: 0x0400632B RID: 25387
+	[Token(Token = "0x4005E0C")]
+	SUB_EVENT_ID_01601,
+	// Token: 0x0400632C RID: 25388
+	[Token(Token = "0x4005E0D")]
+	SUB_EVENT_ID_01610,
+	// Token: 0x0400632D RID: 25389
+	[Token(Token = "0x4005E0E")]
+	SUB_EVENT_ID_01620,
+	// Token: 0x0400632E RID: 25390
+	[Token(Token = "0x4005E0F")]
+	SUB_EVENT_ID_01630,
+	// Token: 0x0400632F RID: 25391
+	[Token(Token = "0x4005E10")]
+	SUB_EVENT_ID_01640,
+	// Token: 0x04006330 RID: 25392
+	[Token(Token = "0x4005E11")]
+	SUB_EVENT_ID_01650,
+	// Token: 0x04006331 RID: 25393
+	[Token(Token = "0x4005E12")]
+	SUB_EVENT_ID_01660,
+	// Token: 0x04006332 RID: 25394
+	[Token(Token = "0x4005E13")]
+	SUB_EVENT_ID_01670,
+	// Token: 0x04006333 RID: 25395
+	[Token(Token = "0x4005E14")]
+	SUB_EVENT_ID_01680,
+	// Token: 0x04006334 RID: 25396
+	[Token(Token = "0x4005E15")]
+	SUB_EVENT_ID_01690,
+	// Token: 0x04006335 RID: 25397
+	[Token(Token = "0x4005E16")]
+	SUB_EVENT_ID_01701,
+	// Token: 0x04006336 RID: 25398
+	[Token(Token = "0x4005E17")]
+	SUB_EVENT_ID_01710,
+	// Token: 0x04006337 RID: 25399
+	[Token(Token = "0x4005E18")]
+	SUB_EVENT_ID_01720,
+	// Token: 0x04006338 RID: 25400
+	[Token(Token = "0x4005E19")]
+	SUB_EVENT_ID_01730,
+	// Token: 0x04006339 RID: 25401
+	[Token(Token = "0x4005E1A")]
+	SUB_EVENT_ID_01740,
+	// Token: 0x0400633A RID: 25402
+	[Token(Token = "0x4005E1B")]
+	SUB_EVENT_ID_01750,
+	// Token: 0x0400633B RID: 25403
+	[Token(Token = "0x4005E1C")]
+	SUB_EVENT_ID_01760,
+	// Token: 0x0400633C RID: 25404
+	[Token(Token = "0x4005E1D")]
+	SUB_EVENT_ID_01770,
+	// Token: 0x0400633D RID: 25405
+	[Token(Token = "0x4005E1E")]
+	SUB_EVENT_ID_01780,
+	// Token: 0x0400633E RID: 25406
+	[Token(Token = "0x4005E1F")]
+	SUB_EVENT_ID_01790,
+	// Token: 0x0400633F RID: 25407
+	[Token(Token = "0x4005E20")]
+	SUB_EVENT_ID_01801,
+	// Token: 0x04006340 RID: 25408
+	[Token(Token = "0x4005E21")]
+	SUB_EVENT_ID_01810,
+	// Token: 0x04006341 RID: 25409
+	[Token(Token = "0x4005E22")]
+	SUB_EVENT_ID_01820,
+	// Token: 0x04006342 RID: 25410
+	[Token(Token = "0x4005E23")]
+	SUB_EVENT_ID_01830,
+	// Token: 0x04006343 RID: 25411
+	[Token(Token = "0x4005E24")]
+	SUB_EVENT_ID_01840,
+	// Token: 0x04006344 RID: 25412
+	[Token(Token = "0x4005E25")]
+	SUB_EVENT_ID_01850,
+	// Token: 0x04006345 RID: 25413
+	[Token(Token = "0x4005E26")]
+	SUB_EVENT_ID_01860,
+	// Token: 0x04006346 RID: 25414
+	[Token(Token = "0x4005E27")]
+	SUB_EVENT_ID_01870,
+	// Token: 0x04006347 RID: 25415
+	[Token(Token = "0x4005E28")]
+	SUB_EVENT_ID_01880,
+	// Token: 0x04006348 RID: 25416
+	[Token(Token = "0x4005E29")]
+	SUB_EVENT_ID_01890,
+	// Token: 0x04006349 RID: 25417
+	[Token(Token = "0x4005E2A")]
+	SUB_EVENT_ID_01901,
+	// Token: 0x0400634A RID: 25418
+	[Token(Token = "0x4005E2B")]
+	SUB_EVENT_ID_01910,
+	// Token: 0x0400634B RID: 25419
+	[Token(Token = "0x4005E2C")]
+	SUB_EVENT_ID_01920,
+	// Token: 0x0400634C RID: 25420
+	[Token(Token = "0x4005E2D")]
+	SUB_EVENT_ID_01930,
+	// Token: 0x0400634D RID: 25421
+	[Token(Token = "0x4005E2E")]
+	SUB_EVENT_ID_01940,
+	// Token: 0x0400634E RID: 25422
+	[Token(Token = "0x4005E2F")]
+	SUB_EVENT_ID_01950,
+	// Token: 0x0400634F RID: 25423
+	[Token(Token = "0x4005E30")]
+	SUB_EVENT_ID_01960,
+	// Token: 0x04006350 RID: 25424
+	[Token(Token = "0x4005E31")]
+	SUB_EVENT_ID_01970,
+	// Token: 0x04006351 RID: 25425
+	[Token(Token = "0x4005E32")]
+	SUB_EVENT_ID_01980,
+	// Token: 0x04006352 RID: 25426
+	[Token(Token = "0x4005E33")]
+	SUB_EVENT_ID_01990,
+	// Token: 0x04006353 RID: 25427
+	[Token(Token = "0x4005E34")]
+	SUB_EVENT_ID_02001,
+	// Token: 0x04006354 RID: 25428
+	[Token(Token = "0x4005E35")]
+	SUB_EVENT_ID_02010,
+	// Token: 0x04006355 RID: 25429
+	[Token(Token = "0x4005E36")]
+	SUB_EVENT_ID_02020,
+	// Token: 0x04006356 RID: 25430
+	[Token(Token = "0x4005E37")]
+	SUB_EVENT_ID_02030,
+	// Token: 0x04006357 RID: 25431
+	[Token(Token = "0x4005E38")]
+	SUB_EVENT_ID_02040,
+	// Token: 0x04006358 RID: 25432
+	[Token(Token = "0x4005E39")]
+	SUB_EVENT_ID_02050,
+	// Token: 0x04006359 RID: 25433
+	[Token(Token = "0x4005E3A")]
+	SUB_EVENT_ID_02060,
+	// Token: 0x0400635A RID: 25434
+	[Token(Token = "0x4005E3B")]
+	SUB_EVENT_ID_02070,
+	// Token: 0x0400635B RID: 25435
+	[Token(Token = "0x4005E3C")]
+	SUB_EVENT_ID_02080,
+	// Token: 0x0400635C RID: 25436
+	[Token(Token = "0x4005E3D")]
+	SUB_EVENT_ID_02090,
+	// Token: 0x0400635D RID: 25437
+	[Token(Token = "0x4005E3E")]
+	SUB_EVENT_ID_02101,
+	// Token: 0x0400635E RID: 25438
+	[Token(Token = "0x4005E3F")]
+	SUB_EVENT_ID_02110,
+	// Token: 0x0400635F RID: 25439
+	[Token(Token = "0x4005E40")]
+	SUB_EVENT_ID_02120,
+	// Token: 0x04006360 RID: 25440
+	[Token(Token = "0x4005E41")]
+	SUB_EVENT_ID_02130,
+	// Token: 0x04006361 RID: 25441
+	[Token(Token = "0x4005E42")]
+	SUB_EVENT_ID_02140,
+	// Token: 0x04006362 RID: 25442
+	[Token(Token = "0x4005E43")]
+	SUB_EVENT_ID_02150,
+	// Token: 0x04006363 RID: 25443
+	[Token(Token = "0x4005E44")]
+	SUB_EVENT_ID_02160,
+	// Token: 0x04006364 RID: 25444
+	[Token(Token = "0x4005E45")]
+	SUB_EVENT_ID_02170,
+	// Token: 0x04006365 RID: 25445
+	[Token(Token = "0x4005E46")]
+	SUB_EVENT_ID_02180,
+	// Token: 0x04006366 RID: 25446
+	[Token(Token = "0x4005E47")]
+	SUB_EVENT_ID_02190,
+	// Token: 0x04006367 RID: 25447
+	[Token(Token = "0x4005E48")]
+	SUB_EVENT_ID_00501,
+	// Token: 0x04006368 RID: 25448
+	[Token(Token = "0x4005E49")]
+	SUB_EVENT_ID_00502,
+	// Token: 0x04006369 RID: 25449
+	[Token(Token = "0x4005E4A")]
+	SUB_EVENT_ID_03001,
+	// Token: 0x0400636A RID: 25450
+	[Token(Token = "0x4005E4B")]
+	SUB_EVENT_ID_03002,
+	// Token: 0x0400636B RID: 25451
+	[Token(Token = "0x4005E4C")]
+	SUB_EVENT_ID_03003,
+	// Token: 0x0400636C RID: 25452
+	[Token(Token = "0x4005E4D")]
+	SUB_EVENT_ID_03004,
+	// Token: 0x0400636D RID: 25453
+	[Token(Token = "0x4005E4E")]
+	SUB_EVENT_ID_03005,
+	// Token: 0x0400636E RID: 25454
+	[Token(Token = "0x4005E4F")]
+	SUB_EVENT_ID_03006,
+	// Token: 0x0400636F RID: 25455
+	[Token(Token = "0x4005E50")]
+	SUB_EVENT_ID_03007,
+	// Token: 0x04006370 RID: 25456
+	[Token(Token = "0x4005E51")]
+	SUB_EVENT_ID_03008,
+	// Token: 0x04006371 RID: 25457
+	[Token(Token = "0x4005E52")]
+	SUB_EVENT_ID_03009,
+	// Token: 0x04006372 RID: 25458
+	[Token(Token = "0x4005E53")]
+	SUB_EVENT_ID_03010,
+	// Token: 0x04006373 RID: 25459
+	[Token(Token = "0x4005E54")]
+	SUB_EVENT_ID_03011,
+	// Token: 0x04006374 RID: 25460
+	[Token(Token = "0x4005E55")]
+	SUB_EVENT_ID_03012,
+	// Token: 0x04006375 RID: 25461
+	[Token(Token = "0x4005E56")]
+	SUB_EVENT_ID_03013,
+	// Token: 0x04006376 RID: 25462
+	[Token(Token = "0x4005E57")]
+	SUB_EVENT_ID_03014,
+	// Token: 0x04006377 RID: 25463
+	[Token(Token = "0x4005E58")]
+	SUB_EVENT_ID_03015,
+	// Token: 0x04006378 RID: 25464
+	[Token(Token = "0x4005E59")]
+	SUB_EVENT_ID_03016,
+	// Token: 0x04006379 RID: 25465
+	[Token(Token = "0x4005E5A")]
+	SUB_EVENT_ID_03017,
+	// Token: 0x0400637A RID: 25466
+	[Token(Token = "0x4005E5B")]
+	SUB_EVENT_ID_03018,
+	// Token: 0x0400637B RID: 25467
+	[Token(Token = "0x4005E5C")]
+	SUB_EVENT_ID_03019,
+	// Token: 0x0400637C RID: 25468
+	[Token(Token = "0x4005E5D")]
+	SUB_EVENT_ID_03020,
+	// Token: 0x0400637D RID: 25469
+	[Token(Token = "0x4005E5E")]
+	SUB_EVENT_ID_03021,
+	// Token: 0x0400637E RID: 25470
+	[Token(Token = "0x4005E5F")]
+	SUB_EVENT_ID_03022,
+	// Token: 0x0400637F RID: 25471
+	[Token(Token = "0x4005E60")]
+	SUB_EVENT_ID_03023,
+	// Token: 0x04006380 RID: 25472
+	[Token(Token = "0x4005E61")]
+	SUB_EVENT_ID_03024,
+	// Token: 0x04006381 RID: 25473
+	[Token(Token = "0x4005E62")]
+	SUB_EVENT_ID_03025,
+	// Token: 0x04006382 RID: 25474
+	[Token(Token = "0x4005E63")]
+	SUB_EVENT_ID_03026,
+	// Token: 0x04006383 RID: 25475
+	[Token(Token = "0x4005E64")]
+	SUB_EVENT_ID_03027,
+	// Token: 0x04006384 RID: 25476
+	[Token(Token = "0x4005E65")]
+	SUB_EVENT_ID_03028,
+	// Token: 0x04006385 RID: 25477
+	[Token(Token = "0x4005E66")]
+	SUB_EVENT_ID_03029,
+	// Token: 0x04006386 RID: 25478
+	[Token(Token = "0x4005E67")]
+	SUB_EVENT_ID_03030,
+	// Token: 0x04006387 RID: 25479
+	[Token(Token = "0x4005E68")]
+	SUB_EVENT_ID_03031,
+	// Token: 0x04006388 RID: 25480
+	[Token(Token = "0x4005E69")]
+	SUB_EVENT_ID_03032,
+	// Token: 0x04006389 RID: 25481
+	[Token(Token = "0x4005E6A")]
+	SUB_EVENT_ID_03033,
+	// Token: 0x0400638A RID: 25482
+	[Token(Token = "0x4005E6B")]
+	SUB_EVENT_ID_03034,
+	// Token: 0x0400638B RID: 25483
+	[Token(Token = "0x4005E6C")]
+	SUB_EVENT_ID_03035,
+	// Token: 0x0400638C RID: 25484
+	[Token(Token = "0x4005E6D")]
+	SUB_EVENT_ID_03036,
+	// Token: 0x0400638D RID: 25485
+	[Token(Token = "0x4005E6E")]
+	SUB_EVENT_ID_03037,
+	// Token: 0x0400638E RID: 25486
+	[Token(Token = "0x4005E6F")]
+	SUB_EVENT_ID_03038,
+	// Token: 0x0400638F RID: 25487
+	[Token(Token = "0x4005E70")]
+	SUB_EVENT_ID_03039,
+	// Token: 0x04006390 RID: 25488
+	[Token(Token = "0x4005E71")]
+	SUB_EVENT_ID_03040,
+	// Token: 0x04006391 RID: 25489
+	[Token(Token = "0x4005E72")]
+	SUB_EVENT_ID_03041,
+	// Token: 0x04006392 RID: 25490
+	[Token(Token = "0x4005E73")]
+	SUB_EVENT_ID_03042,
+	// Token: 0x04006393 RID: 25491
+	[Token(Token = "0x4005E74")]
+	SUB_EVENT_ID_03043,
+	// Token: 0x04006394 RID: 25492
+	[Token(Token = "0x4005E75")]
+	SUB_EVENT_ID_03044,
+	// Token: 0x04006395 RID: 25493
+	[Token(Token = "0x4005E76")]
+	SUB_EVENT_ID_03045,
+	// Token: 0x04006396 RID: 25494
+	[Token(Token = "0x4005E77")]
+	SUB_EVENT_ID_03046,
+	// Token: 0x04006397 RID: 25495
+	[Token(Token = "0x4005E78")]
+	SUB_EVENT_ID_03047,
+	// Token: 0x04006398 RID: 25496
+	[Token(Token = "0x4005E79")]
+	SUB_EVENT_ID_03048,
+	// Token: 0x04006399 RID: 25497
+	[Token(Token = "0x4005E7A")]
+	SUB_EVENT_ID_03049,
+	// Token: 0x0400639A RID: 25498
+	[Token(Token = "0x4005E7B")]
+	SUB_EVENT_ID_03050,
+	// Token: 0x0400639B RID: 25499
+	[Token(Token = "0x4005E7C")]
+	SUB_EVENT_ID_03051,
+	// Token: 0x0400639C RID: 25500
+	[Token(Token = "0x4005E7D")]
+	SUB_EVENT_ID_03052,
+	// Token: 0x0400639D RID: 25501
+	[Token(Token = "0x4005E7E")]
+	SUB_EVENT_ID_03053,
+	// Token: 0x0400639E RID: 25502
+	[Token(Token = "0x4005E7F")]
+	SUB_EVENT_ID_03054,
+	// Token: 0x0400639F RID: 25503
+	[Token(Token = "0x4005E80")]
+	SUB_EVENT_ID_03055,
+	// Token: 0x040063A0 RID: 25504
+	[Token(Token = "0x4005E81")]
+	SUB_EVENT_ID_03056,
+	// Token: 0x040063A1 RID: 25505
+	[Token(Token = "0x4005E82")]
+	SUB_EVENT_ID_03057,
+	// Token: 0x040063A2 RID: 25506
+	[Token(Token = "0x4005E83")]
+	SUB_EVENT_ID_03058,
+	// Token: 0x040063A3 RID: 25507
+	[Token(Token = "0x4005E84")]
+	SUB_EVENT_ID_03059,
+	// Token: 0x040063A4 RID: 25508
+	[Token(Token = "0x4005E85")]
+	SUB_EVENT_ID_03060,
+	// Token: 0x040063A5 RID: 25509
+	[Token(Token = "0x4005E86")]
+	SUB_EVENT_ID_03061,
+	// Token: 0x040063A6 RID: 25510
+	[Token(Token = "0x4005E87")]
+	SUB_EVENT_ID_03062,
+	// Token: 0x040063A7 RID: 25511
+	[Token(Token = "0x4005E88")]
+	SUB_EVENT_ID_03063,
+	// Token: 0x040063A8 RID: 25512
+	[Token(Token = "0x4005E89")]
+	SUB_EVENT_ID_03064,
+	// Token: 0x040063A9 RID: 25513
+	[Token(Token = "0x4005E8A")]
+	SUB_EVENT_ID_03065,
+	// Token: 0x040063AA RID: 25514
+	[Token(Token = "0x4005E8B")]
+	SUB_EVENT_ID_03066,
+	// Token: 0x040063AB RID: 25515
+	[Token(Token = "0x4005E8C")]
+	SUB_EVENT_ID_03067,
+	// Token: 0x040063AC RID: 25516
+	[Token(Token = "0x4005E8D")]
+	SUB_EVENT_ID_03068,
+	// Token: 0x040063AD RID: 25517
+	[Token(Token = "0x4005E8E")]
+	SUB_EVENT_ID_03069,
+	// Token: 0x040063AE RID: 25518
+	[Token(Token = "0x4005E8F")]
+	SUB_EVENT_ID_03070,
+	// Token: 0x040063AF RID: 25519
+	[Token(Token = "0x4005E90")]
+	SUB_EVENT_ID_03071,
+	// Token: 0x040063B0 RID: 25520
+	[Token(Token = "0x4005E91")]
+	SUB_EVENT_ID_03072,
+	// Token: 0x040063B1 RID: 25521
+	[Token(Token = "0x4005E92")]
+	SUB_EVENT_ID_03073,
+	// Token: 0x040063B2 RID: 25522
+	[Token(Token = "0x4005E93")]
+	SUB_EVENT_ID_03074,
+	// Token: 0x040063B3 RID: 25523
+	[Token(Token = "0x4005E94")]
+	SUB_EVENT_ID_03075,
+	// Token: 0x040063B4 RID: 25524
+	[Token(Token = "0x4005E95")]
+	SUB_EVENT_ID_03076,
+	// Token: 0x040063B5 RID: 25525
+	[Token(Token = "0x4005E96")]
+	SUB_EVENT_ID_03077,
+	// Token: 0x040063B6 RID: 25526
+	[Token(Token = "0x4005E97")]
+	SUB_EVENT_ID_03078,
+	// Token: 0x040063B7 RID: 25527
+	[Token(Token = "0x4005E98")]
+	SUB_EVENT_ID_03079,
+	// Token: 0x040063B8 RID: 25528
+	[Token(Token = "0x4005E99")]
+	SUB_EVENT_ID_03080,
+	// Token: 0x040063B9 RID: 25529
+	[Token(Token = "0x4005E9A")]
+	SUB_EVENT_ID_03081,
+	// Token: 0x040063BA RID: 25530
+	[Token(Token = "0x4005E9B")]
+	SUB_EVENT_ID_03082,
+	// Token: 0x040063BB RID: 25531
+	[Token(Token = "0x4005E9C")]
+	SUB_EVENT_MAX
+}

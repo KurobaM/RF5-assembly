@@ -1,0 +1,6953 @@
+﻿using System;
+using Il2CppDummyDll;
+
+namespace Define
+{
+	// Token: 0x02001222 RID: 4642
+	[Token(Token = "0x2000BF6")]
+	public enum GameFlagData
+	{
+		// Token: 0x04018DAC RID: 101804
+		[Token(Token = "0x4015815")]
+		None,
+		// Token: 0x04018DAD RID: 101805
+		[Token(Token = "0x4015816")]
+		FLAG_GAME_START,
+		// Token: 0x04018DAE RID: 101806
+		[Token(Token = "0x4015817")]
+		FLAG_CHAPTER1_CLEAR,
+		// Token: 0x04018DAF RID: 101807
+		[Token(Token = "0x4015818")]
+		INPUT_PLAYER_NAME,
+		// Token: 0x04018DB0 RID: 101808
+		[Token(Token = "0x4015819")]
+		IS_MALE,
+		// Token: 0x04018DB1 RID: 101809
+		[Token(Token = "0x401581A")]
+		IS_FEMALE,
+		// Token: 0x04018DB2 RID: 101810
+		[Token(Token = "0x401581B")]
+		IS_WEEKDAY,
+		// Token: 0x04018DB3 RID: 101811
+		[Token(Token = "0x401581C")]
+		IS_HOLIDAY,
+		// Token: 0x04018DB4 RID: 101812
+		[Token(Token = "0x401581D")]
+		CAN_MAKE_RANDOLSORD,
+		// Token: 0x04018DB5 RID: 101813
+		[Token(Token = "0x401581E")]
+		MAP_BGM_BLOCK,
+		// Token: 0x04018DB6 RID: 101814
+		[Token(Token = "0x401581F")]
+		TEJYOU_USEABLE,
+		// Token: 0x04018DB7 RID: 101815
+		[Token(Token = "0x4015820")]
+		SP4_DAGU_MARGARET,
+		// Token: 0x04018DB8 RID: 101816
+		[Token(Token = "0x4015821")]
+		QUAKE_PATROL = 19,
+		// Token: 0x04018DB9 RID: 101817
+		[Token(Token = "0x4015822")]
+		SERIOUS_EVENT,
+		// Token: 0x04018DBA RID: 101818
+		[Token(Token = "0x4015823")]
+		CHARA_ACTOR_MARRIAGE,
+		// Token: 0x04018DBB RID: 101819
+		[Token(Token = "0x4015824")]
+		TOWN_EVENT,
+		// Token: 0x04018DBC RID: 101820
+		[Token(Token = "0x4015825")]
+		FLAG_DATE_RESERVATION_NG,
+		// Token: 0x04018DBD RID: 101821
+		[Token(Token = "0x4015826")]
+		FLAG_DATE_RESERVED,
+		// Token: 0x04018DBE RID: 101822
+		[Token(Token = "0x4015827")]
+		FLAG_SOMEONE_PARTNER,
+		// Token: 0x04018DBF RID: 101823
+		[Token(Token = "0x4015828")]
+		FLAG_OMATSURI_STANDBY = 50,
+		// Token: 0x04018DC0 RID: 101824
+		[Token(Token = "0x4015829")]
+		FLAG_OMATSURI_FISHING,
+		// Token: 0x04018DC1 RID: 101825
+		[Token(Token = "0x401582A")]
+		FLAG_OMATSURI_DATE_RESERVED,
+		// Token: 0x04018DC2 RID: 101826
+		[Token(Token = "0x401582B")]
+		FLAG_OMATSURI_DATE_FINISH,
+		// Token: 0x04018DC3 RID: 101827
+		[Token(Token = "0x401582C")]
+		FLAG_OMATSURI_MAMEMAKI_CLEAR,
+		// Token: 0x04018DC4 RID: 101828
+		[Token(Token = "0x401582D")]
+		TUTORIAL_BATTLE = 60,
+		// Token: 0x04018DC5 RID: 101829
+		[Token(Token = "0x401582E")]
+		TUTORIAL_FARM,
+		// Token: 0x04018DC6 RID: 101830
+		[Token(Token = "0x401582F")]
+		TUTORIAL_ROOM,
+		// Token: 0x04018DC7 RID: 101831
+		[Token(Token = "0x4015830")]
+		TUTORIAL_SAVE,
+		// Token: 0x04018DC8 RID: 101832
+		[Token(Token = "0x4015831")]
+		TUTORIAL_MAP,
+		// Token: 0x04018DC9 RID: 101833
+		[Token(Token = "0x4015832")]
+		TUTORIAL_BLACKSMITH,
+		// Token: 0x04018DCA RID: 101834
+		[Token(Token = "0x4015833")]
+		TUTORIAL_QUEST,
+		// Token: 0x04018DCB RID: 101835
+		[Token(Token = "0x4015834")]
+		TUTORIAL_TEJYOU,
+		// Token: 0x04018DCC RID: 101836
+		[Token(Token = "0x4015835")]
+		TUTORIAL_DRAGON,
+		// Token: 0x04018DCD RID: 101837
+		[Token(Token = "0x4015836")]
+		TUTORIAL_SPECIALQUEST,
+		// Token: 0x04018DCE RID: 101838
+		[Token(Token = "0x4015837")]
+		TUTORIAL_ELIZA,
+		// Token: 0x04018DCF RID: 101839
+		[Token(Token = "0x4015838")]
+		TUTORIAL_FIRSTMAKING,
+		// Token: 0x04018DD0 RID: 101840
+		[Token(Token = "0x4015839")]
+		TUTORIAL_RUCKSACKEX,
+		// Token: 0x04018DD1 RID: 101841
+		[Token(Token = "0x401583A")]
+		TUTORIAL_FIRSTFESTIVAL,
+		// Token: 0x04018DD2 RID: 101842
+		[Token(Token = "0x401583B")]
+		TUTORIAL_MAIKING,
+		// Token: 0x04018DD3 RID: 101843
+		[Token(Token = "0x401583C")]
+		TUTORIAL_FIELDWORK,
+		// Token: 0x04018DD4 RID: 101844
+		[Token(Token = "0x401583D")]
+		TUTORIAL_MAKING_PLAY,
+		// Token: 0x04018DD5 RID: 101845
+		[Token(Token = "0x401583E")]
+		TUTORIAL_BLACKSMITH_TALKBLOCK,
+		// Token: 0x04018DD6 RID: 101846
+		[Token(Token = "0x401583F")]
+		PRISCILLA_ANIME = 80,
+		// Token: 0x04018DD7 RID: 101847
+		[Token(Token = "0x4015840")]
+		LUCY_ANIME,
+		// Token: 0x04018DD8 RID: 101848
+		[Token(Token = "0x4015841")]
+		SCARLET_ANIME,
+		// Token: 0x04018DD9 RID: 101849
+		[Token(Token = "0x4015842")]
+		FUUKA_ANIME,
+		// Token: 0x04018DDA RID: 101850
+		[Token(Token = "0x4015843")]
+		BEATRICE_ANIME,
+		// Token: 0x04018DDB RID: 101851
+		[Token(Token = "0x4015844")]
+		LUDMILA_ANIME,
+		// Token: 0x04018DDC RID: 101852
+		[Token(Token = "0x4015845")]
+		MARTIN_ANIME,
+		// Token: 0x04018DDD RID: 101853
+		[Token(Token = "0x4015846")]
+		CECIL_ANIME,
+		// Token: 0x04018DDE RID: 101854
+		[Token(Token = "0x4015847")]
+		MURAKUMO_ANIME,
+		// Token: 0x04018DDF RID: 101855
+		[Token(Token = "0x4015848")]
+		LYCA_ANIME,
+		// Token: 0x04018DE0 RID: 101856
+		[Token(Token = "0x4015849")]
+		REINHARD_ANIME,
+		// Token: 0x04018DE1 RID: 101857
+		[Token(Token = "0x401584A")]
+		LUCAS_ANIME,
+		// Token: 0x04018DE2 RID: 101858
+		[Token(Token = "0x401584B")]
+		FLAG_KAGU_MAX = 100,
+		// Token: 0x04018DE3 RID: 101859
+		[Token(Token = "0x401584C")]
+		FLAG_MYHOME_ONPLACE,
+		// Token: 0x04018DE4 RID: 101860
+		[Token(Token = "0x401584D")]
+		FLAG_FARM_DRAGON1,
+		// Token: 0x04018DE5 RID: 101861
+		[Token(Token = "0x401584E")]
+		FLAG_FARM_DRAGON2,
+		// Token: 0x04018DE6 RID: 101862
+		[Token(Token = "0x401584F")]
+		FLAG_FARM_DRAGON3,
+		// Token: 0x04018DE7 RID: 101863
+		[Token(Token = "0x4015850")]
+		FLAG_FARM_DRAGON4,
+		// Token: 0x04018DE8 RID: 101864
+		[Token(Token = "0x4015851")]
+		FLAG_FARM_DRAGON5,
+		// Token: 0x04018DE9 RID: 101865
+		[Token(Token = "0x4015852")]
+		FLAG_FARM_DRAGON_PLACE,
+		// Token: 0x04018DEA RID: 101866
+		[Token(Token = "0x4015853")]
+		FLAG_COOKING_ALL,
+		// Token: 0x04018DEB RID: 101867
+		[Token(Token = "0x4015854")]
+		FLAG_CARPENTER_ONPLACE,
+		// Token: 0x04018DEC RID: 101868
+		[Token(Token = "0x4015855")]
+		FLAG_WARP_NG,
+		// Token: 0x04018DED RID: 101869
+		[Token(Token = "0x4015856")]
+		FLAG_BED_NG,
+		// Token: 0x04018DEE RID: 101870
+		[Token(Token = "0x4015857")]
+		FLAG_BOSS_FLOOR_WALL,
+		// Token: 0x04018DEF RID: 101871
+		[Token(Token = "0x4015858")]
+		FLAG_FISHING_ISMIN = 120,
+		// Token: 0x04018DF0 RID: 101872
+		[Token(Token = "0x4015859")]
+		FLAG_FISHING_ISMAX,
+		// Token: 0x04018DF1 RID: 101873
+		[Token(Token = "0x401585A")]
+		FLAG_FISHING_ISHATTEN,
+		// Token: 0x04018DF2 RID: 101874
+		[Token(Token = "0x401585B")]
+		FLAG_FISHING_TAIKAI_END,
+		// Token: 0x04018DF3 RID: 101875
+		[Token(Token = "0x401585C")]
+		FLAG_RUCK_SPACE,
+		// Token: 0x04018DF4 RID: 101876
+		[Token(Token = "0x401585D")]
+		FLAG_PRISCILLA_HAIR_CHANGE = 200,
+		// Token: 0x04018DF5 RID: 101877
+		[Token(Token = "0x401585E")]
+		FLAG_PRISCILLA_HAIR_CHANGE_2,
+		// Token: 0x04018DF6 RID: 101878
+		[Token(Token = "0x401585F")]
+		FLAG_SCENARIO_TALK_01 = 220,
+		// Token: 0x04018DF7 RID: 101879
+		[Token(Token = "0x4015860")]
+		FLAG_SCENARIO_TALK_02,
+		// Token: 0x04018DF8 RID: 101880
+		[Token(Token = "0x4015861")]
+		FLAG_SCENARIO_TALK_03,
+		// Token: 0x04018DF9 RID: 101881
+		[Token(Token = "0x4015862")]
+		FLAG_SCENARIO_TALK_04,
+		// Token: 0x04018DFA RID: 101882
+		[Token(Token = "0x4015863")]
+		FLAG_SCENARIO_TALK_05,
+		// Token: 0x04018DFB RID: 101883
+		[Token(Token = "0x4015864")]
+		FLAG_SCENARIO_TALK_06,
+		// Token: 0x04018DFC RID: 101884
+		[Token(Token = "0x4015865")]
+		FLAG_SCENARIO_TALK_07,
+		// Token: 0x04018DFD RID: 101885
+		[Token(Token = "0x4015866")]
+		FLAG_SCENARIO_TALK_08,
+		// Token: 0x04018DFE RID: 101886
+		[Token(Token = "0x4015867")]
+		FLAG_SCENARIO_TALK_09,
+		// Token: 0x04018DFF RID: 101887
+		[Token(Token = "0x4015868")]
+		FLAG_SCENARIO_TALK_10,
+		// Token: 0x04018E00 RID: 101888
+		[Token(Token = "0x4015869")]
+		FLAG_SCENARIO_TALK_11,
+		// Token: 0x04018E01 RID: 101889
+		[Token(Token = "0x401586A")]
+		FLAG_SCENARIO_TALK_12,
+		// Token: 0x04018E02 RID: 101890
+		[Token(Token = "0x401586B")]
+		FLAG_SCENARIO_TALK_13,
+		// Token: 0x04018E03 RID: 101891
+		[Token(Token = "0x401586C")]
+		FLAG_SCENARIO_TALK_14,
+		// Token: 0x04018E04 RID: 101892
+		[Token(Token = "0x401586D")]
+		FLAG_SCENARIO_TALK_15,
+		// Token: 0x04018E05 RID: 101893
+		[Token(Token = "0x401586E")]
+		FLAG_SCENARIO_TALK_16,
+		// Token: 0x04018E06 RID: 101894
+		[Token(Token = "0x401586F")]
+		FLAG_MAKING_DOG = 300,
+		// Token: 0x04018E07 RID: 101895
+		[Token(Token = "0x4015870")]
+		FLAG_MAKING_SIMONE,
+		// Token: 0x04018E08 RID: 101896
+		[Token(Token = "0x4015871")]
+		FLAG_MAKING_ELSJE,
+		// Token: 0x04018E09 RID: 101897
+		[Token(Token = "0x4015872")]
+		PRISCILLA_MEET = 310,
+		// Token: 0x04018E0A RID: 101898
+		[Token(Token = "0x4015873")]
+		LUCY_MEET,
+		// Token: 0x04018E0B RID: 101899
+		[Token(Token = "0x4015874")]
+		SCARLET_MEET,
+		// Token: 0x04018E0C RID: 101900
+		[Token(Token = "0x4015875")]
+		FUUKA_MEET,
+		// Token: 0x04018E0D RID: 101901
+		[Token(Token = "0x4015876")]
+		BEATRICE_MEET,
+		// Token: 0x04018E0E RID: 101902
+		[Token(Token = "0x4015877")]
+		LUDMILA_MEET,
+		// Token: 0x04018E0F RID: 101903
+		[Token(Token = "0x4015878")]
+		MARTIN_MEET,
+		// Token: 0x04018E10 RID: 101904
+		[Token(Token = "0x4015879")]
+		CECIL_MEET,
+		// Token: 0x04018E11 RID: 101905
+		[Token(Token = "0x401587A")]
+		MURAKUMO_MEET,
+		// Token: 0x04018E12 RID: 101906
+		[Token(Token = "0x401587B")]
+		LYCA_MEET,
+		// Token: 0x04018E13 RID: 101907
+		[Token(Token = "0x401587C")]
+		REINHARD_MEET,
+		// Token: 0x04018E14 RID: 101908
+		[Token(Token = "0x401587D")]
+		LUCAS_MEET,
+		// Token: 0x04018E15 RID: 101909
+		[Token(Token = "0x401587E")]
+		ELCHE_MEET,
+		// Token: 0x04018E16 RID: 101910
+		[Token(Token = "0x401587F")]
+		PALMO_MEET,
+		// Token: 0x04018E17 RID: 101911
+		[Token(Token = "0x4015880")]
+		HEINZ_MEET,
+		// Token: 0x04018E18 RID: 101912
+		[Token(Token = "0x4015881")]
+		RANDOLPH_MEET,
+		// Token: 0x04018E19 RID: 101913
+		[Token(Token = "0x4015882")]
+		YUKI_MEET,
+		// Token: 0x04018E1A RID: 101914
+		[Token(Token = "0x4015883")]
+		SIMONE_MEET,
+		// Token: 0x04018E1B RID: 101915
+		[Token(Token = "0x4015884")]
+		MISASAGI_MEET,
+		// Token: 0x04018E1C RID: 101916
+		[Token(Token = "0x4015885")]
+		TERRY_MEET,
+		// Token: 0x04018E1D RID: 101917
+		[Token(Token = "0x4015886")]
+		RIVIA_MEET,
+		// Token: 0x04018E1E RID: 101918
+		[Token(Token = "0x4015887")]
+		REDIA_MEET,
+		// Token: 0x04018E1F RID: 101919
+		[Token(Token = "0x4015888")]
+		DOGU_MEET,
+		// Token: 0x04018E20 RID: 101920
+		[Token(Token = "0x4015889")]
+		JULIAN_MEET,
+		// Token: 0x04018E21 RID: 101921
+		[Token(Token = "0x401588A")]
+		HINA_MEET,
+		// Token: 0x04018E22 RID: 101922
+		[Token(Token = "0x401588B")]
+		CHILD1_MEET,
+		// Token: 0x04018E23 RID: 101923
+		[Token(Token = "0x401588C")]
+		CHILD2_MALE_MEET,
+		// Token: 0x04018E24 RID: 101924
+		[Token(Token = "0x401588D")]
+		CHILD2_FEMALE_MEET,
+		// Token: 0x04018E25 RID: 101925
+		[Token(Token = "0x401588E")]
+		DAGU_MEET,
+		// Token: 0x04018E26 RID: 101926
+		[Token(Token = "0x401588F")]
+		MARGARET_MEET,
+		// Token: 0x04018E27 RID: 101927
+		[Token(Token = "0x4015890")]
+		PRISCILLA_OUTING = 350,
+		// Token: 0x04018E28 RID: 101928
+		[Token(Token = "0x4015891")]
+		LUCY_OUTING,
+		// Token: 0x04018E29 RID: 101929
+		[Token(Token = "0x4015892")]
+		SCARLET_OUTING,
+		// Token: 0x04018E2A RID: 101930
+		[Token(Token = "0x4015893")]
+		FUUKA_OUTING,
+		// Token: 0x04018E2B RID: 101931
+		[Token(Token = "0x4015894")]
+		BEATRICE_OUTING,
+		// Token: 0x04018E2C RID: 101932
+		[Token(Token = "0x4015895")]
+		LUDMILA_OUTING,
+		// Token: 0x04018E2D RID: 101933
+		[Token(Token = "0x4015896")]
+		MARTIN_OUTING,
+		// Token: 0x04018E2E RID: 101934
+		[Token(Token = "0x4015897")]
+		CECIL_OUTING,
+		// Token: 0x04018E2F RID: 101935
+		[Token(Token = "0x4015898")]
+		MURAKUMO_OUTING,
+		// Token: 0x04018E30 RID: 101936
+		[Token(Token = "0x4015899")]
+		LYCA_OUTING,
+		// Token: 0x04018E31 RID: 101937
+		[Token(Token = "0x401589A")]
+		REINHARD_OUTING,
+		// Token: 0x04018E32 RID: 101938
+		[Token(Token = "0x401589B")]
+		LUCAS_OUTING,
+		// Token: 0x04018E33 RID: 101939
+		[Token(Token = "0x401589C")]
+		ELCHE_OUTING,
+		// Token: 0x04018E34 RID: 101940
+		[Token(Token = "0x401589D")]
+		PALMO_OUTING,
+		// Token: 0x04018E35 RID: 101941
+		[Token(Token = "0x401589E")]
+		HEINZ_OUTING,
+		// Token: 0x04018E36 RID: 101942
+		[Token(Token = "0x401589F")]
+		RANDOLPH_OUTING,
+		// Token: 0x04018E37 RID: 101943
+		[Token(Token = "0x40158A0")]
+		YUKI_OUTING,
+		// Token: 0x04018E38 RID: 101944
+		[Token(Token = "0x40158A1")]
+		SIMONE_OUTING,
+		// Token: 0x04018E39 RID: 101945
+		[Token(Token = "0x40158A2")]
+		MISASAGI_OUTING,
+		// Token: 0x04018E3A RID: 101946
+		[Token(Token = "0x40158A3")]
+		TERRY_OUTING,
+		// Token: 0x04018E3B RID: 101947
+		[Token(Token = "0x40158A4")]
+		RIVIA_OUTING,
+		// Token: 0x04018E3C RID: 101948
+		[Token(Token = "0x40158A5")]
+		REDIA_OUTING,
+		// Token: 0x04018E3D RID: 101949
+		[Token(Token = "0x40158A6")]
+		DOGU_OUTING,
+		// Token: 0x04018E3E RID: 101950
+		[Token(Token = "0x40158A7")]
+		JULIAN_OUTING,
+		// Token: 0x04018E3F RID: 101951
+		[Token(Token = "0x40158A8")]
+		HINA_OUTING,
+		// Token: 0x04018E40 RID: 101952
+		[Token(Token = "0x40158A9")]
+		CHILD1_OUTING,
+		// Token: 0x04018E41 RID: 101953
+		[Token(Token = "0x40158AA")]
+		CHILD2_MALE_OUTING,
+		// Token: 0x04018E42 RID: 101954
+		[Token(Token = "0x40158AB")]
+		CHILD2_FEMALE_OUTING,
+		// Token: 0x04018E43 RID: 101955
+		[Token(Token = "0x40158AC")]
+		DAGU_OUTING,
+		// Token: 0x04018E44 RID: 101956
+		[Token(Token = "0x40158AD")]
+		MARGARET_OUTING,
+		// Token: 0x04018E45 RID: 101957
+		[Token(Token = "0x40158AE")]
+		PRISCILLA_MARRIAGE = 400,
+		// Token: 0x04018E46 RID: 101958
+		[Token(Token = "0x40158AF")]
+		LUCY_MARRIAGE,
+		// Token: 0x04018E47 RID: 101959
+		[Token(Token = "0x40158B0")]
+		SCARLET_MARRIAGE,
+		// Token: 0x04018E48 RID: 101960
+		[Token(Token = "0x40158B1")]
+		FUUKA_MARRIAGE,
+		// Token: 0x04018E49 RID: 101961
+		[Token(Token = "0x40158B2")]
+		BEATRICE_MARRIAGE,
+		// Token: 0x04018E4A RID: 101962
+		[Token(Token = "0x40158B3")]
+		LUDMILA_MARRIAGE,
+		// Token: 0x04018E4B RID: 101963
+		[Token(Token = "0x40158B4")]
+		MARTIN_MARRIAGE,
+		// Token: 0x04018E4C RID: 101964
+		[Token(Token = "0x40158B5")]
+		CECIL_MARRIAGE,
+		// Token: 0x04018E4D RID: 101965
+		[Token(Token = "0x40158B6")]
+		MURAKUMO_MARRIAGE,
+		// Token: 0x04018E4E RID: 101966
+		[Token(Token = "0x40158B7")]
+		LYCA_MARRIAGE,
+		// Token: 0x04018E4F RID: 101967
+		[Token(Token = "0x40158B8")]
+		REINHARD_MARRIAGE,
+		// Token: 0x04018E50 RID: 101968
+		[Token(Token = "0x40158B9")]
+		LUCAS_MARRIAGE,
+		// Token: 0x04018E51 RID: 101969
+		[Token(Token = "0x40158BA")]
+		PRISCILLA_SERIOUS = 420,
+		// Token: 0x04018E52 RID: 101970
+		[Token(Token = "0x40158BB")]
+		LUCY_SERIOUS,
+		// Token: 0x04018E53 RID: 101971
+		[Token(Token = "0x40158BC")]
+		SCARLET_SERIOUS,
+		// Token: 0x04018E54 RID: 101972
+		[Token(Token = "0x40158BD")]
+		FUUKA_SERIOUS,
+		// Token: 0x04018E55 RID: 101973
+		[Token(Token = "0x40158BE")]
+		BEATRICE_SERIOUS,
+		// Token: 0x04018E56 RID: 101974
+		[Token(Token = "0x40158BF")]
+		LUDMILA_SERIOUS,
+		// Token: 0x04018E57 RID: 101975
+		[Token(Token = "0x40158C0")]
+		MARTIN_SERIOUS,
+		// Token: 0x04018E58 RID: 101976
+		[Token(Token = "0x40158C1")]
+		CECIL_SERIOUS,
+		// Token: 0x04018E59 RID: 101977
+		[Token(Token = "0x40158C2")]
+		MURAKUMO_SERIOUS,
+		// Token: 0x04018E5A RID: 101978
+		[Token(Token = "0x40158C3")]
+		LYCA_SERIOUS,
+		// Token: 0x04018E5B RID: 101979
+		[Token(Token = "0x40158C4")]
+		REINHARD_SERIOUS,
+		// Token: 0x04018E5C RID: 101980
+		[Token(Token = "0x40158C5")]
+		LUCAS_SERIOUS,
+		// Token: 0x04018E5D RID: 101981
+		[Token(Token = "0x40158C6")]
+		ELCHE_SERIOUS,
+		// Token: 0x04018E5E RID: 101982
+		[Token(Token = "0x40158C7")]
+		PALMO_SERIOUS,
+		// Token: 0x04018E5F RID: 101983
+		[Token(Token = "0x40158C8")]
+		HEINZ_SERIOUS,
+		// Token: 0x04018E60 RID: 101984
+		[Token(Token = "0x40158C9")]
+		RANDOLPH_SERIOUS,
+		// Token: 0x04018E61 RID: 101985
+		[Token(Token = "0x40158CA")]
+		YUKI_SERIOUS,
+		// Token: 0x04018E62 RID: 101986
+		[Token(Token = "0x40158CB")]
+		SIMONE_SERIOUS,
+		// Token: 0x04018E63 RID: 101987
+		[Token(Token = "0x40158CC")]
+		MISASAGI_SERIOUS,
+		// Token: 0x04018E64 RID: 101988
+		[Token(Token = "0x40158CD")]
+		TERRY_SERIOUS,
+		// Token: 0x04018E65 RID: 101989
+		[Token(Token = "0x40158CE")]
+		RIVIA_SERIOUS,
+		// Token: 0x04018E66 RID: 101990
+		[Token(Token = "0x40158CF")]
+		REDIA_SERIOUS,
+		// Token: 0x04018E67 RID: 101991
+		[Token(Token = "0x40158D0")]
+		DOGU_SERIOUS,
+		// Token: 0x04018E68 RID: 101992
+		[Token(Token = "0x40158D1")]
+		JULIAN_SERIOUS,
+		// Token: 0x04018E69 RID: 101993
+		[Token(Token = "0x40158D2")]
+		HINA_SERIOUS,
+		// Token: 0x04018E6A RID: 101994
+		[Token(Token = "0x40158D3")]
+		CHILD1_SERIOUS,
+		// Token: 0x04018E6B RID: 101995
+		[Token(Token = "0x40158D4")]
+		CHILD2_MALE_SERIOUS,
+		// Token: 0x04018E6C RID: 101996
+		[Token(Token = "0x40158D5")]
+		CHILD2_FEMALE_SERIOUS,
+		// Token: 0x04018E6D RID: 101997
+		[Token(Token = "0x40158D6")]
+		DAGU_SERIOUS,
+		// Token: 0x04018E6E RID: 101998
+		[Token(Token = "0x40158D7")]
+		MARGARET_SERIOUS,
+		// Token: 0x04018E6F RID: 101999
+		[Token(Token = "0x40158D8")]
+		PRISCILLA_AUTO_PARTNER,
+		// Token: 0x04018E70 RID: 102000
+		[Token(Token = "0x40158D9")]
+		LUCY_AUTO_PARTNER,
+		// Token: 0x04018E71 RID: 102001
+		[Token(Token = "0x40158DA")]
+		SCARLET_AUTO_PARTNER,
+		// Token: 0x04018E72 RID: 102002
+		[Token(Token = "0x40158DB")]
+		FUUKA_AUTO_PARTNER,
+		// Token: 0x04018E73 RID: 102003
+		[Token(Token = "0x40158DC")]
+		BEATRICE_AUTO_PARTNER,
+		// Token: 0x04018E74 RID: 102004
+		[Token(Token = "0x40158DD")]
+		LUDMILA_AUTO_PARTNER,
+		// Token: 0x04018E75 RID: 102005
+		[Token(Token = "0x40158DE")]
+		MARTIN_AUTO_PARTNER,
+		// Token: 0x04018E76 RID: 102006
+		[Token(Token = "0x40158DF")]
+		CECIL_AUTO_PARTNER,
+		// Token: 0x04018E77 RID: 102007
+		[Token(Token = "0x40158E0")]
+		MURAKUMO_AUTO_PARTNER,
+		// Token: 0x04018E78 RID: 102008
+		[Token(Token = "0x40158E1")]
+		LYCA_AUTO_PARTNER,
+		// Token: 0x04018E79 RID: 102009
+		[Token(Token = "0x40158E2")]
+		REINHARD_AUTO_PARTNER,
+		// Token: 0x04018E7A RID: 102010
+		[Token(Token = "0x40158E3")]
+		LUCAS_AUTO_PARTNER,
+		// Token: 0x04018E7B RID: 102011
+		[Token(Token = "0x40158E4")]
+		ELCHE_AUTO_PARTNER,
+		// Token: 0x04018E7C RID: 102012
+		[Token(Token = "0x40158E5")]
+		PALMO_AUTO_PARTNER,
+		// Token: 0x04018E7D RID: 102013
+		[Token(Token = "0x40158E6")]
+		HEINZ_AUTO_PARTNER,
+		// Token: 0x04018E7E RID: 102014
+		[Token(Token = "0x40158E7")]
+		RANDOLPH_AUTO_PARTNER,
+		// Token: 0x04018E7F RID: 102015
+		[Token(Token = "0x40158E8")]
+		YUKI_AUTO_PARTNER,
+		// Token: 0x04018E80 RID: 102016
+		[Token(Token = "0x40158E9")]
+		SIMONE_AUTO_PARTNER,
+		// Token: 0x04018E81 RID: 102017
+		[Token(Token = "0x40158EA")]
+		MISASAGI_AUTO_PARTNER,
+		// Token: 0x04018E82 RID: 102018
+		[Token(Token = "0x40158EB")]
+		TERRY_AUTO_PARTNER,
+		// Token: 0x04018E83 RID: 102019
+		[Token(Token = "0x40158EC")]
+		RIVIA_AUTO_PARTNER,
+		// Token: 0x04018E84 RID: 102020
+		[Token(Token = "0x40158ED")]
+		REDIA_AUTO_PARTNER,
+		// Token: 0x04018E85 RID: 102021
+		[Token(Token = "0x40158EE")]
+		DOGU_AUTO_PARTNER,
+		// Token: 0x04018E86 RID: 102022
+		[Token(Token = "0x40158EF")]
+		JULIAN_AUTO_PARTNER,
+		// Token: 0x04018E87 RID: 102023
+		[Token(Token = "0x40158F0")]
+		HINA_AUTO_PARTNER,
+		// Token: 0x04018E88 RID: 102024
+		[Token(Token = "0x40158F1")]
+		CHILD1_AUTO_PARTNER,
+		// Token: 0x04018E89 RID: 102025
+		[Token(Token = "0x40158F2")]
+		CHILD2_MALE_AUTO_PARTNER,
+		// Token: 0x04018E8A RID: 102026
+		[Token(Token = "0x40158F3")]
+		CHILD2_FEMALE_AUTO_PARTNER,
+		// Token: 0x04018E8B RID: 102027
+		[Token(Token = "0x40158F4")]
+		DAGU_AUTO_PARTNER,
+		// Token: 0x04018E8C RID: 102028
+		[Token(Token = "0x40158F5")]
+		MARGARET_AUTO_PARTNER,
+		// Token: 0x04018E8D RID: 102029
+		[Token(Token = "0x40158F6")]
+		PRISCILLA_PARTNER,
+		// Token: 0x04018E8E RID: 102030
+		[Token(Token = "0x40158F7")]
+		LUCY_PARTNER,
+		// Token: 0x04018E8F RID: 102031
+		[Token(Token = "0x40158F8")]
+		SCARLET_PARTNER,
+		// Token: 0x04018E90 RID: 102032
+		[Token(Token = "0x40158F9")]
+		FUUKA_PARTNER,
+		// Token: 0x04018E91 RID: 102033
+		[Token(Token = "0x40158FA")]
+		BEATRICE_PARTNER,
+		// Token: 0x04018E92 RID: 102034
+		[Token(Token = "0x40158FB")]
+		LUDMILA_PARTNER,
+		// Token: 0x04018E93 RID: 102035
+		[Token(Token = "0x40158FC")]
+		MARTIN_PARTNER,
+		// Token: 0x04018E94 RID: 102036
+		[Token(Token = "0x40158FD")]
+		CECIL_PARTNER,
+		// Token: 0x04018E95 RID: 102037
+		[Token(Token = "0x40158FE")]
+		MURAKUMO_PARTNER,
+		// Token: 0x04018E96 RID: 102038
+		[Token(Token = "0x40158FF")]
+		LYCA_PARTNER,
+		// Token: 0x04018E97 RID: 102039
+		[Token(Token = "0x4015900")]
+		REINHARD_PARTNER,
+		// Token: 0x04018E98 RID: 102040
+		[Token(Token = "0x4015901")]
+		LUCAS_PARTNER,
+		// Token: 0x04018E99 RID: 102041
+		[Token(Token = "0x4015902")]
+		ELCHE_PARTNER,
+		// Token: 0x04018E9A RID: 102042
+		[Token(Token = "0x4015903")]
+		PALMO_PARTNER,
+		// Token: 0x04018E9B RID: 102043
+		[Token(Token = "0x4015904")]
+		HEINZ_PARTNER,
+		// Token: 0x04018E9C RID: 102044
+		[Token(Token = "0x4015905")]
+		RANDOLPH_PARTNER,
+		// Token: 0x04018E9D RID: 102045
+		[Token(Token = "0x4015906")]
+		YUKI_PARTNER,
+		// Token: 0x04018E9E RID: 102046
+		[Token(Token = "0x4015907")]
+		SIMONE_PARTNER,
+		// Token: 0x04018E9F RID: 102047
+		[Token(Token = "0x4015908")]
+		MISASAGI_PARTNER,
+		// Token: 0x04018EA0 RID: 102048
+		[Token(Token = "0x4015909")]
+		TERRY_PARTNER,
+		// Token: 0x04018EA1 RID: 102049
+		[Token(Token = "0x401590A")]
+		RIVIA_PARTNER,
+		// Token: 0x04018EA2 RID: 102050
+		[Token(Token = "0x401590B")]
+		REDIA_PARTNER,
+		// Token: 0x04018EA3 RID: 102051
+		[Token(Token = "0x401590C")]
+		DOGU_PARTNER,
+		// Token: 0x04018EA4 RID: 102052
+		[Token(Token = "0x401590D")]
+		JULIAN_PARTNER,
+		// Token: 0x04018EA5 RID: 102053
+		[Token(Token = "0x401590E")]
+		HINA_PARTNER,
+		// Token: 0x04018EA6 RID: 102054
+		[Token(Token = "0x401590F")]
+		CHILD1_PARTNER,
+		// Token: 0x04018EA7 RID: 102055
+		[Token(Token = "0x4015910")]
+		CHILD2_MALE_PARTNER,
+		// Token: 0x04018EA8 RID: 102056
+		[Token(Token = "0x4015911")]
+		CHILD2_FEMALE_PARTNER,
+		// Token: 0x04018EA9 RID: 102057
+		[Token(Token = "0x4015912")]
+		DAGU_PARTNER,
+		// Token: 0x04018EAA RID: 102058
+		[Token(Token = "0x4015913")]
+		MARGARET_PARTNER,
+		// Token: 0x04018EAB RID: 102059
+		[Token(Token = "0x4015914")]
+		PRISCILLA_SICK,
+		// Token: 0x04018EAC RID: 102060
+		[Token(Token = "0x4015915")]
+		LUCY_SICK,
+		// Token: 0x04018EAD RID: 102061
+		[Token(Token = "0x4015916")]
+		SCARLET_SICK,
+		// Token: 0x04018EAE RID: 102062
+		[Token(Token = "0x4015917")]
+		FUUKA_SICK,
+		// Token: 0x04018EAF RID: 102063
+		[Token(Token = "0x4015918")]
+		BEATRICE_SICK,
+		// Token: 0x04018EB0 RID: 102064
+		[Token(Token = "0x4015919")]
+		LUDMILA_SICK,
+		// Token: 0x04018EB1 RID: 102065
+		[Token(Token = "0x401591A")]
+		MARTIN_SICK,
+		// Token: 0x04018EB2 RID: 102066
+		[Token(Token = "0x401591B")]
+		CECIL_SICK,
+		// Token: 0x04018EB3 RID: 102067
+		[Token(Token = "0x401591C")]
+		MURAKUMO_SICK,
+		// Token: 0x04018EB4 RID: 102068
+		[Token(Token = "0x401591D")]
+		LYCA_SICK,
+		// Token: 0x04018EB5 RID: 102069
+		[Token(Token = "0x401591E")]
+		REINHARD_SICK,
+		// Token: 0x04018EB6 RID: 102070
+		[Token(Token = "0x401591F")]
+		LUCAS_SICK,
+		// Token: 0x04018EB7 RID: 102071
+		[Token(Token = "0x4015920")]
+		ELCHE_SICK,
+		// Token: 0x04018EB8 RID: 102072
+		[Token(Token = "0x4015921")]
+		PALMO_SICK,
+		// Token: 0x04018EB9 RID: 102073
+		[Token(Token = "0x4015922")]
+		HEINZ_SICK,
+		// Token: 0x04018EBA RID: 102074
+		[Token(Token = "0x4015923")]
+		RANDOLPH_SICK,
+		// Token: 0x04018EBB RID: 102075
+		[Token(Token = "0x4015924")]
+		YUKI_SICK,
+		// Token: 0x04018EBC RID: 102076
+		[Token(Token = "0x4015925")]
+		SIMONE_SICK,
+		// Token: 0x04018EBD RID: 102077
+		[Token(Token = "0x4015926")]
+		MISASAGI_SICK,
+		// Token: 0x04018EBE RID: 102078
+		[Token(Token = "0x4015927")]
+		TERRY_SICK,
+		// Token: 0x04018EBF RID: 102079
+		[Token(Token = "0x4015928")]
+		RIVIA_SICK,
+		// Token: 0x04018EC0 RID: 102080
+		[Token(Token = "0x4015929")]
+		REDIA_SICK,
+		// Token: 0x04018EC1 RID: 102081
+		[Token(Token = "0x401592A")]
+		DOGU_SICK,
+		// Token: 0x04018EC2 RID: 102082
+		[Token(Token = "0x401592B")]
+		JULIAN_SICK,
+		// Token: 0x04018EC3 RID: 102083
+		[Token(Token = "0x401592C")]
+		HINA_SICK,
+		// Token: 0x04018EC4 RID: 102084
+		[Token(Token = "0x401592D")]
+		CHILD1_SICK,
+		// Token: 0x04018EC5 RID: 102085
+		[Token(Token = "0x401592E")]
+		CHILD2_MALE_SICK,
+		// Token: 0x04018EC6 RID: 102086
+		[Token(Token = "0x401592F")]
+		CHILD2_FEMALE_SICK,
+		// Token: 0x04018EC7 RID: 102087
+		[Token(Token = "0x4015930")]
+		DAGU_SICK,
+		// Token: 0x04018EC8 RID: 102088
+		[Token(Token = "0x4015931")]
+		MARGARET_SICK,
+		// Token: 0x04018EC9 RID: 102089
+		[Token(Token = "0x4015932")]
+		PRISCILLA_IN_HOSPITAL,
+		// Token: 0x04018ECA RID: 102090
+		[Token(Token = "0x4015933")]
+		LUCY_IN_HOSPITAL,
+		// Token: 0x04018ECB RID: 102091
+		[Token(Token = "0x4015934")]
+		SCARLET_IN_HOSPITAL,
+		// Token: 0x04018ECC RID: 102092
+		[Token(Token = "0x4015935")]
+		FUUKA_IN_HOSPITAL,
+		// Token: 0x04018ECD RID: 102093
+		[Token(Token = "0x4015936")]
+		BEATRICE_IN_HOSPITAL,
+		// Token: 0x04018ECE RID: 102094
+		[Token(Token = "0x4015937")]
+		LUDMILA_IN_HOSPITAL,
+		// Token: 0x04018ECF RID: 102095
+		[Token(Token = "0x4015938")]
+		MARTIN_IN_HOSPITAL,
+		// Token: 0x04018ED0 RID: 102096
+		[Token(Token = "0x4015939")]
+		CECIL_IN_HOSPITAL,
+		// Token: 0x04018ED1 RID: 102097
+		[Token(Token = "0x401593A")]
+		MURAKUMO_IN_HOSPITAL,
+		// Token: 0x04018ED2 RID: 102098
+		[Token(Token = "0x401593B")]
+		LYCA_IN_HOSPITAL,
+		// Token: 0x04018ED3 RID: 102099
+		[Token(Token = "0x401593C")]
+		REINHARD_IN_HOSPITAL,
+		// Token: 0x04018ED4 RID: 102100
+		[Token(Token = "0x401593D")]
+		LUCAS_IN_HOSPITAL,
+		// Token: 0x04018ED5 RID: 102101
+		[Token(Token = "0x401593E")]
+		ELCHE_IN_HOSPITAL,
+		// Token: 0x04018ED6 RID: 102102
+		[Token(Token = "0x401593F")]
+		PALMO_IN_HOSPITAL,
+		// Token: 0x04018ED7 RID: 102103
+		[Token(Token = "0x4015940")]
+		HEINZ_IN_HOSPITAL,
+		// Token: 0x04018ED8 RID: 102104
+		[Token(Token = "0x4015941")]
+		RANDOLPH_IN_HOSPITAL,
+		// Token: 0x04018ED9 RID: 102105
+		[Token(Token = "0x4015942")]
+		YUKI_IN_HOSPITAL,
+		// Token: 0x04018EDA RID: 102106
+		[Token(Token = "0x4015943")]
+		SIMONE_IN_HOSPITAL,
+		// Token: 0x04018EDB RID: 102107
+		[Token(Token = "0x4015944")]
+		MISASAGI_IN_HOSPITAL,
+		// Token: 0x04018EDC RID: 102108
+		[Token(Token = "0x4015945")]
+		TERRY_IN_HOSPITAL,
+		// Token: 0x04018EDD RID: 102109
+		[Token(Token = "0x4015946")]
+		RIVIA_IN_HOSPITAL,
+		// Token: 0x04018EDE RID: 102110
+		[Token(Token = "0x4015947")]
+		REDIA_IN_HOSPITAL,
+		// Token: 0x04018EDF RID: 102111
+		[Token(Token = "0x4015948")]
+		DOGU_IN_HOSPITAL,
+		// Token: 0x04018EE0 RID: 102112
+		[Token(Token = "0x4015949")]
+		JULIAN_IN_HOSPITAL,
+		// Token: 0x04018EE1 RID: 102113
+		[Token(Token = "0x401594A")]
+		HINA_IN_HOSPITAL,
+		// Token: 0x04018EE2 RID: 102114
+		[Token(Token = "0x401594B")]
+		CHILD1_IN_HOSPITAL,
+		// Token: 0x04018EE3 RID: 102115
+		[Token(Token = "0x401594C")]
+		CHILD2_MALE_IN_HOSPITAL,
+		// Token: 0x04018EE4 RID: 102116
+		[Token(Token = "0x401594D")]
+		CHILD2_FEMALE_IN_HOSPITAL,
+		// Token: 0x04018EE5 RID: 102117
+		[Token(Token = "0x401594E")]
+		DAGU_IN_HOSPITAL,
+		// Token: 0x04018EE6 RID: 102118
+		[Token(Token = "0x401594F")]
+		MARGARET_IN_HOSPITAL,
+		// Token: 0x04018EE7 RID: 102119
+		[Token(Token = "0x4015950")]
+		LUCY_SILENT,
+		// Token: 0x04018EE8 RID: 102120
+		[Token(Token = "0x4015951")]
+		BEATRICE_IN_HOME,
+		// Token: 0x04018EE9 RID: 102121
+		[Token(Token = "0x4015952")]
+		MURAKUMO_NEET,
+		// Token: 0x04018EEA RID: 102122
+		[Token(Token = "0x4015953")]
+		CECIL_BLACKSMITH,
+		// Token: 0x04018EEB RID: 102123
+		[Token(Token = "0x4015954")]
+		PRISCILLA_LOVESTORY_NG = 580,
+		// Token: 0x04018EEC RID: 102124
+		[Token(Token = "0x4015955")]
+		LUCY_LOVESTORY_NG,
+		// Token: 0x04018EED RID: 102125
+		[Token(Token = "0x4015956")]
+		SCARLET_LOVESTORY_NG,
+		// Token: 0x04018EEE RID: 102126
+		[Token(Token = "0x4015957")]
+		FUUKA_LOVESTORY_NG,
+		// Token: 0x04018EEF RID: 102127
+		[Token(Token = "0x4015958")]
+		BEATRICE_LOVESTORY_NG,
+		// Token: 0x04018EF0 RID: 102128
+		[Token(Token = "0x4015959")]
+		LUDMILA_LOVESTORY_NG,
+		// Token: 0x04018EF1 RID: 102129
+		[Token(Token = "0x401595A")]
+		MARTIN_LOVESTORY_NG,
+		// Token: 0x04018EF2 RID: 102130
+		[Token(Token = "0x401595B")]
+		CECIL_LOVESTORY_NG,
+		// Token: 0x04018EF3 RID: 102131
+		[Token(Token = "0x401595C")]
+		MURAKUMO_LOVESTORY_NG,
+		// Token: 0x04018EF4 RID: 102132
+		[Token(Token = "0x401595D")]
+		LYCA_LOVESTORY_NG,
+		// Token: 0x04018EF5 RID: 102133
+		[Token(Token = "0x401595E")]
+		REINHARD_LOVESTORY_NG,
+		// Token: 0x04018EF6 RID: 102134
+		[Token(Token = "0x401595F")]
+		LUCAS_LOVESTORY_NG,
+		// Token: 0x04018EF7 RID: 102135
+		[Token(Token = "0x4015960")]
+		PRISCILLA_PARTNER_NG = 600,
+		// Token: 0x04018EF8 RID: 102136
+		[Token(Token = "0x4015961")]
+		LUCY_PARTNER_NG,
+		// Token: 0x04018EF9 RID: 102137
+		[Token(Token = "0x4015962")]
+		SCARLET_PARTNER_NG,
+		// Token: 0x04018EFA RID: 102138
+		[Token(Token = "0x4015963")]
+		FUUKA_PARTNER_NG,
+		// Token: 0x04018EFB RID: 102139
+		[Token(Token = "0x4015964")]
+		BEATRICE_PARTNER_NG,
+		// Token: 0x04018EFC RID: 102140
+		[Token(Token = "0x4015965")]
+		LUDMILA_PARTNER_NG,
+		// Token: 0x04018EFD RID: 102141
+		[Token(Token = "0x4015966")]
+		MARTIN_PARTNER_NG,
+		// Token: 0x04018EFE RID: 102142
+		[Token(Token = "0x4015967")]
+		CECIL_PARTNER_NG,
+		// Token: 0x04018EFF RID: 102143
+		[Token(Token = "0x4015968")]
+		MURAKUMO_PARTNER_NG,
+		// Token: 0x04018F00 RID: 102144
+		[Token(Token = "0x4015969")]
+		LYCA_PARTNER_NG,
+		// Token: 0x04018F01 RID: 102145
+		[Token(Token = "0x401596A")]
+		REINHARD_PARTNER_NG,
+		// Token: 0x04018F02 RID: 102146
+		[Token(Token = "0x401596B")]
+		LUCAS_PARTNER_NG,
+		// Token: 0x04018F03 RID: 102147
+		[Token(Token = "0x401596C")]
+		ELCHE_PARTNER_NG,
+		// Token: 0x04018F04 RID: 102148
+		[Token(Token = "0x401596D")]
+		PALMO_PARTNER_NG,
+		// Token: 0x04018F05 RID: 102149
+		[Token(Token = "0x401596E")]
+		HEINZ_PARTNER_NG,
+		// Token: 0x04018F06 RID: 102150
+		[Token(Token = "0x401596F")]
+		RANDOLPH_PARTNER_NG,
+		// Token: 0x04018F07 RID: 102151
+		[Token(Token = "0x4015970")]
+		YUKI_PARTNER_NG,
+		// Token: 0x04018F08 RID: 102152
+		[Token(Token = "0x4015971")]
+		SIMONE_PARTNER_NG,
+		// Token: 0x04018F09 RID: 102153
+		[Token(Token = "0x4015972")]
+		MISASAGI_PARTNER_NG,
+		// Token: 0x04018F0A RID: 102154
+		[Token(Token = "0x4015973")]
+		TERRY_PARTNER_NG,
+		// Token: 0x04018F0B RID: 102155
+		[Token(Token = "0x4015974")]
+		RIVIA_PARTNER_NG,
+		// Token: 0x04018F0C RID: 102156
+		[Token(Token = "0x4015975")]
+		REDIA_PARTNER_NG,
+		// Token: 0x04018F0D RID: 102157
+		[Token(Token = "0x4015976")]
+		DOGU_PARTNER_NG,
+		// Token: 0x04018F0E RID: 102158
+		[Token(Token = "0x4015977")]
+		JULIAN_PARTNER_NG,
+		// Token: 0x04018F0F RID: 102159
+		[Token(Token = "0x4015978")]
+		HINA_PARTNER_NG,
+		// Token: 0x04018F10 RID: 102160
+		[Token(Token = "0x4015979")]
+		CHILD1_IN_PARTNER_NG,
+		// Token: 0x04018F11 RID: 102161
+		[Token(Token = "0x401597A")]
+		CHILD2_MALE_IN_PARTNER_NG,
+		// Token: 0x04018F12 RID: 102162
+		[Token(Token = "0x401597B")]
+		CHILD2_FEMALE_IN_PARTNER_NG,
+		// Token: 0x04018F13 RID: 102163
+		[Token(Token = "0x401597C")]
+		DAGU_PARTNER_NG,
+		// Token: 0x04018F14 RID: 102164
+		[Token(Token = "0x401597D")]
+		MARGARET_PARTNER_NG,
+		// Token: 0x04018F15 RID: 102165
+		[Token(Token = "0x401597E")]
+		NPC_PARTNER_NG,
+		// Token: 0x04018F16 RID: 102166
+		[Token(Token = "0x401597F")]
+		MONSTER_PARTNER_NG,
+		// Token: 0x04018F17 RID: 102167
+		[Token(Token = "0x4015980")]
+		PRISCILLA_BIRTH_KNOW,
+		// Token: 0x04018F18 RID: 102168
+		[Token(Token = "0x4015981")]
+		LUCY_BIRTH_KNOW,
+		// Token: 0x04018F19 RID: 102169
+		[Token(Token = "0x4015982")]
+		SCARLET_BIRTH_KNOW,
+		// Token: 0x04018F1A RID: 102170
+		[Token(Token = "0x4015983")]
+		FUUKA_BIRTH_KNOW,
+		// Token: 0x04018F1B RID: 102171
+		[Token(Token = "0x4015984")]
+		BEATRICE_BIRTH_KNOW,
+		// Token: 0x04018F1C RID: 102172
+		[Token(Token = "0x4015985")]
+		LUDMILA_BIRTH_KNOW,
+		// Token: 0x04018F1D RID: 102173
+		[Token(Token = "0x4015986")]
+		MARTIN_BIRTH_KNOW,
+		// Token: 0x04018F1E RID: 102174
+		[Token(Token = "0x4015987")]
+		CECIL_BIRTH_KNOW,
+		// Token: 0x04018F1F RID: 102175
+		[Token(Token = "0x4015988")]
+		MURAKUMO_BIRTH_KNOW,
+		// Token: 0x04018F20 RID: 102176
+		[Token(Token = "0x4015989")]
+		LYCA_BIRTH_KNOW,
+		// Token: 0x04018F21 RID: 102177
+		[Token(Token = "0x401598A")]
+		REINHARD_BIRTH_KNOW,
+		// Token: 0x04018F22 RID: 102178
+		[Token(Token = "0x401598B")]
+		LUCAS_BIRTH_KNOW,
+		// Token: 0x04018F23 RID: 102179
+		[Token(Token = "0x401598C")]
+		ELCHE_BIRTH_KNOW,
+		// Token: 0x04018F24 RID: 102180
+		[Token(Token = "0x401598D")]
+		PALMO_BIRTH_KNOW,
+		// Token: 0x04018F25 RID: 102181
+		[Token(Token = "0x401598E")]
+		HEINZ_BIRTH_KNOW,
+		// Token: 0x04018F26 RID: 102182
+		[Token(Token = "0x401598F")]
+		RANDOLPH_BIRTH_KNOW,
+		// Token: 0x04018F27 RID: 102183
+		[Token(Token = "0x4015990")]
+		YUKI_BIRTH_KNOW,
+		// Token: 0x04018F28 RID: 102184
+		[Token(Token = "0x4015991")]
+		SIMONE_BIRTH_KNOW,
+		// Token: 0x04018F29 RID: 102185
+		[Token(Token = "0x4015992")]
+		MISASAGI_BIRTH_KNOW,
+		// Token: 0x04018F2A RID: 102186
+		[Token(Token = "0x4015993")]
+		TERRY_BIRTH_KNOW,
+		// Token: 0x04018F2B RID: 102187
+		[Token(Token = "0x4015994")]
+		RIVIA_BIRTH_KNOW,
+		// Token: 0x04018F2C RID: 102188
+		[Token(Token = "0x4015995")]
+		REDIA_BIRTH_KNOW,
+		// Token: 0x04018F2D RID: 102189
+		[Token(Token = "0x4015996")]
+		DOGU_BIRTH_KNOW,
+		// Token: 0x04018F2E RID: 102190
+		[Token(Token = "0x4015997")]
+		JULIAN_BIRTH_KNOW,
+		// Token: 0x04018F2F RID: 102191
+		[Token(Token = "0x4015998")]
+		HINA_BIRTH_KNOW,
+		// Token: 0x04018F30 RID: 102192
+		[Token(Token = "0x4015999")]
+		DAGU_BIRTH_KNOW,
+		// Token: 0x04018F31 RID: 102193
+		[Token(Token = "0x401599A")]
+		MARGARET_BIRTH_KNOW,
+		// Token: 0x04018F32 RID: 102194
+		[Token(Token = "0x401599B")]
+		PRISCILLA_FRIENDSHIP_ON = 670,
+		// Token: 0x04018F33 RID: 102195
+		[Token(Token = "0x401599C")]
+		LUCY_FRIENDSHIP_ON,
+		// Token: 0x04018F34 RID: 102196
+		[Token(Token = "0x401599D")]
+		SCARLET_FRIENDSHIP_ON,
+		// Token: 0x04018F35 RID: 102197
+		[Token(Token = "0x401599E")]
+		FUUKA_FRIENDSHIP_ON,
+		// Token: 0x04018F36 RID: 102198
+		[Token(Token = "0x401599F")]
+		BEATRICE_FRIENDSHIP_ON,
+		// Token: 0x04018F37 RID: 102199
+		[Token(Token = "0x40159A0")]
+		LUDMILA_FRIENDSHIP_ON,
+		// Token: 0x04018F38 RID: 102200
+		[Token(Token = "0x40159A1")]
+		MARTIN_FRIENDSHIP_ON,
+		// Token: 0x04018F39 RID: 102201
+		[Token(Token = "0x40159A2")]
+		CECIL_FRIENDSHIP_ON,
+		// Token: 0x04018F3A RID: 102202
+		[Token(Token = "0x40159A3")]
+		MURAKUMO_FRIENDSHIP_ON,
+		// Token: 0x04018F3B RID: 102203
+		[Token(Token = "0x40159A4")]
+		LYCA_FRIENDSHIP_ON,
+		// Token: 0x04018F3C RID: 102204
+		[Token(Token = "0x40159A5")]
+		REINHARD_FRIENDSHIP_ON,
+		// Token: 0x04018F3D RID: 102205
+		[Token(Token = "0x40159A6")]
+		LUCAS_FRIENDSHIP_ON,
+		// Token: 0x04018F3E RID: 102206
+		[Token(Token = "0x40159A7")]
+		ELCHE_FRIENDSHIP_ON,
+		// Token: 0x04018F3F RID: 102207
+		[Token(Token = "0x40159A8")]
+		PALMO_FRIENDSHIP_ON,
+		// Token: 0x04018F40 RID: 102208
+		[Token(Token = "0x40159A9")]
+		HEINZ_FRIENDSHIP_ON,
+		// Token: 0x04018F41 RID: 102209
+		[Token(Token = "0x40159AA")]
+		RANDOLPH_FRIENDSHIP_ON,
+		// Token: 0x04018F42 RID: 102210
+		[Token(Token = "0x40159AB")]
+		YUKI_FRIENDSHIP_ON,
+		// Token: 0x04018F43 RID: 102211
+		[Token(Token = "0x40159AC")]
+		SIMONE_FRIENDSHIP_ON,
+		// Token: 0x04018F44 RID: 102212
+		[Token(Token = "0x40159AD")]
+		MISASAGI_FRIENDSHIP_ON,
+		// Token: 0x04018F45 RID: 102213
+		[Token(Token = "0x40159AE")]
+		TERRY_FRIENDSHIP_ON,
+		// Token: 0x04018F46 RID: 102214
+		[Token(Token = "0x40159AF")]
+		RIVIA_FRIENDSHIP_ON,
+		// Token: 0x04018F47 RID: 102215
+		[Token(Token = "0x40159B0")]
+		REDIA_FRIENDSHIP_ON,
+		// Token: 0x04018F48 RID: 102216
+		[Token(Token = "0x40159B1")]
+		DOGU_FRIENDSHIP_ON,
+		// Token: 0x04018F49 RID: 102217
+		[Token(Token = "0x40159B2")]
+		JULIAN_FRIENDSHIP_ON,
+		// Token: 0x04018F4A RID: 102218
+		[Token(Token = "0x40159B3")]
+		HINA_FRIENDSHIP_ON,
+		// Token: 0x04018F4B RID: 102219
+		[Token(Token = "0x40159B4")]
+		CHILD1_FRIENDSHIP_ON,
+		// Token: 0x04018F4C RID: 102220
+		[Token(Token = "0x40159B5")]
+		CHILD2_MALE_FRIENDSHIP_ON,
+		// Token: 0x04018F4D RID: 102221
+		[Token(Token = "0x40159B6")]
+		CHILD2_FEMALE_FRIENDSHIP_ON,
+		// Token: 0x04018F4E RID: 102222
+		[Token(Token = "0x40159B7")]
+		DAGU_FRIENDSHIP_ON,
+		// Token: 0x04018F4F RID: 102223
+		[Token(Token = "0x40159B8")]
+		MARGARET_FRIENDSHIP_ON,
+		// Token: 0x04018F50 RID: 102224
+		[Token(Token = "0x40159B9")]
+		RESTAURANT_OPEN = 800,
+		// Token: 0x04018F51 RID: 102225
+		[Token(Token = "0x40159BA")]
+		MISASAGI_HINA_SHOP,
+		// Token: 0x04018F52 RID: 102226
+		[Token(Token = "0x40159BB")]
+		TERRY_TANTEI_OPEN,
+		// Token: 0x04018F53 RID: 102227
+		[Token(Token = "0x40159BC")]
+		PRISCILLA_BAKERY,
+		// Token: 0x04018F54 RID: 102228
+		[Token(Token = "0x40159BD")]
+		PRISCILLA_SHOP,
+		// Token: 0x04018F55 RID: 102229
+		[Token(Token = "0x40159BE")]
+		LUCY_BAKERY,
+		// Token: 0x04018F56 RID: 102230
+		[Token(Token = "0x40159BF")]
+		LUCY_SHOP,
+		// Token: 0x04018F57 RID: 102231
+		[Token(Token = "0x40159C0")]
+		LUCAS_CRYSTALSHOP,
+		// Token: 0x04018F58 RID: 102232
+		[Token(Token = "0x40159C1")]
+		LUDMILA_FLOWERSHOP,
+		// Token: 0x04018F59 RID: 102233
+		[Token(Token = "0x40159C2")]
+		FIRST_BIRTH_END = 901,
+		// Token: 0x04018F5A RID: 102234
+		[Token(Token = "0x40159C3")]
+		SECOND_BIRTH_END,
+		// Token: 0x04018F5B RID: 102235
+		[Token(Token = "0x40159C4")]
+		FIRST_CHILD_PARAM_SELECT_ON,
+		// Token: 0x04018F5C RID: 102236
+		[Token(Token = "0x40159C5")]
+		SECOND_CHILD_PARAM_SELECT_ON,
+		// Token: 0x04018F5D RID: 102237
+		[Token(Token = "0x40159C6")]
+		PLAYER_MARRIED,
+		// Token: 0x04018F5E RID: 102238
+		[Token(Token = "0x40159C7")]
+		OPEN_RELICS_SPECIAL_BOSSROOM_WARPPOINT = 998,
+		// Token: 0x04018F5F RID: 102239
+		[Token(Token = "0x40159C8")]
+		FLAG_ALLDOOR_CLOSED,
+		// Token: 0x04018F60 RID: 102240
+		[Token(Token = "0x40159C9")]
+		FLAG_OMATSURI_START,
+		// Token: 0x04018F61 RID: 102241
+		[Token(Token = "0x40159CA")]
+		FLAG_1001,
+		// Token: 0x04018F62 RID: 102242
+		[Token(Token = "0x40159CB")]
+		FLAG_1002,
+		// Token: 0x04018F63 RID: 102243
+		[Token(Token = "0x40159CC")]
+		FLAG_1003,
+		// Token: 0x04018F64 RID: 102244
+		[Token(Token = "0x40159CD")]
+		FLAG_1004,
+		// Token: 0x04018F65 RID: 102245
+		[Token(Token = "0x40159CE")]
+		FLAG_1005,
+		// Token: 0x04018F66 RID: 102246
+		[Token(Token = "0x40159CF")]
+		FLAG_1006,
+		// Token: 0x04018F67 RID: 102247
+		[Token(Token = "0x40159D0")]
+		FLAG_1007,
+		// Token: 0x04018F68 RID: 102248
+		[Token(Token = "0x40159D1")]
+		FLAG_1008,
+		// Token: 0x04018F69 RID: 102249
+		[Token(Token = "0x40159D2")]
+		FLAG_1009,
+		// Token: 0x04018F6A RID: 102250
+		[Token(Token = "0x40159D3")]
+		HOTEL_OPEN,
+		// Token: 0x04018F6B RID: 102251
+		[Token(Token = "0x40159D4")]
+		FLAG_1101 = 1101,
+		// Token: 0x04018F6C RID: 102252
+		[Token(Token = "0x40159D5")]
+		FLAG_1102,
+		// Token: 0x04018F6D RID: 102253
+		[Token(Token = "0x40159D6")]
+		MAINSCENARIO1 = 1200,
+		// Token: 0x04018F6E RID: 102254
+		[Token(Token = "0x40159D7")]
+		MAINSCENARIO2,
+		// Token: 0x04018F6F RID: 102255
+		[Token(Token = "0x40159D8")]
+		MAINSCENARIO3,
+		// Token: 0x04018F70 RID: 102256
+		[Token(Token = "0x40159D9")]
+		MAINSCENARIO4,
+		// Token: 0x04018F71 RID: 102257
+		[Token(Token = "0x40159DA")]
+		MAINSCENARIO5,
+		// Token: 0x04018F72 RID: 102258
+		[Token(Token = "0x40159DB")]
+		MAINSCENARIO6,
+		// Token: 0x04018F73 RID: 102259
+		[Token(Token = "0x40159DC")]
+		MAINSCENARIO7,
+		// Token: 0x04018F74 RID: 102260
+		[Token(Token = "0x40159DD")]
+		MAINSCENARIO8,
+		// Token: 0x04018F75 RID: 102261
+		[Token(Token = "0x40159DE")]
+		MAINSCENARIO9,
+		// Token: 0x04018F76 RID: 102262
+		[Token(Token = "0x40159DF")]
+		MAINSCENARIO10,
+		// Token: 0x04018F77 RID: 102263
+		[Token(Token = "0x40159E0")]
+		MAINSCENARIO11,
+		// Token: 0x04018F78 RID: 102264
+		[Token(Token = "0x40159E1")]
+		MAINSCENARIO12,
+		// Token: 0x04018F79 RID: 102265
+		[Token(Token = "0x40159E2")]
+		MAINSCENARIO13,
+		// Token: 0x04018F7A RID: 102266
+		[Token(Token = "0x40159E3")]
+		MAINSCENARIO14,
+		// Token: 0x04018F7B RID: 102267
+		[Token(Token = "0x40159E4")]
+		MAINSCENARIO15,
+		// Token: 0x04018F7C RID: 102268
+		[Token(Token = "0x40159E5")]
+		MAINSCENARIO16,
+		// Token: 0x04018F7D RID: 102269
+		[Token(Token = "0x40159E6")]
+		MAINSCENARIO17,
+		// Token: 0x04018F7E RID: 102270
+		[Token(Token = "0x40159E7")]
+		MAINSCENARIO18,
+		// Token: 0x04018F7F RID: 102271
+		[Token(Token = "0x40159E8")]
+		LASTEPISODE = 1250,
+		// Token: 0x04018F80 RID: 102272
+		[Token(Token = "0x40159E9")]
+		PROLOGUE1 = 1300,
+		// Token: 0x04018F81 RID: 102273
+		[Token(Token = "0x40159EA")]
+		PROLOGUE2,
+		// Token: 0x04018F82 RID: 102274
+		[Token(Token = "0x40159EB")]
+		PROLOGUE3,
+		// Token: 0x04018F83 RID: 102275
+		[Token(Token = "0x40159EC")]
+		PROLOGUE4,
+		// Token: 0x04018F84 RID: 102276
+		[Token(Token = "0x40159ED")]
+		PROLOGUE5,
+		// Token: 0x04018F85 RID: 102277
+		[Token(Token = "0x40159EE")]
+		PROLOGUE6,
+		// Token: 0x04018F86 RID: 102278
+		[Token(Token = "0x40159EF")]
+		PROLOGUE7,
+		// Token: 0x04018F87 RID: 102279
+		[Token(Token = "0x40159F0")]
+		PROLOGUE8,
+		// Token: 0x04018F88 RID: 102280
+		[Token(Token = "0x40159F1")]
+		PROLOGUE9,
+		// Token: 0x04018F89 RID: 102281
+		[Token(Token = "0x40159F2")]
+		PROLOGUE10,
+		// Token: 0x04018F8A RID: 102282
+		[Token(Token = "0x40159F3")]
+		PROLOGUE11,
+		// Token: 0x04018F8B RID: 102283
+		[Token(Token = "0x40159F4")]
+		PROLOGUE12,
+		// Token: 0x04018F8C RID: 102284
+		[Token(Token = "0x40159F5")]
+		CHAPTER1_D1_1,
+		// Token: 0x04018F8D RID: 102285
+		[Token(Token = "0x40159F6")]
+		CHAPTER1_D1_2A,
+		// Token: 0x04018F8E RID: 102286
+		[Token(Token = "0x40159F7")]
+		CHAPTER1_D1_2B,
+		// Token: 0x04018F8F RID: 102287
+		[Token(Token = "0x40159F8")]
+		CHAPTER1_D1_2C,
+		// Token: 0x04018F90 RID: 102288
+		[Token(Token = "0x40159F9")]
+		CHAPTER1_D1_2D,
+		// Token: 0x04018F91 RID: 102289
+		[Token(Token = "0x40159FA")]
+		CHAPTER1_D1_2E,
+		// Token: 0x04018F92 RID: 102290
+		[Token(Token = "0x40159FB")]
+		CHAPTER1_D1_2F,
+		// Token: 0x04018F93 RID: 102291
+		[Token(Token = "0x40159FC")]
+		CHAPTER1_D1_2G,
+		// Token: 0x04018F94 RID: 102292
+		[Token(Token = "0x40159FD")]
+		CHAPTER1_D1_2H,
+		// Token: 0x04018F95 RID: 102293
+		[Token(Token = "0x40159FE")]
+		CHAPTER1_D1_2I,
+		// Token: 0x04018F96 RID: 102294
+		[Token(Token = "0x40159FF")]
+		CHAPTER1_D1_3,
+		// Token: 0x04018F97 RID: 102295
+		[Token(Token = "0x4015A00")]
+		CHAPTER1_D1_4,
+		// Token: 0x04018F98 RID: 102296
+		[Token(Token = "0x4015A01")]
+		CHAPTER1_D1_4B,
+		// Token: 0x04018F99 RID: 102297
+		[Token(Token = "0x4015A02")]
+		CHAPTER1_D1_5,
+		// Token: 0x04018F9A RID: 102298
+		[Token(Token = "0x4015A03")]
+		CHAPTER1_D1_6,
+		// Token: 0x04018F9B RID: 102299
+		[Token(Token = "0x4015A04")]
+		CHAPTER1_D1_7,
+		// Token: 0x04018F9C RID: 102300
+		[Token(Token = "0x4015A05")]
+		CHAPTER1_D1_8,
+		// Token: 0x04018F9D RID: 102301
+		[Token(Token = "0x4015A06")]
+		CHAPTER1_D1_9,
+		// Token: 0x04018F9E RID: 102302
+		[Token(Token = "0x4015A07")]
+		CHAPTER1_D1_10,
+		// Token: 0x04018F9F RID: 102303
+		[Token(Token = "0x4015A08")]
+		CHAPTER1_D1_11,
+		// Token: 0x04018FA0 RID: 102304
+		[Token(Token = "0x4015A09")]
+		CHAPTER1_D1_12,
+		// Token: 0x04018FA1 RID: 102305
+		[Token(Token = "0x4015A0A")]
+		CHAPTER1_D1_13,
+		// Token: 0x04018FA2 RID: 102306
+		[Token(Token = "0x4015A0B")]
+		CHAPTER1_D1_14,
+		// Token: 0x04018FA3 RID: 102307
+		[Token(Token = "0x4015A0C")]
+		CHAPTER1_D2_1,
+		// Token: 0x04018FA4 RID: 102308
+		[Token(Token = "0x4015A0D")]
+		CHAPTER1_D2_2,
+		// Token: 0x04018FA5 RID: 102309
+		[Token(Token = "0x4015A0E")]
+		CHAPTER1_D2_3,
+		// Token: 0x04018FA6 RID: 102310
+		[Token(Token = "0x4015A0F")]
+		CHAPTER1_D2_4,
+		// Token: 0x04018FA7 RID: 102311
+		[Token(Token = "0x4015A10")]
+		CHAPTER1_D2_5,
+		// Token: 0x04018FA8 RID: 102312
+		[Token(Token = "0x4015A11")]
+		CHAPTER1_D2_6,
+		// Token: 0x04018FA9 RID: 102313
+		[Token(Token = "0x4015A12")]
+		CHAPTER1_D2_7,
+		// Token: 0x04018FAA RID: 102314
+		[Token(Token = "0x4015A13")]
+		CHAPTER1_D2_8,
+		// Token: 0x04018FAB RID: 102315
+		[Token(Token = "0x4015A14")]
+		CHAPTER1_D3_1,
+		// Token: 0x04018FAC RID: 102316
+		[Token(Token = "0x4015A15")]
+		CHAPTER1_D3_2,
+		// Token: 0x04018FAD RID: 102317
+		[Token(Token = "0x4015A16")]
+		CHAPTER1_D3_3,
+		// Token: 0x04018FAE RID: 102318
+		[Token(Token = "0x4015A17")]
+		CHAPTER1_D3_4,
+		// Token: 0x04018FAF RID: 102319
+		[Token(Token = "0x4015A18")]
+		CHAPTER1_D3_5,
+		// Token: 0x04018FB0 RID: 102320
+		[Token(Token = "0x4015A19")]
+		CHAPTER1_D4_1,
+		// Token: 0x04018FB1 RID: 102321
+		[Token(Token = "0x4015A1A")]
+		CHAPTER1_D4_2,
+		// Token: 0x04018FB2 RID: 102322
+		[Token(Token = "0x4015A1B")]
+		CHAPTER1_D4_3,
+		// Token: 0x04018FB3 RID: 102323
+		[Token(Token = "0x4015A1C")]
+		CHAPTER1_D4_4,
+		// Token: 0x04018FB4 RID: 102324
+		[Token(Token = "0x4015A1D")]
+		CHAPTER1_D4_5,
+		// Token: 0x04018FB5 RID: 102325
+		[Token(Token = "0x4015A1E")]
+		CHAPTER1_D4_6,
+		// Token: 0x04018FB6 RID: 102326
+		[Token(Token = "0x4015A1F")]
+		CHAPTER1_D5_1,
+		// Token: 0x04018FB7 RID: 102327
+		[Token(Token = "0x4015A20")]
+		CHAPTER1_D5_1B,
+		// Token: 0x04018FB8 RID: 102328
+		[Token(Token = "0x4015A21")]
+		CHAPTER1_D5_2,
+		// Token: 0x04018FB9 RID: 102329
+		[Token(Token = "0x4015A22")]
+		CHAPTER1_D5_3,
+		// Token: 0x04018FBA RID: 102330
+		[Token(Token = "0x4015A23")]
+		CHAPTER1_D5_4,
+		// Token: 0x04018FBB RID: 102331
+		[Token(Token = "0x4015A24")]
+		CHAPTER2_D6_1,
+		// Token: 0x04018FBC RID: 102332
+		[Token(Token = "0x4015A25")]
+		CHAPTER2_D6_2,
+		// Token: 0x04018FBD RID: 102333
+		[Token(Token = "0x4015A26")]
+		CHAPTER2_D6_3,
+		// Token: 0x04018FBE RID: 102334
+		[Token(Token = "0x4015A27")]
+		CHAPTER2_D6_4,
+		// Token: 0x04018FBF RID: 102335
+		[Token(Token = "0x4015A28")]
+		CHAPTER2_D6_5,
+		// Token: 0x04018FC0 RID: 102336
+		[Token(Token = "0x4015A29")]
+		CHAPTER2_D6_6,
+		// Token: 0x04018FC1 RID: 102337
+		[Token(Token = "0x4015A2A")]
+		CHAPTER2_D6_7,
+		// Token: 0x04018FC2 RID: 102338
+		[Token(Token = "0x4015A2B")]
+		CHAPTER2_D6_8,
+		// Token: 0x04018FC3 RID: 102339
+		[Token(Token = "0x4015A2C")]
+		CHAPTER2_D6_9,
+		// Token: 0x04018FC4 RID: 102340
+		[Token(Token = "0x4015A2D")]
+		CHAPTER2_D6_10,
+		// Token: 0x04018FC5 RID: 102341
+		[Token(Token = "0x4015A2E")]
+		CHAPTER2_D6_11,
+		// Token: 0x04018FC6 RID: 102342
+		[Token(Token = "0x4015A2F")]
+		CHAPTER2_D6_12,
+		// Token: 0x04018FC7 RID: 102343
+		[Token(Token = "0x4015A30")]
+		CHAPTER2_D6_13,
+		// Token: 0x04018FC8 RID: 102344
+		[Token(Token = "0x4015A31")]
+		CHAPTER2_D6_14,
+		// Token: 0x04018FC9 RID: 102345
+		[Token(Token = "0x4015A32")]
+		CHAPTER2_D6_15,
+		// Token: 0x04018FCA RID: 102346
+		[Token(Token = "0x4015A33")]
+		CHAPTER2_D6_16,
+		// Token: 0x04018FCB RID: 102347
+		[Token(Token = "0x4015A34")]
+		CHAPTER2_D6_17,
+		// Token: 0x04018FCC RID: 102348
+		[Token(Token = "0x4015A35")]
+		CHAPTER2_D6_18,
+		// Token: 0x04018FCD RID: 102349
+		[Token(Token = "0x4015A36")]
+		CHAPTER2_D6_19,
+		// Token: 0x04018FCE RID: 102350
+		[Token(Token = "0x4015A37")]
+		CHAPTER2_D7_1,
+		// Token: 0x04018FCF RID: 102351
+		[Token(Token = "0x4015A38")]
+		CHAPTER2_D7_2,
+		// Token: 0x04018FD0 RID: 102352
+		[Token(Token = "0x4015A39")]
+		CHAPTER2_D7_3,
+		// Token: 0x04018FD1 RID: 102353
+		[Token(Token = "0x4015A3A")]
+		CHAPTER2_D7_4,
+		// Token: 0x04018FD2 RID: 102354
+		[Token(Token = "0x4015A3B")]
+		CHAPTER2_D7_5,
+		// Token: 0x04018FD3 RID: 102355
+		[Token(Token = "0x4015A3C")]
+		CHAPTER2_D7_6,
+		// Token: 0x04018FD4 RID: 102356
+		[Token(Token = "0x4015A3D")]
+		CHAPTER2_D7_7,
+		// Token: 0x04018FD5 RID: 102357
+		[Token(Token = "0x4015A3E")]
+		CHAPTER2_D7_8,
+		// Token: 0x04018FD6 RID: 102358
+		[Token(Token = "0x4015A3F")]
+		CHAPTER2_D7_9,
+		// Token: 0x04018FD7 RID: 102359
+		[Token(Token = "0x4015A40")]
+		CHAPTER2_D7_10,
+		// Token: 0x04018FD8 RID: 102360
+		[Token(Token = "0x4015A41")]
+		CHAPTER2_D7_11,
+		// Token: 0x04018FD9 RID: 102361
+		[Token(Token = "0x4015A42")]
+		CHAPTER2_D7_12,
+		// Token: 0x04018FDA RID: 102362
+		[Token(Token = "0x4015A43")]
+		CHAPTER2_D7_13,
+		// Token: 0x04018FDB RID: 102363
+		[Token(Token = "0x4015A44")]
+		CHAPTER2_D7_14,
+		// Token: 0x04018FDC RID: 102364
+		[Token(Token = "0x4015A45")]
+		CHAPTER2_D7_15,
+		// Token: 0x04018FDD RID: 102365
+		[Token(Token = "0x4015A46")]
+		CHAPTER3_D8_1,
+		// Token: 0x04018FDE RID: 102366
+		[Token(Token = "0x4015A47")]
+		CHAPTER3_D8_2,
+		// Token: 0x04018FDF RID: 102367
+		[Token(Token = "0x4015A48")]
+		CHAPTER3_D8_3,
+		// Token: 0x04018FE0 RID: 102368
+		[Token(Token = "0x4015A49")]
+		CHAPTER3_D8_4,
+		// Token: 0x04018FE1 RID: 102369
+		[Token(Token = "0x4015A4A")]
+		CHAPTER3_D8_5,
+		// Token: 0x04018FE2 RID: 102370
+		[Token(Token = "0x4015A4B")]
+		CHAPTER3_D8_6,
+		// Token: 0x04018FE3 RID: 102371
+		[Token(Token = "0x4015A4C")]
+		CHAPTER3_D8_7,
+		// Token: 0x04018FE4 RID: 102372
+		[Token(Token = "0x4015A4D")]
+		CHAPTER3_D8_8,
+		// Token: 0x04018FE5 RID: 102373
+		[Token(Token = "0x4015A4E")]
+		CHAPTER3_D9_1,
+		// Token: 0x04018FE6 RID: 102374
+		[Token(Token = "0x4015A4F")]
+		CHAPTER3_D9_2,
+		// Token: 0x04018FE7 RID: 102375
+		[Token(Token = "0x4015A50")]
+		CHAPTER3_D9_3,
+		// Token: 0x04018FE8 RID: 102376
+		[Token(Token = "0x4015A51")]
+		CHAPTER3_D10_1,
+		// Token: 0x04018FE9 RID: 102377
+		[Token(Token = "0x4015A52")]
+		CHAPTER3_D10_2,
+		// Token: 0x04018FEA RID: 102378
+		[Token(Token = "0x4015A53")]
+		CHAPTER3_D10_3,
+		// Token: 0x04018FEB RID: 102379
+		[Token(Token = "0x4015A54")]
+		CHAPTER3_D11_1,
+		// Token: 0x04018FEC RID: 102380
+		[Token(Token = "0x4015A55")]
+		CHAPTER3_D11_2,
+		// Token: 0x04018FED RID: 102381
+		[Token(Token = "0x4015A56")]
+		CHAPTER3_D11_3,
+		// Token: 0x04018FEE RID: 102382
+		[Token(Token = "0x4015A57")]
+		CHAPTER3_D11_4,
+		// Token: 0x04018FEF RID: 102383
+		[Token(Token = "0x4015A58")]
+		CHAPTER3_D12_1,
+		// Token: 0x04018FF0 RID: 102384
+		[Token(Token = "0x4015A59")]
+		CHAPTER3_D12_2,
+		// Token: 0x04018FF1 RID: 102385
+		[Token(Token = "0x4015A5A")]
+		CHAPTER3_D13_1,
+		// Token: 0x04018FF2 RID: 102386
+		[Token(Token = "0x4015A5B")]
+		CHAPTER3_D13_2,
+		// Token: 0x04018FF3 RID: 102387
+		[Token(Token = "0x4015A5C")]
+		CHAPTER3_D13_3,
+		// Token: 0x04018FF4 RID: 102388
+		[Token(Token = "0x4015A5D")]
+		CHAPTER3_D13_3A,
+		// Token: 0x04018FF5 RID: 102389
+		[Token(Token = "0x4015A5E")]
+		CHAPTER3_D13_3B,
+		// Token: 0x04018FF6 RID: 102390
+		[Token(Token = "0x4015A5F")]
+		CHAPTER3_D13_3C,
+		// Token: 0x04018FF7 RID: 102391
+		[Token(Token = "0x4015A60")]
+		CHAPTER3_D13_4,
+		// Token: 0x04018FF8 RID: 102392
+		[Token(Token = "0x4015A61")]
+		CHAPTER3_D13_5,
+		// Token: 0x04018FF9 RID: 102393
+		[Token(Token = "0x4015A62")]
+		CHAPTER3_D13_6,
+		// Token: 0x04018FFA RID: 102394
+		[Token(Token = "0x4015A63")]
+		CHAPTER3_D13_7,
+		// Token: 0x04018FFB RID: 102395
+		[Token(Token = "0x4015A64")]
+		CHAPTER3_D13_8,
+		// Token: 0x04018FFC RID: 102396
+		[Token(Token = "0x4015A65")]
+		CHAPTER3_D13_9,
+		// Token: 0x04018FFD RID: 102397
+		[Token(Token = "0x4015A66")]
+		CHAPTER3_D13_10,
+		// Token: 0x04018FFE RID: 102398
+		[Token(Token = "0x4015A67")]
+		CHAPTER3_D13_11,
+		// Token: 0x04018FFF RID: 102399
+		[Token(Token = "0x4015A68")]
+		CHAPTER3_D13_12,
+		// Token: 0x04019000 RID: 102400
+		[Token(Token = "0x4015A69")]
+		CHAPTER3_D13_13,
+		// Token: 0x04019001 RID: 102401
+		[Token(Token = "0x4015A6A")]
+		CHAPTER3_D13_14,
+		// Token: 0x04019002 RID: 102402
+		[Token(Token = "0x4015A6B")]
+		CHAPTER3_D14_1,
+		// Token: 0x04019003 RID: 102403
+		[Token(Token = "0x4015A6C")]
+		CHAPTER3_D14_2,
+		// Token: 0x04019004 RID: 102404
+		[Token(Token = "0x4015A6D")]
+		CHAPTER3_D14_3,
+		// Token: 0x04019005 RID: 102405
+		[Token(Token = "0x4015A6E")]
+		CHAPTER3_D15_1,
+		// Token: 0x04019006 RID: 102406
+		[Token(Token = "0x4015A6F")]
+		CHAPTER3_D15_2,
+		// Token: 0x04019007 RID: 102407
+		[Token(Token = "0x4015A70")]
+		CHAPTER3_D15_3,
+		// Token: 0x04019008 RID: 102408
+		[Token(Token = "0x4015A71")]
+		CHAPTER3_D16_1,
+		// Token: 0x04019009 RID: 102409
+		[Token(Token = "0x4015A72")]
+		CHAPTER3_D16_2,
+		// Token: 0x0401900A RID: 102410
+		[Token(Token = "0x4015A73")]
+		CHAPTER3_D16_3,
+		// Token: 0x0401900B RID: 102411
+		[Token(Token = "0x4015A74")]
+		CHAPTER3_D16_4,
+		// Token: 0x0401900C RID: 102412
+		[Token(Token = "0x4015A75")]
+		CHAPTER3_D16_5,
+		// Token: 0x0401900D RID: 102413
+		[Token(Token = "0x4015A76")]
+		CHAPTER3_D17_1,
+		// Token: 0x0401900E RID: 102414
+		[Token(Token = "0x4015A77")]
+		CHAPTER3_D17_2,
+		// Token: 0x0401900F RID: 102415
+		[Token(Token = "0x4015A78")]
+		CHAPTER3_D17_3,
+		// Token: 0x04019010 RID: 102416
+		[Token(Token = "0x4015A79")]
+		CHAPTER3_D17_4,
+		// Token: 0x04019011 RID: 102417
+		[Token(Token = "0x4015A7A")]
+		CHAPTER3_D18_1,
+		// Token: 0x04019012 RID: 102418
+		[Token(Token = "0x4015A7B")]
+		CHAPTER3_D18_2A,
+		// Token: 0x04019013 RID: 102419
+		[Token(Token = "0x4015A7C")]
+		CHAPTER3_D18_2B,
+		// Token: 0x04019014 RID: 102420
+		[Token(Token = "0x4015A7D")]
+		CHAPTER3_D18_2C,
+		// Token: 0x04019015 RID: 102421
+		[Token(Token = "0x4015A7E")]
+		CHAPTER3_D18_2D,
+		// Token: 0x04019016 RID: 102422
+		[Token(Token = "0x4015A7F")]
+		CHAPTER3_D18_2E,
+		// Token: 0x04019017 RID: 102423
+		[Token(Token = "0x4015A80")]
+		CHAPTER3_D18_2F,
+		// Token: 0x04019018 RID: 102424
+		[Token(Token = "0x4015A81")]
+		CHAPTER3_D18_2G,
+		// Token: 0x04019019 RID: 102425
+		[Token(Token = "0x4015A82")]
+		CHAPTER3_D18_3,
+		// Token: 0x0401901A RID: 102426
+		[Token(Token = "0x4015A83")]
+		MAINSCENARIO_CLEAR,
+		// Token: 0x0401901B RID: 102427
+		[Token(Token = "0x4015A84")]
+		D1_BOSS_1_NG = 1500,
+		// Token: 0x0401901C RID: 102428
+		[Token(Token = "0x4015A85")]
+		D2_BOSS_1_NG,
+		// Token: 0x0401901D RID: 102429
+		[Token(Token = "0x4015A86")]
+		D3_BOSS_1_NG,
+		// Token: 0x0401901E RID: 102430
+		[Token(Token = "0x4015A87")]
+		D4_BOSS_1_NG,
+		// Token: 0x0401901F RID: 102431
+		[Token(Token = "0x4015A88")]
+		D5_BOSS_1_NG,
+		// Token: 0x04019020 RID: 102432
+		[Token(Token = "0x4015A89")]
+		D6_BOSS_1_NG,
+		// Token: 0x04019021 RID: 102433
+		[Token(Token = "0x4015A8A")]
+		D7_BOSS_1_NG,
+		// Token: 0x04019022 RID: 102434
+		[Token(Token = "0x4015A8B")]
+		D7_BOSS_2_NG,
+		// Token: 0x04019023 RID: 102435
+		[Token(Token = "0x4015A8C")]
+		D7_BOSS_3_NG,
+		// Token: 0x04019024 RID: 102436
+		[Token(Token = "0x4015A8D")]
+		D8_BOSS_1_NG,
+		// Token: 0x04019025 RID: 102437
+		[Token(Token = "0x4015A8E")]
+		D9_BOSS_1_NG,
+		// Token: 0x04019026 RID: 102438
+		[Token(Token = "0x4015A8F")]
+		D10_BOSS_1_NG,
+		// Token: 0x04019027 RID: 102439
+		[Token(Token = "0x4015A90")]
+		D11_BOSS_1_NG,
+		// Token: 0x04019028 RID: 102440
+		[Token(Token = "0x4015A91")]
+		D12_BOSS_1_NG,
+		// Token: 0x04019029 RID: 102441
+		[Token(Token = "0x4015A92")]
+		D13_BOSS_1_NG,
+		// Token: 0x0401902A RID: 102442
+		[Token(Token = "0x4015A93")]
+		D13_BOSS_2_NG,
+		// Token: 0x0401902B RID: 102443
+		[Token(Token = "0x4015A94")]
+		D13_BOSS_3_NG,
+		// Token: 0x0401902C RID: 102444
+		[Token(Token = "0x4015A95")]
+		D14_BOSS_1_NG,
+		// Token: 0x0401902D RID: 102445
+		[Token(Token = "0x4015A96")]
+		D15_BOSS_1_NG,
+		// Token: 0x0401902E RID: 102446
+		[Token(Token = "0x4015A97")]
+		D16_BOSS_1_NG,
+		// Token: 0x0401902F RID: 102447
+		[Token(Token = "0x4015A98")]
+		D16_BOSS_2_NG,
+		// Token: 0x04019030 RID: 102448
+		[Token(Token = "0x4015A99")]
+		D16_BOSS_3_NG,
+		// Token: 0x04019031 RID: 102449
+		[Token(Token = "0x4015A9A")]
+		D17_BOSS_1_NG,
+		// Token: 0x04019032 RID: 102450
+		[Token(Token = "0x4015A9B")]
+		D18_BOSS_1_NG,
+		// Token: 0x04019033 RID: 102451
+		[Token(Token = "0x4015A9C")]
+		FLORIST_OPEN = 2009,
+		// Token: 0x04019034 RID: 102452
+		[Token(Token = "0x4015A9D")]
+		DETECTIVE_OPEN,
+		// Token: 0x04019035 RID: 102453
+		[Token(Token = "0x4015A9E")]
+		FLAG_2301 = 2301,
+		// Token: 0x04019036 RID: 102454
+		[Token(Token = "0x4015A9F")]
+		FLAG_2401 = 2401,
+		// Token: 0x04019037 RID: 102455
+		[Token(Token = "0x4015AA0")]
+		FLAG_2402,
+		// Token: 0x04019038 RID: 102456
+		[Token(Token = "0x4015AA1")]
+		FLAG_2403,
+		// Token: 0x04019039 RID: 102457
+		[Token(Token = "0x4015AA2")]
+		FLAG_2404,
+		// Token: 0x0401903A RID: 102458
+		[Token(Token = "0x4015AA3")]
+		FLAG_2405,
+		// Token: 0x0401903B RID: 102459
+		[Token(Token = "0x4015AA4")]
+		FLAG_2406,
+		// Token: 0x0401903C RID: 102460
+		[Token(Token = "0x4015AA5")]
+		FLAG_2501 = 2501,
+		// Token: 0x0401903D RID: 102461
+		[Token(Token = "0x4015AA6")]
+		FLAG_2502,
+		// Token: 0x0401903E RID: 102462
+		[Token(Token = "0x4015AA7")]
+		FLAG_2503,
+		// Token: 0x0401903F RID: 102463
+		[Token(Token = "0x4015AA8")]
+		FLAG_2601 = 2601,
+		// Token: 0x04019040 RID: 102464
+		[Token(Token = "0x4015AA9")]
+		FLAG_2701 = 2701,
+		// Token: 0x04019041 RID: 102465
+		[Token(Token = "0x4015AAA")]
+		FLAG_2702,
+		// Token: 0x04019042 RID: 102466
+		[Token(Token = "0x4015AAB")]
+		FLAG_2703,
+		// Token: 0x04019043 RID: 102467
+		[Token(Token = "0x4015AAC")]
+		FLAG_2704,
+		// Token: 0x04019044 RID: 102468
+		[Token(Token = "0x4015AAD")]
+		FLAG_2705,
+		// Token: 0x04019045 RID: 102469
+		[Token(Token = "0x4015AAE")]
+		FLAG_2706,
+		// Token: 0x04019046 RID: 102470
+		[Token(Token = "0x4015AAF")]
+		FLAG_2707,
+		// Token: 0x04019047 RID: 102471
+		[Token(Token = "0x4015AB0")]
+		FLAG_2708,
+		// Token: 0x04019048 RID: 102472
+		[Token(Token = "0x4015AB1")]
+		FLAG_2709,
+		// Token: 0x04019049 RID: 102473
+		[Token(Token = "0x4015AB2")]
+		FLAG_2710,
+		// Token: 0x0401904A RID: 102474
+		[Token(Token = "0x4015AB3")]
+		F00_D8_Gimmick = 2849,
+		// Token: 0x0401904B RID: 102475
+		[Token(Token = "0x4015AB4")]
+		FLAG_GREKI_ON_OFF,
+		// Token: 0x0401904C RID: 102476
+		[Token(Token = "0x4015AB5")]
+		FLAG_dark_ON_OFF,
+		// Token: 0x0401904D RID: 102477
+		[Token(Token = "0x4015AB6")]
+		FLAG_ooiwa_ON_OFF,
+		// Token: 0x0401904E RID: 102478
+		[Token(Token = "0x4015AB7")]
+		FLAG_dragonsister_ON_OFF,
+		// Token: 0x0401904F RID: 102479
+		[Token(Token = "0x4015AB8")]
+		FLAG_gandage_ON_OFF,
+		// Token: 0x04019050 RID: 102480
+		[Token(Token = "0x4015AB9")]
+		FLAG_lastboss_ON_OFF,
+		// Token: 0x04019051 RID: 102481
+		[Token(Token = "0x4015ABA")]
+		FLAG_kyubi_battle,
+		// Token: 0x04019052 RID: 102482
+		[Token(Token = "0x4015ABB")]
+		FLAG_kyubi_kill,
+		// Token: 0x04019053 RID: 102483
+		[Token(Token = "0x4015ABC")]
+		FLAG_kerube_battle,
+		// Token: 0x04019054 RID: 102484
+		[Token(Token = "0x4015ABD")]
+		FLAG_kerube_kill,
+		// Token: 0x04019055 RID: 102485
+		[Token(Token = "0x4015ABE")]
+		FLAG_bajiri_battle,
+		// Token: 0x04019056 RID: 102486
+		[Token(Token = "0x4015ABF")]
+		FLAG_bajiri_kill,
+		// Token: 0x04019057 RID: 102487
+		[Token(Token = "0x4015AC0")]
+		FLAG_krake_battle,
+		// Token: 0x04019058 RID: 102488
+		[Token(Token = "0x4015AC1")]
+		FLAG_krake_kill,
+		// Token: 0x04019059 RID: 102489
+		[Token(Token = "0x4015AC2")]
+		FLAG_dragon_battle,
+		// Token: 0x0401905A RID: 102490
+		[Token(Token = "0x4015AC3")]
+		FLAG_dragon_kill,
+		// Token: 0x0401905B RID: 102491
+		[Token(Token = "0x4015AC4")]
+		FLAG_hari_battle,
+		// Token: 0x0401905C RID: 102492
+		[Token(Token = "0x4015AC5")]
+		FLAG_hari_kill,
+		// Token: 0x0401905D RID: 102493
+		[Token(Token = "0x4015AC6")]
+		FLAG_hsas_battle,
+		// Token: 0x0401905E RID: 102494
+		[Token(Token = "0x4015AC7")]
+		FLAG_sas_kill,
+		// Token: 0x0401905F RID: 102495
+		[Token(Token = "0x4015AC8")]
+		FLAG_kamere_battle,
+		// Token: 0x04019060 RID: 102496
+		[Token(Token = "0x4015AC9")]
+		FLAG_kamere_kill,
+		// Token: 0x04019061 RID: 102497
+		[Token(Token = "0x4015ACA")]
+		FLAG_rock_battle,
+		// Token: 0x04019062 RID: 102498
+		[Token(Token = "0x4015ACB")]
+		FLAG_rock_kill,
+		// Token: 0x04019063 RID: 102499
+		[Token(Token = "0x4015ACC")]
+		FLAG_skull_battle,
+		// Token: 0x04019064 RID: 102500
+		[Token(Token = "0x4015ACD")]
+		FLAG_skull_kill,
+		// Token: 0x04019065 RID: 102501
+		[Token(Token = "0x4015ACE")]
+		FLAG_revi_battle,
+		// Token: 0x04019066 RID: 102502
+		[Token(Token = "0x4015ACF")]
+		FLAG_revi_kill,
+		// Token: 0x04019067 RID: 102503
+		[Token(Token = "0x4015AD0")]
+		FLAG_heka_battle,
+		// Token: 0x04019068 RID: 102504
+		[Token(Token = "0x4015AD1")]
+		FLAG_heka_kill,
+		// Token: 0x04019069 RID: 102505
+		[Token(Token = "0x4015AD2")]
+		FLAG_dead_battle,
+		// Token: 0x0401906A RID: 102506
+		[Token(Token = "0x4015AD3")]
+		FLAG_dead_kill,
+		// Token: 0x0401906B RID: 102507
+		[Token(Token = "0x4015AD4")]
+		FLAG_reva_battle,
+		// Token: 0x0401906C RID: 102508
+		[Token(Token = "0x4015AD5")]
+		FLAG_reva_kill,
+		// Token: 0x0401906D RID: 102509
+		[Token(Token = "0x4015AD6")]
+		FLAG_sas2_battle,
+		// Token: 0x0401906E RID: 102510
+		[Token(Token = "0x4015AD7")]
+		FLAG_sas2_kill,
+		// Token: 0x0401906F RID: 102511
+		[Token(Token = "0x4015AD8")]
+		FLAG_kame2_battle,
+		// Token: 0x04019070 RID: 102512
+		[Token(Token = "0x4015AD9")]
+		FLAG_kame2_kill,
+		// Token: 0x04019071 RID: 102513
+		[Token(Token = "0x4015ADA")]
+		FLAG_rock2_battle,
+		// Token: 0x04019072 RID: 102514
+		[Token(Token = "0x4015ADB")]
+		FLAG_rock2_kill,
+		// Token: 0x04019073 RID: 102515
+		[Token(Token = "0x4015ADC")]
+		FLAG_kurage_battle,
+		// Token: 0x04019074 RID: 102516
+		[Token(Token = "0x4015ADD")]
+		FLAG_kurage_kill,
+		// Token: 0x04019075 RID: 102517
+		[Token(Token = "0x4015ADE")]
+		FLAG_uro_battle,
+		// Token: 0x04019076 RID: 102518
+		[Token(Token = "0x4015ADF")]
+		FLAG_uro_kill,
+		// Token: 0x04019077 RID: 102519
+		[Token(Token = "0x4015AE0")]
+		FLAG_uddo_battle,
+		// Token: 0x04019078 RID: 102520
+		[Token(Token = "0x4015AE1")]
+		FLAG_uddo_kill,
+		// Token: 0x04019079 RID: 102521
+		[Token(Token = "0x4015AE2")]
+		FLAG_aries_battle,
+		// Token: 0x0401907A RID: 102522
+		[Token(Token = "0x4015AE3")]
+		FLAG_aries_kill,
+		// Token: 0x0401907B RID: 102523
+		[Token(Token = "0x4015AE4")]
+		FLAG_audo_battle,
+		// Token: 0x0401907C RID: 102524
+		[Token(Token = "0x4015AE5")]
+		FLAG_audo_kill,
+		// Token: 0x0401907D RID: 102525
+		[Token(Token = "0x4015AE6")]
+		FLAG_gand_battle,
+		// Token: 0x0401907E RID: 102526
+		[Token(Token = "0x4015AE7")]
+		FLAG_gand_kill,
+		// Token: 0x0401907F RID: 102527
+		[Token(Token = "0x4015AE8")]
+		FLAG_last_battle,
+		// Token: 0x04019080 RID: 102528
+		[Token(Token = "0x4015AE9")]
+		FLAG_last_kill,
+		// Token: 0x04019081 RID: 102529
+		[Token(Token = "0x4015AEA")]
+		FLAG_chall_haka_battle,
+		// Token: 0x04019082 RID: 102530
+		[Token(Token = "0x4015AEB")]
+		FLAG_chall_haka_kill,
+		// Token: 0x04019083 RID: 102531
+		[Token(Token = "0x4015AEC")]
+		FLAG_chall_revi_battle,
+		// Token: 0x04019084 RID: 102532
+		[Token(Token = "0x4015AED")]
+		FLAG_chall_revi_kill,
+		// Token: 0x04019085 RID: 102533
+		[Token(Token = "0x4015AEE")]
+		FLAG_chall_hari_battle,
+		// Token: 0x04019086 RID: 102534
+		[Token(Token = "0x4015AEF")]
+		FLAG_chall_hari_kill,
+		// Token: 0x04019087 RID: 102535
+		[Token(Token = "0x4015AF0")]
+		FLAG_chall_yado_battle,
+		// Token: 0x04019088 RID: 102536
+		[Token(Token = "0x4015AF1")]
+		FLAG_chall_yado_kill,
+		// Token: 0x04019089 RID: 102537
+		[Token(Token = "0x4015AF2")]
+		FLAG_chall_baji_battle,
+		// Token: 0x0401908A RID: 102538
+		[Token(Token = "0x4015AF3")]
+		FLAG_chall_baji_kill,
+		// Token: 0x0401908B RID: 102539
+		[Token(Token = "0x4015AF4")]
+		FLAG_chall_keru_battle,
+		// Token: 0x0401908C RID: 102540
+		[Token(Token = "0x4015AF5")]
+		FLAG_chall_keru_kill,
+		// Token: 0x0401908D RID: 102541
+		[Token(Token = "0x4015AF6")]
+		FLAG_chall_hasi_battle,
+		// Token: 0x0401908E RID: 102542
+		[Token(Token = "0x4015AF7")]
+		FLAG_chall_hasi_kill,
+		// Token: 0x0401908F RID: 102543
+		[Token(Token = "0x4015AF8")]
+		FLAG_chall_ara_battle,
+		// Token: 0x04019090 RID: 102544
+		[Token(Token = "0x4015AF9")]
+		FLAG_chall_ara_kill,
+		// Token: 0x04019091 RID: 102545
+		[Token(Token = "0x4015AFA")]
+		FLAG_chall_ino_battle,
+		// Token: 0x04019092 RID: 102546
+		[Token(Token = "0x4015AFB")]
+		FLAG_chall_ino_kill,
+		// Token: 0x04019093 RID: 102547
+		[Token(Token = "0x4015AFC")]
+		FLAG_chall_uro_battle,
+		// Token: 0x04019094 RID: 102548
+		[Token(Token = "0x4015AFD")]
+		FLAG_chall_uro_kill,
+		// Token: 0x04019095 RID: 102549
+		[Token(Token = "0x4015AFE")]
+		FLAG_chall2_dead_battle,
+		// Token: 0x04019096 RID: 102550
+		[Token(Token = "0x4015AFF")]
+		FLAG_chall2_dead_kill,
+		// Token: 0x04019097 RID: 102551
+		[Token(Token = "0x4015B00")]
+		FLAG_chall2_hasi_battle,
+		// Token: 0x04019098 RID: 102552
+		[Token(Token = "0x4015B01")]
+		FLAG_chall2_hasi_kill,
+		// Token: 0x04019099 RID: 102553
+		[Token(Token = "0x4015B02")]
+		FLAG_chall2_kura_battle,
+		// Token: 0x0401909A RID: 102554
+		[Token(Token = "0x4015B03")]
+		FLAG_chall2_kura_kill,
+		// Token: 0x0401909B RID: 102555
+		[Token(Token = "0x4015B04")]
+		FLAG_chall2_yado_battle,
+		// Token: 0x0401909C RID: 102556
+		[Token(Token = "0x4015B05")]
+		FLAG_chall2_yado_kill,
+		// Token: 0x0401909D RID: 102557
+		[Token(Token = "0x4015B06")]
+		FLAG_chall2_ino_battle,
+		// Token: 0x0401909E RID: 102558
+		[Token(Token = "0x4015B07")]
+		FLAG_chall2_ino_kill,
+		// Token: 0x0401909F RID: 102559
+		[Token(Token = "0x4015B08")]
+		FLAG_chall2_ara_battle,
+		// Token: 0x040190A0 RID: 102560
+		[Token(Token = "0x4015B09")]
+		FLAG_chall2_ara_kill,
+		// Token: 0x040190A1 RID: 102561
+		[Token(Token = "0x4015B0A")]
+		FLAG_chall2_ari_battle,
+		// Token: 0x040190A2 RID: 102562
+		[Token(Token = "0x4015B0B")]
+		FLAG_chall2_ari_kill,
+		// Token: 0x040190A3 RID: 102563
+		[Token(Token = "0x4015B0C")]
+		FLAG_chall2_audo_battle,
+		// Token: 0x040190A4 RID: 102564
+		[Token(Token = "0x4015B0D")]
+		FLAG_chall2_audo_kill,
+		// Token: 0x040190A5 RID: 102565
+		[Token(Token = "0x4015B0E")]
+		FLAG_chall2_skull_battle,
+		// Token: 0x040190A6 RID: 102566
+		[Token(Token = "0x4015B0F")]
+		FLAG_chall2_skull_kill,
+		// Token: 0x040190A7 RID: 102567
+		[Token(Token = "0x4015B10")]
+		FLAG_chall_mommy_battle,
+		// Token: 0x040190A8 RID: 102568
+		[Token(Token = "0x4015B11")]
+		FLAG_chall_mommy_kill,
+		// Token: 0x040190A9 RID: 102569
+		[Token(Token = "0x4015B12")]
+		FLAG_FUUKA_evbattle1_battle = 2950,
+		// Token: 0x040190AA RID: 102570
+		[Token(Token = "0x4015B13")]
+		FLAG_FUUKA_evbattle1_kill,
+		// Token: 0x040190AB RID: 102571
+		[Token(Token = "0x4015B14")]
+		FLAG_BEATRICE_evbattle1_battle,
+		// Token: 0x040190AC RID: 102572
+		[Token(Token = "0x4015B15")]
+		FLAG_BEATRICE_evbattle1_kill,
+		// Token: 0x040190AD RID: 102573
+		[Token(Token = "0x4015B16")]
+		FLAG_BEATRICE_evbattle2_battle,
+		// Token: 0x040190AE RID: 102574
+		[Token(Token = "0x4015B17")]
+		FLAG_BEATRICE_evbattle2_kill,
+		// Token: 0x040190AF RID: 102575
+		[Token(Token = "0x4015B18")]
+		FLAG_LUDMILA_evbattle1_battle,
+		// Token: 0x040190B0 RID: 102576
+		[Token(Token = "0x4015B19")]
+		FLAG_LUDMILA_evbattle1_kill,
+		// Token: 0x040190B1 RID: 102577
+		[Token(Token = "0x4015B1A")]
+		FLAG_MARTIN_evbattle1_battle,
+		// Token: 0x040190B2 RID: 102578
+		[Token(Token = "0x4015B1B")]
+		FLAG_MARTIN_evbattle1_kill,
+		// Token: 0x040190B3 RID: 102579
+		[Token(Token = "0x4015B1C")]
+		FLAG_LYCA_evbattle1_battle,
+		// Token: 0x040190B4 RID: 102580
+		[Token(Token = "0x4015B1D")]
+		FLAG_LYCA_evbattle1_kill,
+		// Token: 0x040190B5 RID: 102581
+		[Token(Token = "0x4015B1E")]
+		FLAG_REINHARD_evbattle1_battle,
+		// Token: 0x040190B6 RID: 102582
+		[Token(Token = "0x4015B1F")]
+		FLAG_REINHARD_evbattle1_kill,
+		// Token: 0x040190B7 RID: 102583
+		[Token(Token = "0x4015B20")]
+		FLAG_LUCAS_evbattle1_battle,
+		// Token: 0x040190B8 RID: 102584
+		[Token(Token = "0x4015B21")]
+		FLAG_LUCAS_evbattle1_kill,
+		// Token: 0x040190B9 RID: 102585
+		[Token(Token = "0x4015B22")]
+		Gimmick_D01 = 3000,
+		// Token: 0x040190BA RID: 102586
+		[Token(Token = "0x4015B23")]
+		Gimmick_D02,
+		// Token: 0x040190BB RID: 102587
+		[Token(Token = "0x4015B24")]
+		Gimmick_D03,
+		// Token: 0x040190BC RID: 102588
+		[Token(Token = "0x4015B25")]
+		Gimmick_D04,
+		// Token: 0x040190BD RID: 102589
+		[Token(Token = "0x4015B26")]
+		Gimmick_D05,
+		// Token: 0x040190BE RID: 102590
+		[Token(Token = "0x4015B27")]
+		Gimmick_D06,
+		// Token: 0x040190BF RID: 102591
+		[Token(Token = "0x4015B28")]
+		Gimmick_D07,
+		// Token: 0x040190C0 RID: 102592
+		[Token(Token = "0x4015B29")]
+		Gimmick_D08,
+		// Token: 0x040190C1 RID: 102593
+		[Token(Token = "0x4015B2A")]
+		Gimmick_D09,
+		// Token: 0x040190C2 RID: 102594
+		[Token(Token = "0x4015B2B")]
+		Gimmick_D10,
+		// Token: 0x040190C3 RID: 102595
+		[Token(Token = "0x4015B2C")]
+		Gimmick_D11,
+		// Token: 0x040190C4 RID: 102596
+		[Token(Token = "0x4015B2D")]
+		Gimmick_D12,
+		// Token: 0x040190C5 RID: 102597
+		[Token(Token = "0x4015B2E")]
+		Gimmick_D13,
+		// Token: 0x040190C6 RID: 102598
+		[Token(Token = "0x4015B2F")]
+		Gimmick_D14,
+		// Token: 0x040190C7 RID: 102599
+		[Token(Token = "0x4015B30")]
+		Gimmick_D15,
+		// Token: 0x040190C8 RID: 102600
+		[Token(Token = "0x4015B31")]
+		Gimmick_D16,
+		// Token: 0x040190C9 RID: 102601
+		[Token(Token = "0x4015B32")]
+		Gimmick_D17,
+		// Token: 0x040190CA RID: 102602
+		[Token(Token = "0x4015B33")]
+		Gimmick_D18,
+		// Token: 0x040190CB RID: 102603
+		[Token(Token = "0x4015B34")]
+		Gimmick_D19,
+		// Token: 0x040190CC RID: 102604
+		[Token(Token = "0x4015B35")]
+		Gimmick_D20,
+		// Token: 0x040190CD RID: 102605
+		[Token(Token = "0x4015B36")]
+		Gimmick_F00,
+		// Token: 0x040190CE RID: 102606
+		[Token(Token = "0x4015B37")]
+		Gimmick_RESTAURANT,
+		// Token: 0x040190CF RID: 102607
+		[Token(Token = "0x4015B38")]
+		Gimmick_D08_LOVESTORY,
+		// Token: 0x040190D0 RID: 102608
+		[Token(Token = "0x4015B39")]
+		MOB_D01,
+		// Token: 0x040190D1 RID: 102609
+		[Token(Token = "0x4015B3A")]
+		MOB_D02,
+		// Token: 0x040190D2 RID: 102610
+		[Token(Token = "0x4015B3B")]
+		MOB_D05,
+		// Token: 0x040190D3 RID: 102611
+		[Token(Token = "0x4015B3C")]
+		MOB_D07,
+		// Token: 0x040190D4 RID: 102612
+		[Token(Token = "0x4015B3D")]
+		MOB_D11,
+		// Token: 0x040190D5 RID: 102613
+		[Token(Token = "0x4015B3E")]
+		D15GateOpen = 3050,
+		// Token: 0x040190D6 RID: 102614
+		[Token(Token = "0x4015B3F")]
+		D18GateOpen,
+		// Token: 0x040190D7 RID: 102615
+		[Token(Token = "0x4015B40")]
+		LOVESTORY_PRISCILLA1 = 3100,
+		// Token: 0x040190D8 RID: 102616
+		[Token(Token = "0x4015B41")]
+		LOVESTORY_PRISCILLA2_1,
+		// Token: 0x040190D9 RID: 102617
+		[Token(Token = "0x4015B42")]
+		LOVESTORY_PRISCILLA2_2,
+		// Token: 0x040190DA RID: 102618
+		[Token(Token = "0x4015B43")]
+		LOVESTORY_PRISCILLA2_3,
+		// Token: 0x040190DB RID: 102619
+		[Token(Token = "0x4015B44")]
+		LOVESTORY_PRISCILLA3,
+		// Token: 0x040190DC RID: 102620
+		[Token(Token = "0x4015B45")]
+		LOVESTORY_PRISCILLA4_1,
+		// Token: 0x040190DD RID: 102621
+		[Token(Token = "0x4015B46")]
+		LOVESTORY_PRISCILLA4_2,
+		// Token: 0x040190DE RID: 102622
+		[Token(Token = "0x4015B47")]
+		LOVESTORY_PRISCILLA4_3,
+		// Token: 0x040190DF RID: 102623
+		[Token(Token = "0x4015B48")]
+		LOVESTORY_PRISCILLA5_1,
+		// Token: 0x040190E0 RID: 102624
+		[Token(Token = "0x4015B49")]
+		LOVESTORY_PRISCILLA5_2,
+		// Token: 0x040190E1 RID: 102625
+		[Token(Token = "0x4015B4A")]
+		LOVESTORY_PRISCILLA6_1,
+		// Token: 0x040190E2 RID: 102626
+		[Token(Token = "0x4015B4B")]
+		LOVESTORY_PRISCILLA6_2,
+		// Token: 0x040190E3 RID: 102627
+		[Token(Token = "0x4015B4C")]
+		LOVESTORY_PRISCILLA7_1,
+		// Token: 0x040190E4 RID: 102628
+		[Token(Token = "0x4015B4D")]
+		LOVESTORY_PRISCILLA7_2,
+		// Token: 0x040190E5 RID: 102629
+		[Token(Token = "0x4015B4E")]
+		LOVESTORY_PRISCILLA8_1,
+		// Token: 0x040190E6 RID: 102630
+		[Token(Token = "0x4015B4F")]
+		LOVESTORY_PRISCILLA8_2,
+		// Token: 0x040190E7 RID: 102631
+		[Token(Token = "0x4015B50")]
+		LOVESTORY_PRISCILLA9_1,
+		// Token: 0x040190E8 RID: 102632
+		[Token(Token = "0x4015B51")]
+		LOVESTORY_PRISCILLA9_2,
+		// Token: 0x040190E9 RID: 102633
+		[Token(Token = "0x4015B52")]
+		LOVESTORY_PRISCILLA9_3,
+		// Token: 0x040190EA RID: 102634
+		[Token(Token = "0x4015B53")]
+		LOVESTORY_PRISCILLA9_4,
+		// Token: 0x040190EB RID: 102635
+		[Token(Token = "0x4015B54")]
+		LOVESTORY_PRISCILLA9_5,
+		// Token: 0x040190EC RID: 102636
+		[Token(Token = "0x4015B55")]
+		LOVESTORY_PRISCILLA9_6,
+		// Token: 0x040190ED RID: 102637
+		[Token(Token = "0x4015B56")]
+		LOVESTORY_PRISCILLA9_7,
+		// Token: 0x040190EE RID: 102638
+		[Token(Token = "0x4015B57")]
+		LOVESTORY_PRISCILLA9_8,
+		// Token: 0x040190EF RID: 102639
+		[Token(Token = "0x4015B58")]
+		LOVESTORY_PRISCILLA9_9,
+		// Token: 0x040190F0 RID: 102640
+		[Token(Token = "0x4015B59")]
+		LOVESTORY_PRISCILLA10,
+		// Token: 0x040190F1 RID: 102641
+		[Token(Token = "0x4015B5A")]
+		LOVESTORY_PRISCILLA11_1,
+		// Token: 0x040190F2 RID: 102642
+		[Token(Token = "0x4015B5B")]
+		LOVESTORY_PRISCILLA11_2,
+		// Token: 0x040190F3 RID: 102643
+		[Token(Token = "0x4015B5C")]
+		LOVESTORY_PRISCILLA11_3,
+		// Token: 0x040190F4 RID: 102644
+		[Token(Token = "0x4015B5D")]
+		LOVESTORY_PRISCILLA11_4,
+		// Token: 0x040190F5 RID: 102645
+		[Token(Token = "0x4015B5E")]
+		LOVESTORY_PRISCILLA11_5,
+		// Token: 0x040190F6 RID: 102646
+		[Token(Token = "0x4015B5F")]
+		LOVESTORY_PRISCILLA11_6,
+		// Token: 0x040190F7 RID: 102647
+		[Token(Token = "0x4015B60")]
+		LOVESTORY_PRISCILLA11_7,
+		// Token: 0x040190F8 RID: 102648
+		[Token(Token = "0x4015B61")]
+		LOVESTORY_PRISCILLA11_8,
+		// Token: 0x040190F9 RID: 102649
+		[Token(Token = "0x4015B62")]
+		LOVESTORY_PRISCILLA11_9,
+		// Token: 0x040190FA RID: 102650
+		[Token(Token = "0x4015B63")]
+		LOVESTORY_PRISCILLA11_10,
+		// Token: 0x040190FB RID: 102651
+		[Token(Token = "0x4015B64")]
+		LOVESTORY_PRISCILLA11_11,
+		// Token: 0x040190FC RID: 102652
+		[Token(Token = "0x4015B65")]
+		LOVESTORY_LUCY1,
+		// Token: 0x040190FD RID: 102653
+		[Token(Token = "0x4015B66")]
+		LOVESTORY_LUCY2_1,
+		// Token: 0x040190FE RID: 102654
+		[Token(Token = "0x4015B67")]
+		LOVESTORY_LUCY2_2,
+		// Token: 0x040190FF RID: 102655
+		[Token(Token = "0x4015B68")]
+		LOVESTORY_LUCY2_3,
+		// Token: 0x04019100 RID: 102656
+		[Token(Token = "0x4015B69")]
+		LOVESTORY_LUCY2_4,
+		// Token: 0x04019101 RID: 102657
+		[Token(Token = "0x4015B6A")]
+		LOVESTORY_LUCY2_5,
+		// Token: 0x04019102 RID: 102658
+		[Token(Token = "0x4015B6B")]
+		LOVESTORY_LUCY3,
+		// Token: 0x04019103 RID: 102659
+		[Token(Token = "0x4015B6C")]
+		LOVESTORY_LUCY4_1,
+		// Token: 0x04019104 RID: 102660
+		[Token(Token = "0x4015B6D")]
+		LOVESTORY_LUCY4_2,
+		// Token: 0x04019105 RID: 102661
+		[Token(Token = "0x4015B6E")]
+		LOVESTORY_LUCY4_3,
+		// Token: 0x04019106 RID: 102662
+		[Token(Token = "0x4015B6F")]
+		LOVESTORY_LUCY4_4,
+		// Token: 0x04019107 RID: 102663
+		[Token(Token = "0x4015B70")]
+		LOVESTORY_LUCY4_5,
+		// Token: 0x04019108 RID: 102664
+		[Token(Token = "0x4015B71")]
+		LOVESTORY_LUCY4_6,
+		// Token: 0x04019109 RID: 102665
+		[Token(Token = "0x4015B72")]
+		LOVESTORY_LUCY5_1,
+		// Token: 0x0401910A RID: 102666
+		[Token(Token = "0x4015B73")]
+		LOVESTORY_LUCY5_2,
+		// Token: 0x0401910B RID: 102667
+		[Token(Token = "0x4015B74")]
+		LOVESTORY_LUCY6_1,
+		// Token: 0x0401910C RID: 102668
+		[Token(Token = "0x4015B75")]
+		LOVESTORY_LUCY6_2,
+		// Token: 0x0401910D RID: 102669
+		[Token(Token = "0x4015B76")]
+		LOVESTORY_LUCY7_1,
+		// Token: 0x0401910E RID: 102670
+		[Token(Token = "0x4015B77")]
+		LOVESTORY_LUCY7_2,
+		// Token: 0x0401910F RID: 102671
+		[Token(Token = "0x4015B78")]
+		LOVESTORY_LUCY8_1,
+		// Token: 0x04019110 RID: 102672
+		[Token(Token = "0x4015B79")]
+		LOVESTORY_LUCY8_2,
+		// Token: 0x04019111 RID: 102673
+		[Token(Token = "0x4015B7A")]
+		LOVESTORY_LUCY9_1,
+		// Token: 0x04019112 RID: 102674
+		[Token(Token = "0x4015B7B")]
+		LOVESTORY_LUCY9_2,
+		// Token: 0x04019113 RID: 102675
+		[Token(Token = "0x4015B7C")]
+		LOVESTORY_LUCY9_3,
+		// Token: 0x04019114 RID: 102676
+		[Token(Token = "0x4015B7D")]
+		LOVESTORY_LUCY9_4,
+		// Token: 0x04019115 RID: 102677
+		[Token(Token = "0x4015B7E")]
+		LOVESTORY_LUCY9_5,
+		// Token: 0x04019116 RID: 102678
+		[Token(Token = "0x4015B7F")]
+		LOVESTORY_LUCY9_6,
+		// Token: 0x04019117 RID: 102679
+		[Token(Token = "0x4015B80")]
+		LOVESTORY_LUCY9_7,
+		// Token: 0x04019118 RID: 102680
+		[Token(Token = "0x4015B81")]
+		LOVESTORY_LUCY9_8,
+		// Token: 0x04019119 RID: 102681
+		[Token(Token = "0x4015B82")]
+		LOVESTORY_LUCY9_9,
+		// Token: 0x0401911A RID: 102682
+		[Token(Token = "0x4015B83")]
+		LOVESTORY_LUCY9_10,
+		// Token: 0x0401911B RID: 102683
+		[Token(Token = "0x4015B84")]
+		LOVESTORY_LUCY9_11,
+		// Token: 0x0401911C RID: 102684
+		[Token(Token = "0x4015B85")]
+		LOVESTORY_LUCY10,
+		// Token: 0x0401911D RID: 102685
+		[Token(Token = "0x4015B86")]
+		LOVESTORY_LUCY11_1,
+		// Token: 0x0401911E RID: 102686
+		[Token(Token = "0x4015B87")]
+		LOVESTORY_LUCY11_2,
+		// Token: 0x0401911F RID: 102687
+		[Token(Token = "0x4015B88")]
+		LOVESTORY_LUCY11_3,
+		// Token: 0x04019120 RID: 102688
+		[Token(Token = "0x4015B89")]
+		LOVESTORY_LUCY11_4,
+		// Token: 0x04019121 RID: 102689
+		[Token(Token = "0x4015B8A")]
+		LOVESTORY_LUCY11_5,
+		// Token: 0x04019122 RID: 102690
+		[Token(Token = "0x4015B8B")]
+		LOVESTORY_LUCY11_6,
+		// Token: 0x04019123 RID: 102691
+		[Token(Token = "0x4015B8C")]
+		LOVESTORY_LUCY11_7,
+		// Token: 0x04019124 RID: 102692
+		[Token(Token = "0x4015B8D")]
+		LOVESTORY_LUCY11_8,
+		// Token: 0x04019125 RID: 102693
+		[Token(Token = "0x4015B8E")]
+		LOVESTORY_LUCY11_9,
+		// Token: 0x04019126 RID: 102694
+		[Token(Token = "0x4015B8F")]
+		LOVESTORY_LUCY11_10,
+		// Token: 0x04019127 RID: 102695
+		[Token(Token = "0x4015B90")]
+		LOVESTORY_LUCY11_11,
+		// Token: 0x04019128 RID: 102696
+		[Token(Token = "0x4015B91")]
+		LOVESTORY_SCARLET1,
+		// Token: 0x04019129 RID: 102697
+		[Token(Token = "0x4015B92")]
+		LOVESTORY_SCARLET2_1,
+		// Token: 0x0401912A RID: 102698
+		[Token(Token = "0x4015B93")]
+		LOVESTORY_SCARLET2_2,
+		// Token: 0x0401912B RID: 102699
+		[Token(Token = "0x4015B94")]
+		LOVESTORY_SCARLET2_3,
+		// Token: 0x0401912C RID: 102700
+		[Token(Token = "0x4015B95")]
+		LOVESTORY_SCARLET3,
+		// Token: 0x0401912D RID: 102701
+		[Token(Token = "0x4015B96")]
+		LOVESTORY_SCARLET4_1,
+		// Token: 0x0401912E RID: 102702
+		[Token(Token = "0x4015B97")]
+		LOVESTORY_SCARLET4_2,
+		// Token: 0x0401912F RID: 102703
+		[Token(Token = "0x4015B98")]
+		LOVESTORY_SCARLET4_3,
+		// Token: 0x04019130 RID: 102704
+		[Token(Token = "0x4015B99")]
+		LOVESTORY_SCARLET4_4,
+		// Token: 0x04019131 RID: 102705
+		[Token(Token = "0x4015B9A")]
+		LOVESTORY_SCARLET5_1,
+		// Token: 0x04019132 RID: 102706
+		[Token(Token = "0x4015B9B")]
+		LOVESTORY_SCARLET5_2,
+		// Token: 0x04019133 RID: 102707
+		[Token(Token = "0x4015B9C")]
+		LOVESTORY_SCARLET6_1,
+		// Token: 0x04019134 RID: 102708
+		[Token(Token = "0x4015B9D")]
+		LOVESTORY_SCARLET6_2,
+		// Token: 0x04019135 RID: 102709
+		[Token(Token = "0x4015B9E")]
+		LOVESTORY_SCARLET7_1,
+		// Token: 0x04019136 RID: 102710
+		[Token(Token = "0x4015B9F")]
+		LOVESTORY_SCARLET7_2,
+		// Token: 0x04019137 RID: 102711
+		[Token(Token = "0x4015BA0")]
+		LOVESTORY_SCARLET8_1,
+		// Token: 0x04019138 RID: 102712
+		[Token(Token = "0x4015BA1")]
+		LOVESTORY_SCARLET8_2,
+		// Token: 0x04019139 RID: 102713
+		[Token(Token = "0x4015BA2")]
+		LOVESTORY_SCARLET9_1,
+		// Token: 0x0401913A RID: 102714
+		[Token(Token = "0x4015BA3")]
+		LOVESTORY_SCARLET9_2,
+		// Token: 0x0401913B RID: 102715
+		[Token(Token = "0x4015BA4")]
+		LOVESTORY_SCARLET9_3,
+		// Token: 0x0401913C RID: 102716
+		[Token(Token = "0x4015BA5")]
+		LOVESTORY_SCARLET9_4,
+		// Token: 0x0401913D RID: 102717
+		[Token(Token = "0x4015BA6")]
+		LOVESTORY_SCARLET9_5,
+		// Token: 0x0401913E RID: 102718
+		[Token(Token = "0x4015BA7")]
+		LOVESTORY_SCARLET9_6,
+		// Token: 0x0401913F RID: 102719
+		[Token(Token = "0x4015BA8")]
+		LOVESTORY_SCARLET9_7,
+		// Token: 0x04019140 RID: 102720
+		[Token(Token = "0x4015BA9")]
+		LOVESTORY_SCARLET9_8,
+		// Token: 0x04019141 RID: 102721
+		[Token(Token = "0x4015BAA")]
+		LOVESTORY_SCARLET9_9,
+		// Token: 0x04019142 RID: 102722
+		[Token(Token = "0x4015BAB")]
+		LOVESTORY_SCARLET9_10,
+		// Token: 0x04019143 RID: 102723
+		[Token(Token = "0x4015BAC")]
+		LOVESTORY_SCARLET9_11,
+		// Token: 0x04019144 RID: 102724
+		[Token(Token = "0x4015BAD")]
+		LOVESTORY_SCARLET9_12,
+		// Token: 0x04019145 RID: 102725
+		[Token(Token = "0x4015BAE")]
+		LOVESTORY_SCARLET9_13,
+		// Token: 0x04019146 RID: 102726
+		[Token(Token = "0x4015BAF")]
+		LOVESTORY_SCARLET9_14,
+		// Token: 0x04019147 RID: 102727
+		[Token(Token = "0x4015BB0")]
+		LOVESTORY_SCARLET9_15,
+		// Token: 0x04019148 RID: 102728
+		[Token(Token = "0x4015BB1")]
+		LOVESTORY_SCARLET9_16,
+		// Token: 0x04019149 RID: 102729
+		[Token(Token = "0x4015BB2")]
+		LOVESTORY_SCARLET10,
+		// Token: 0x0401914A RID: 102730
+		[Token(Token = "0x4015BB3")]
+		LOVESTORY_SCARLET11_1,
+		// Token: 0x0401914B RID: 102731
+		[Token(Token = "0x4015BB4")]
+		LOVESTORY_SCARLET11_2,
+		// Token: 0x0401914C RID: 102732
+		[Token(Token = "0x4015BB5")]
+		LOVESTORY_SCARLET11_3,
+		// Token: 0x0401914D RID: 102733
+		[Token(Token = "0x4015BB6")]
+		LOVESTORY_SCARLET11_4,
+		// Token: 0x0401914E RID: 102734
+		[Token(Token = "0x4015BB7")]
+		LOVESTORY_SCARLET11_5,
+		// Token: 0x0401914F RID: 102735
+		[Token(Token = "0x4015BB8")]
+		LOVESTORY_SCARLET11_6,
+		// Token: 0x04019150 RID: 102736
+		[Token(Token = "0x4015BB9")]
+		LOVESTORY_SCARLET11_7,
+		// Token: 0x04019151 RID: 102737
+		[Token(Token = "0x4015BBA")]
+		LOVESTORY_SCARLET11_8,
+		// Token: 0x04019152 RID: 102738
+		[Token(Token = "0x4015BBB")]
+		LOVESTORY_SCARLET11_9,
+		// Token: 0x04019153 RID: 102739
+		[Token(Token = "0x4015BBC")]
+		LOVESTORY_SCARLET11_10,
+		// Token: 0x04019154 RID: 102740
+		[Token(Token = "0x4015BBD")]
+		LOVESTORY_SCARLET11_11,
+		// Token: 0x04019155 RID: 102741
+		[Token(Token = "0x4015BBE")]
+		LOVESTORY_FUUKA1,
+		// Token: 0x04019156 RID: 102742
+		[Token(Token = "0x4015BBF")]
+		LOVESTORY_FUUKA2_1,
+		// Token: 0x04019157 RID: 102743
+		[Token(Token = "0x4015BC0")]
+		LOVESTORY_FUUKA2_2,
+		// Token: 0x04019158 RID: 102744
+		[Token(Token = "0x4015BC1")]
+		LOVESTORY_FUUKA2_3,
+		// Token: 0x04019159 RID: 102745
+		[Token(Token = "0x4015BC2")]
+		LOVESTORY_FUUKA2_4,
+		// Token: 0x0401915A RID: 102746
+		[Token(Token = "0x4015BC3")]
+		LOVESTORY_FUUKA2_5,
+		// Token: 0x0401915B RID: 102747
+		[Token(Token = "0x4015BC4")]
+		LOVESTORY_FUUKA2_6,
+		// Token: 0x0401915C RID: 102748
+		[Token(Token = "0x4015BC5")]
+		LOVESTORY_FUUKA3,
+		// Token: 0x0401915D RID: 102749
+		[Token(Token = "0x4015BC6")]
+		LOVESTORY_FUUKA4_1,
+		// Token: 0x0401915E RID: 102750
+		[Token(Token = "0x4015BC7")]
+		LOVESTORY_FUUKA4_2,
+		// Token: 0x0401915F RID: 102751
+		[Token(Token = "0x4015BC8")]
+		LOVESTORY_FUUKA4_3,
+		// Token: 0x04019160 RID: 102752
+		[Token(Token = "0x4015BC9")]
+		LOVESTORY_FUUKA4_4,
+		// Token: 0x04019161 RID: 102753
+		[Token(Token = "0x4015BCA")]
+		LOVESTORY_FUUKA5_1,
+		// Token: 0x04019162 RID: 102754
+		[Token(Token = "0x4015BCB")]
+		LOVESTORY_FUUKA5_2,
+		// Token: 0x04019163 RID: 102755
+		[Token(Token = "0x4015BCC")]
+		LOVESTORY_FUUKA6_1,
+		// Token: 0x04019164 RID: 102756
+		[Token(Token = "0x4015BCD")]
+		LOVESTORY_FUUKA6_2,
+		// Token: 0x04019165 RID: 102757
+		[Token(Token = "0x4015BCE")]
+		LOVESTORY_FUUKA7_1,
+		// Token: 0x04019166 RID: 102758
+		[Token(Token = "0x4015BCF")]
+		LOVESTORY_FUUKA7_2,
+		// Token: 0x04019167 RID: 102759
+		[Token(Token = "0x4015BD0")]
+		LOVESTORY_FUUKA8_1,
+		// Token: 0x04019168 RID: 102760
+		[Token(Token = "0x4015BD1")]
+		LOVESTORY_FUUKA8_2,
+		// Token: 0x04019169 RID: 102761
+		[Token(Token = "0x4015BD2")]
+		LOVESTORY_FUUKA9_1,
+		// Token: 0x0401916A RID: 102762
+		[Token(Token = "0x4015BD3")]
+		LOVESTORY_FUUKA9_2,
+		// Token: 0x0401916B RID: 102763
+		[Token(Token = "0x4015BD4")]
+		LOVESTORY_FUUKA9_3,
+		// Token: 0x0401916C RID: 102764
+		[Token(Token = "0x4015BD5")]
+		LOVESTORY_FUUKA9_4,
+		// Token: 0x0401916D RID: 102765
+		[Token(Token = "0x4015BD6")]
+		LOVESTORY_FUUKA9_5,
+		// Token: 0x0401916E RID: 102766
+		[Token(Token = "0x4015BD7")]
+		LOVESTORY_FUUKA9_6,
+		// Token: 0x0401916F RID: 102767
+		[Token(Token = "0x4015BD8")]
+		LOVESTORY_FUUKA9_7,
+		// Token: 0x04019170 RID: 102768
+		[Token(Token = "0x4015BD9")]
+		LOVESTORY_FUUKA9_8,
+		// Token: 0x04019171 RID: 102769
+		[Token(Token = "0x4015BDA")]
+		LOVESTORY_FUUKA9_9,
+		// Token: 0x04019172 RID: 102770
+		[Token(Token = "0x4015BDB")]
+		LOVESTORY_FUUKA9_10,
+		// Token: 0x04019173 RID: 102771
+		[Token(Token = "0x4015BDC")]
+		LOVESTORY_FUUKA9_11,
+		// Token: 0x04019174 RID: 102772
+		[Token(Token = "0x4015BDD")]
+		LOVESTORY_FUUKA9_12,
+		// Token: 0x04019175 RID: 102773
+		[Token(Token = "0x4015BDE")]
+		LOVESTORY_FUUKA9_13,
+		// Token: 0x04019176 RID: 102774
+		[Token(Token = "0x4015BDF")]
+		LOVESTORY_FUUKA9_14,
+		// Token: 0x04019177 RID: 102775
+		[Token(Token = "0x4015BE0")]
+		LOVESTORY_FUUKA9_15,
+		// Token: 0x04019178 RID: 102776
+		[Token(Token = "0x4015BE1")]
+		LOVESTORY_FUUKA10,
+		// Token: 0x04019179 RID: 102777
+		[Token(Token = "0x4015BE2")]
+		LOVESTORY_FUUKA11_1,
+		// Token: 0x0401917A RID: 102778
+		[Token(Token = "0x4015BE3")]
+		LOVESTORY_FUUKA11_2,
+		// Token: 0x0401917B RID: 102779
+		[Token(Token = "0x4015BE4")]
+		LOVESTORY_FUUKA11_3,
+		// Token: 0x0401917C RID: 102780
+		[Token(Token = "0x4015BE5")]
+		LOVESTORY_FUUKA11_4,
+		// Token: 0x0401917D RID: 102781
+		[Token(Token = "0x4015BE6")]
+		LOVESTORY_FUUKA11_5,
+		// Token: 0x0401917E RID: 102782
+		[Token(Token = "0x4015BE7")]
+		LOVESTORY_FUUKA11_6,
+		// Token: 0x0401917F RID: 102783
+		[Token(Token = "0x4015BE8")]
+		LOVESTORY_FUUKA11_7,
+		// Token: 0x04019180 RID: 102784
+		[Token(Token = "0x4015BE9")]
+		LOVESTORY_FUUKA11_8,
+		// Token: 0x04019181 RID: 102785
+		[Token(Token = "0x4015BEA")]
+		LOVESTORY_FUUKA11_9,
+		// Token: 0x04019182 RID: 102786
+		[Token(Token = "0x4015BEB")]
+		LOVESTORY_FUUKA11_10,
+		// Token: 0x04019183 RID: 102787
+		[Token(Token = "0x4015BEC")]
+		LOVESTORY_FUUKA11_11,
+		// Token: 0x04019184 RID: 102788
+		[Token(Token = "0x4015BED")]
+		LOVESTORY_BEATRICE1,
+		// Token: 0x04019185 RID: 102789
+		[Token(Token = "0x4015BEE")]
+		LOVESTORY_BEATRICE2_1,
+		// Token: 0x04019186 RID: 102790
+		[Token(Token = "0x4015BEF")]
+		LOVESTORY_BEATRICE2_2,
+		// Token: 0x04019187 RID: 102791
+		[Token(Token = "0x4015BF0")]
+		LOVESTORY_BEATRICE2_3,
+		// Token: 0x04019188 RID: 102792
+		[Token(Token = "0x4015BF1")]
+		LOVESTORY_BEATRICE3,
+		// Token: 0x04019189 RID: 102793
+		[Token(Token = "0x4015BF2")]
+		LOVESTORY_BEATRICE4_1,
+		// Token: 0x0401918A RID: 102794
+		[Token(Token = "0x4015BF3")]
+		LOVESTORY_BEATRICE4_2,
+		// Token: 0x0401918B RID: 102795
+		[Token(Token = "0x4015BF4")]
+		LOVESTORY_BEATRICE4_3,
+		// Token: 0x0401918C RID: 102796
+		[Token(Token = "0x4015BF5")]
+		LOVESTORY_BEATRICE4_4,
+		// Token: 0x0401918D RID: 102797
+		[Token(Token = "0x4015BF6")]
+		LOVESTORY_BEATRICE4_5,
+		// Token: 0x0401918E RID: 102798
+		[Token(Token = "0x4015BF7")]
+		LOVESTORY_BEATRICE4_6,
+		// Token: 0x0401918F RID: 102799
+		[Token(Token = "0x4015BF8")]
+		LOVESTORY_BEATRICE5_1,
+		// Token: 0x04019190 RID: 102800
+		[Token(Token = "0x4015BF9")]
+		LOVESTORY_BEATRICE5_2,
+		// Token: 0x04019191 RID: 102801
+		[Token(Token = "0x4015BFA")]
+		LOVESTORY_BEATRICE6_1,
+		// Token: 0x04019192 RID: 102802
+		[Token(Token = "0x4015BFB")]
+		LOVESTORY_BEATRICE6_2,
+		// Token: 0x04019193 RID: 102803
+		[Token(Token = "0x4015BFC")]
+		LOVESTORY_BEATRICE7_1,
+		// Token: 0x04019194 RID: 102804
+		[Token(Token = "0x4015BFD")]
+		LOVESTORY_BEATRICE7_2,
+		// Token: 0x04019195 RID: 102805
+		[Token(Token = "0x4015BFE")]
+		LOVESTORY_BEATRICE8_1,
+		// Token: 0x04019196 RID: 102806
+		[Token(Token = "0x4015BFF")]
+		LOVESTORY_BEATRICE8_2,
+		// Token: 0x04019197 RID: 102807
+		[Token(Token = "0x4015C00")]
+		LOVESTORY_BEATRICE8_3,
+		// Token: 0x04019198 RID: 102808
+		[Token(Token = "0x4015C01")]
+		LOVESTORY_BEATRICE9_1,
+		// Token: 0x04019199 RID: 102809
+		[Token(Token = "0x4015C02")]
+		LOVESTORY_BEATRICE9_2,
+		// Token: 0x0401919A RID: 102810
+		[Token(Token = "0x4015C03")]
+		LOVESTORY_BEATRICE9_3,
+		// Token: 0x0401919B RID: 102811
+		[Token(Token = "0x4015C04")]
+		LOVESTORY_BEATRICE9_4,
+		// Token: 0x0401919C RID: 102812
+		[Token(Token = "0x4015C05")]
+		LOVESTORY_BEATRICE9_5,
+		// Token: 0x0401919D RID: 102813
+		[Token(Token = "0x4015C06")]
+		LOVESTORY_BEATRICE9_6,
+		// Token: 0x0401919E RID: 102814
+		[Token(Token = "0x4015C07")]
+		LOVESTORY_BEATRICE9_7,
+		// Token: 0x0401919F RID: 102815
+		[Token(Token = "0x4015C08")]
+		LOVESTORY_BEATRICE9_8,
+		// Token: 0x040191A0 RID: 102816
+		[Token(Token = "0x4015C09")]
+		LOVESTORY_BEATRICE9_9,
+		// Token: 0x040191A1 RID: 102817
+		[Token(Token = "0x4015C0A")]
+		LOVESTORY_BEATRICE9_10,
+		// Token: 0x040191A2 RID: 102818
+		[Token(Token = "0x4015C0B")]
+		LOVESTORY_BEATRICE9_11,
+		// Token: 0x040191A3 RID: 102819
+		[Token(Token = "0x4015C0C")]
+		LOVESTORY_BEATRICE9_12,
+		// Token: 0x040191A4 RID: 102820
+		[Token(Token = "0x4015C0D")]
+		LOVESTORY_BEATRICE9_13,
+		// Token: 0x040191A5 RID: 102821
+		[Token(Token = "0x4015C0E")]
+		LOVESTORY_BEATRICE9_14,
+		// Token: 0x040191A6 RID: 102822
+		[Token(Token = "0x4015C0F")]
+		LOVESTORY_BEATRICE9_15,
+		// Token: 0x040191A7 RID: 102823
+		[Token(Token = "0x4015C10")]
+		LOVESTORY_BEATRICE9_16,
+		// Token: 0x040191A8 RID: 102824
+		[Token(Token = "0x4015C11")]
+		LOVESTORY_BEATRICE9_17,
+		// Token: 0x040191A9 RID: 102825
+		[Token(Token = "0x4015C12")]
+		LOVESTORY_BEATRICE9_18,
+		// Token: 0x040191AA RID: 102826
+		[Token(Token = "0x4015C13")]
+		LOVESTORY_BEATRICE9_19,
+		// Token: 0x040191AB RID: 102827
+		[Token(Token = "0x4015C14")]
+		LOVESTORY_BEATRICE10,
+		// Token: 0x040191AC RID: 102828
+		[Token(Token = "0x4015C15")]
+		LOVESTORY_BEATRICE11_1,
+		// Token: 0x040191AD RID: 102829
+		[Token(Token = "0x4015C16")]
+		LOVESTORY_BEATRICE11_2,
+		// Token: 0x040191AE RID: 102830
+		[Token(Token = "0x4015C17")]
+		LOVESTORY_BEATRICE11_3,
+		// Token: 0x040191AF RID: 102831
+		[Token(Token = "0x4015C18")]
+		LOVESTORY_BEATRICE11_4,
+		// Token: 0x040191B0 RID: 102832
+		[Token(Token = "0x4015C19")]
+		LOVESTORY_BEATRICE11_5,
+		// Token: 0x040191B1 RID: 102833
+		[Token(Token = "0x4015C1A")]
+		LOVESTORY_BEATRICE11_6,
+		// Token: 0x040191B2 RID: 102834
+		[Token(Token = "0x4015C1B")]
+		LOVESTORY_BEATRICE11_7,
+		// Token: 0x040191B3 RID: 102835
+		[Token(Token = "0x4015C1C")]
+		LOVESTORY_BEATRICE11_8,
+		// Token: 0x040191B4 RID: 102836
+		[Token(Token = "0x4015C1D")]
+		LOVESTORY_BEATRICE11_9,
+		// Token: 0x040191B5 RID: 102837
+		[Token(Token = "0x4015C1E")]
+		LOVESTORY_BEATRICE11_10,
+		// Token: 0x040191B6 RID: 102838
+		[Token(Token = "0x4015C1F")]
+		LOVESTORY_BEATRICE11_11,
+		// Token: 0x040191B7 RID: 102839
+		[Token(Token = "0x4015C20")]
+		LOVESTORY_LUDMILA1,
+		// Token: 0x040191B8 RID: 102840
+		[Token(Token = "0x4015C21")]
+		LOVESTORY_LUDMILA2_1,
+		// Token: 0x040191B9 RID: 102841
+		[Token(Token = "0x4015C22")]
+		LOVESTORY_LUDMILA2_2,
+		// Token: 0x040191BA RID: 102842
+		[Token(Token = "0x4015C23")]
+		LOVESTORY_LUDMILA2_3,
+		// Token: 0x040191BB RID: 102843
+		[Token(Token = "0x4015C24")]
+		LOVESTORY_LUDMILA2_4,
+		// Token: 0x040191BC RID: 102844
+		[Token(Token = "0x4015C25")]
+		LOVESTORY_LUDMILA3,
+		// Token: 0x040191BD RID: 102845
+		[Token(Token = "0x4015C26")]
+		LOVESTORY_LUDMILA4_1,
+		// Token: 0x040191BE RID: 102846
+		[Token(Token = "0x4015C27")]
+		LOVESTORY_LUDMILA4_2,
+		// Token: 0x040191BF RID: 102847
+		[Token(Token = "0x4015C28")]
+		LOVESTORY_LUDMILA4_3,
+		// Token: 0x040191C0 RID: 102848
+		[Token(Token = "0x4015C29")]
+		LOVESTORY_LUDMILA4_4,
+		// Token: 0x040191C1 RID: 102849
+		[Token(Token = "0x4015C2A")]
+		LOVESTORY_LUDMILA4_5,
+		// Token: 0x040191C2 RID: 102850
+		[Token(Token = "0x4015C2B")]
+		LOVESTORY_LUDMILA5_1,
+		// Token: 0x040191C3 RID: 102851
+		[Token(Token = "0x4015C2C")]
+		LOVESTORY_LUDMILA5_2,
+		// Token: 0x040191C4 RID: 102852
+		[Token(Token = "0x4015C2D")]
+		LOVESTORY_LUDMILA6_1,
+		// Token: 0x040191C5 RID: 102853
+		[Token(Token = "0x4015C2E")]
+		LOVESTORY_LUDMILA6_2,
+		// Token: 0x040191C6 RID: 102854
+		[Token(Token = "0x4015C2F")]
+		LOVESTORY_LUDMILA7_1,
+		// Token: 0x040191C7 RID: 102855
+		[Token(Token = "0x4015C30")]
+		LOVESTORY_LUDMILA7_2,
+		// Token: 0x040191C8 RID: 102856
+		[Token(Token = "0x4015C31")]
+		LOVESTORY_LUDMILA8_1,
+		// Token: 0x040191C9 RID: 102857
+		[Token(Token = "0x4015C32")]
+		LOVESTORY_LUDMILA8_2,
+		// Token: 0x040191CA RID: 102858
+		[Token(Token = "0x4015C33")]
+		LOVESTORY_LUDMILA9_1,
+		// Token: 0x040191CB RID: 102859
+		[Token(Token = "0x4015C34")]
+		LOVESTORY_LUDMILA9_2,
+		// Token: 0x040191CC RID: 102860
+		[Token(Token = "0x4015C35")]
+		LOVESTORY_LUDMILA9_3,
+		// Token: 0x040191CD RID: 102861
+		[Token(Token = "0x4015C36")]
+		LOVESTORY_LUDMILA9_4,
+		// Token: 0x040191CE RID: 102862
+		[Token(Token = "0x4015C37")]
+		LOVESTORY_LUDMILA9_5,
+		// Token: 0x040191CF RID: 102863
+		[Token(Token = "0x4015C38")]
+		LOVESTORY_LUDMILA9_6,
+		// Token: 0x040191D0 RID: 102864
+		[Token(Token = "0x4015C39")]
+		LOVESTORY_LUDMILA9_7,
+		// Token: 0x040191D1 RID: 102865
+		[Token(Token = "0x4015C3A")]
+		LOVESTORY_LUDMILA9_8,
+		// Token: 0x040191D2 RID: 102866
+		[Token(Token = "0x4015C3B")]
+		LOVESTORY_LUDMILA9_9,
+		// Token: 0x040191D3 RID: 102867
+		[Token(Token = "0x4015C3C")]
+		LOVESTORY_LUDMILA9_10,
+		// Token: 0x040191D4 RID: 102868
+		[Token(Token = "0x4015C3D")]
+		LOVESTORY_LUDMILA10,
+		// Token: 0x040191D5 RID: 102869
+		[Token(Token = "0x4015C3E")]
+		LOVESTORY_LUDMILA11_1,
+		// Token: 0x040191D6 RID: 102870
+		[Token(Token = "0x4015C3F")]
+		LOVESTORY_LUDMILA11_2,
+		// Token: 0x040191D7 RID: 102871
+		[Token(Token = "0x4015C40")]
+		LOVESTORY_LUDMILA11_3,
+		// Token: 0x040191D8 RID: 102872
+		[Token(Token = "0x4015C41")]
+		LOVESTORY_LUDMILA11_4,
+		// Token: 0x040191D9 RID: 102873
+		[Token(Token = "0x4015C42")]
+		LOVESTORY_LUDMILA11_5,
+		// Token: 0x040191DA RID: 102874
+		[Token(Token = "0x4015C43")]
+		LOVESTORY_LUDMILA11_6,
+		// Token: 0x040191DB RID: 102875
+		[Token(Token = "0x4015C44")]
+		LOVESTORY_LUDMILA11_7,
+		// Token: 0x040191DC RID: 102876
+		[Token(Token = "0x4015C45")]
+		LOVESTORY_LUDMILA11_8,
+		// Token: 0x040191DD RID: 102877
+		[Token(Token = "0x4015C46")]
+		LOVESTORY_LUDMILA11_9,
+		// Token: 0x040191DE RID: 102878
+		[Token(Token = "0x4015C47")]
+		LOVESTORY_LUDMILA11_10,
+		// Token: 0x040191DF RID: 102879
+		[Token(Token = "0x4015C48")]
+		LOVESTORY_LUDMILA11_11,
+		// Token: 0x040191E0 RID: 102880
+		[Token(Token = "0x4015C49")]
+		LOVESTORY_MARTIN1,
+		// Token: 0x040191E1 RID: 102881
+		[Token(Token = "0x4015C4A")]
+		LOVESTORY_MARTIN2_1,
+		// Token: 0x040191E2 RID: 102882
+		[Token(Token = "0x4015C4B")]
+		LOVESTORY_MARTIN2_2,
+		// Token: 0x040191E3 RID: 102883
+		[Token(Token = "0x4015C4C")]
+		LOVESTORY_MARTIN2_3,
+		// Token: 0x040191E4 RID: 102884
+		[Token(Token = "0x4015C4D")]
+		LOVESTORY_MARTIN2_4,
+		// Token: 0x040191E5 RID: 102885
+		[Token(Token = "0x4015C4E")]
+		LOVESTORY_MARTIN2_5,
+		// Token: 0x040191E6 RID: 102886
+		[Token(Token = "0x4015C4F")]
+		LOVESTORY_MARTIN2_6,
+		// Token: 0x040191E7 RID: 102887
+		[Token(Token = "0x4015C50")]
+		LOVESTORY_MARTIN3,
+		// Token: 0x040191E8 RID: 102888
+		[Token(Token = "0x4015C51")]
+		LOVESTORY_MARTIN4_1,
+		// Token: 0x040191E9 RID: 102889
+		[Token(Token = "0x4015C52")]
+		LOVESTORY_MARTIN4_2,
+		// Token: 0x040191EA RID: 102890
+		[Token(Token = "0x4015C53")]
+		LOVESTORY_MARTIN4_3,
+		// Token: 0x040191EB RID: 102891
+		[Token(Token = "0x4015C54")]
+		LOVESTORY_MARTIN4_4,
+		// Token: 0x040191EC RID: 102892
+		[Token(Token = "0x4015C55")]
+		LOVESTORY_MARTIN4_5,
+		// Token: 0x040191ED RID: 102893
+		[Token(Token = "0x4015C56")]
+		LOVESTORY_MARTIN5_1,
+		// Token: 0x040191EE RID: 102894
+		[Token(Token = "0x4015C57")]
+		LOVESTORY_MARTIN5_2,
+		// Token: 0x040191EF RID: 102895
+		[Token(Token = "0x4015C58")]
+		LOVESTORY_MARTIN6_1,
+		// Token: 0x040191F0 RID: 102896
+		[Token(Token = "0x4015C59")]
+		LOVESTORY_MARTIN6_2,
+		// Token: 0x040191F1 RID: 102897
+		[Token(Token = "0x4015C5A")]
+		LOVESTORY_MARTIN7_1,
+		// Token: 0x040191F2 RID: 102898
+		[Token(Token = "0x4015C5B")]
+		LOVESTORY_MARTIN7_2,
+		// Token: 0x040191F3 RID: 102899
+		[Token(Token = "0x4015C5C")]
+		LOVESTORY_MARTIN8_1,
+		// Token: 0x040191F4 RID: 102900
+		[Token(Token = "0x4015C5D")]
+		LOVESTORY_MARTIN8_2,
+		// Token: 0x040191F5 RID: 102901
+		[Token(Token = "0x4015C5E")]
+		LOVESTORY_MARTIN9_1,
+		// Token: 0x040191F6 RID: 102902
+		[Token(Token = "0x4015C5F")]
+		LOVESTORY_MARTIN9_2,
+		// Token: 0x040191F7 RID: 102903
+		[Token(Token = "0x4015C60")]
+		LOVESTORY_MARTIN9_3,
+		// Token: 0x040191F8 RID: 102904
+		[Token(Token = "0x4015C61")]
+		LOVESTORY_MARTIN9_4,
+		// Token: 0x040191F9 RID: 102905
+		[Token(Token = "0x4015C62")]
+		LOVESTORY_MARTIN9_5,
+		// Token: 0x040191FA RID: 102906
+		[Token(Token = "0x4015C63")]
+		LOVESTORY_MARTIN9_6,
+		// Token: 0x040191FB RID: 102907
+		[Token(Token = "0x4015C64")]
+		LOVESTORY_MARTIN9_7,
+		// Token: 0x040191FC RID: 102908
+		[Token(Token = "0x4015C65")]
+		LOVESTORY_MARTIN9_8,
+		// Token: 0x040191FD RID: 102909
+		[Token(Token = "0x4015C66")]
+		LOVESTORY_MARTIN9_9,
+		// Token: 0x040191FE RID: 102910
+		[Token(Token = "0x4015C67")]
+		LOVESTORY_MARTIN9_10,
+		// Token: 0x040191FF RID: 102911
+		[Token(Token = "0x4015C68")]
+		LOVESTORY_MARTIN10,
+		// Token: 0x04019200 RID: 102912
+		[Token(Token = "0x4015C69")]
+		LOVESTORY_MARTIN11_1,
+		// Token: 0x04019201 RID: 102913
+		[Token(Token = "0x4015C6A")]
+		LOVESTORY_MARTIN11_2,
+		// Token: 0x04019202 RID: 102914
+		[Token(Token = "0x4015C6B")]
+		LOVESTORY_MARTIN11_3,
+		// Token: 0x04019203 RID: 102915
+		[Token(Token = "0x4015C6C")]
+		LOVESTORY_MARTIN11_4,
+		// Token: 0x04019204 RID: 102916
+		[Token(Token = "0x4015C6D")]
+		LOVESTORY_MARTIN11_5,
+		// Token: 0x04019205 RID: 102917
+		[Token(Token = "0x4015C6E")]
+		LOVESTORY_MARTIN11_6,
+		// Token: 0x04019206 RID: 102918
+		[Token(Token = "0x4015C6F")]
+		LOVESTORY_MARTIN11_7,
+		// Token: 0x04019207 RID: 102919
+		[Token(Token = "0x4015C70")]
+		LOVESTORY_MARTIN11_8,
+		// Token: 0x04019208 RID: 102920
+		[Token(Token = "0x4015C71")]
+		LOVESTORY_MARTIN11_9,
+		// Token: 0x04019209 RID: 102921
+		[Token(Token = "0x4015C72")]
+		LOVESTORY_MARTIN11_10,
+		// Token: 0x0401920A RID: 102922
+		[Token(Token = "0x4015C73")]
+		LOVESTORY_MARTIN11_11,
+		// Token: 0x0401920B RID: 102923
+		[Token(Token = "0x4015C74")]
+		LOVESTORY_CECIL1,
+		// Token: 0x0401920C RID: 102924
+		[Token(Token = "0x4015C75")]
+		LOVESTORY_CECIL2_1,
+		// Token: 0x0401920D RID: 102925
+		[Token(Token = "0x4015C76")]
+		LOVESTORY_CECIL2_2,
+		// Token: 0x0401920E RID: 102926
+		[Token(Token = "0x4015C77")]
+		LOVESTORY_CECIL2_3,
+		// Token: 0x0401920F RID: 102927
+		[Token(Token = "0x4015C78")]
+		LOVESTORY_CECIL2_4,
+		// Token: 0x04019210 RID: 102928
+		[Token(Token = "0x4015C79")]
+		LOVESTORY_CECIL3,
+		// Token: 0x04019211 RID: 102929
+		[Token(Token = "0x4015C7A")]
+		LOVESTORY_CECIL4_1,
+		// Token: 0x04019212 RID: 102930
+		[Token(Token = "0x4015C7B")]
+		LOVESTORY_CECIL4_2,
+		// Token: 0x04019213 RID: 102931
+		[Token(Token = "0x4015C7C")]
+		LOVESTORY_CECIL4_3,
+		// Token: 0x04019214 RID: 102932
+		[Token(Token = "0x4015C7D")]
+		LOVESTORY_CECIL4_4,
+		// Token: 0x04019215 RID: 102933
+		[Token(Token = "0x4015C7E")]
+		LOVESTORY_CECIL4_5,
+		// Token: 0x04019216 RID: 102934
+		[Token(Token = "0x4015C7F")]
+		LOVESTORY_CECIL4_6,
+		// Token: 0x04019217 RID: 102935
+		[Token(Token = "0x4015C80")]
+		LOVESTORY_CECIL4_7,
+		// Token: 0x04019218 RID: 102936
+		[Token(Token = "0x4015C81")]
+		LOVESTORY_CECIL4_8,
+		// Token: 0x04019219 RID: 102937
+		[Token(Token = "0x4015C82")]
+		LOVESTORY_CECIL5_1,
+		// Token: 0x0401921A RID: 102938
+		[Token(Token = "0x4015C83")]
+		LOVESTORY_CECIL5_2,
+		// Token: 0x0401921B RID: 102939
+		[Token(Token = "0x4015C84")]
+		LOVESTORY_CECIL6_1,
+		// Token: 0x0401921C RID: 102940
+		[Token(Token = "0x4015C85")]
+		LOVESTORY_CECIL6_2,
+		// Token: 0x0401921D RID: 102941
+		[Token(Token = "0x4015C86")]
+		LOVESTORY_CECIL7_1,
+		// Token: 0x0401921E RID: 102942
+		[Token(Token = "0x4015C87")]
+		LOVESTORY_CECIL7_2,
+		// Token: 0x0401921F RID: 102943
+		[Token(Token = "0x4015C88")]
+		LOVESTORY_CECIL8_1,
+		// Token: 0x04019220 RID: 102944
+		[Token(Token = "0x4015C89")]
+		LOVESTORY_CECIL8_2,
+		// Token: 0x04019221 RID: 102945
+		[Token(Token = "0x4015C8A")]
+		LOVESTORY_CECIL9_1,
+		// Token: 0x04019222 RID: 102946
+		[Token(Token = "0x4015C8B")]
+		LOVESTORY_CECIL9_2,
+		// Token: 0x04019223 RID: 102947
+		[Token(Token = "0x4015C8C")]
+		LOVESTORY_CECIL9_3,
+		// Token: 0x04019224 RID: 102948
+		[Token(Token = "0x4015C8D")]
+		LOVESTORY_CECIL9_4,
+		// Token: 0x04019225 RID: 102949
+		[Token(Token = "0x4015C8E")]
+		LOVESTORY_CECIL9_5,
+		// Token: 0x04019226 RID: 102950
+		[Token(Token = "0x4015C8F")]
+		LOVESTORY_CECIL9_6,
+		// Token: 0x04019227 RID: 102951
+		[Token(Token = "0x4015C90")]
+		LOVESTORY_CECIL9_7,
+		// Token: 0x04019228 RID: 102952
+		[Token(Token = "0x4015C91")]
+		LOVESTORY_CECIL10,
+		// Token: 0x04019229 RID: 102953
+		[Token(Token = "0x4015C92")]
+		LOVESTORY_CECIL11_1,
+		// Token: 0x0401922A RID: 102954
+		[Token(Token = "0x4015C93")]
+		LOVESTORY_CECIL11_2,
+		// Token: 0x0401922B RID: 102955
+		[Token(Token = "0x4015C94")]
+		LOVESTORY_CECIL11_3,
+		// Token: 0x0401922C RID: 102956
+		[Token(Token = "0x4015C95")]
+		LOVESTORY_CECIL11_4,
+		// Token: 0x0401922D RID: 102957
+		[Token(Token = "0x4015C96")]
+		LOVESTORY_CECIL11_5,
+		// Token: 0x0401922E RID: 102958
+		[Token(Token = "0x4015C97")]
+		LOVESTORY_CECIL11_6,
+		// Token: 0x0401922F RID: 102959
+		[Token(Token = "0x4015C98")]
+		LOVESTORY_CECIL11_7,
+		// Token: 0x04019230 RID: 102960
+		[Token(Token = "0x4015C99")]
+		LOVESTORY_CECIL11_8,
+		// Token: 0x04019231 RID: 102961
+		[Token(Token = "0x4015C9A")]
+		LOVESTORY_CECIL11_9,
+		// Token: 0x04019232 RID: 102962
+		[Token(Token = "0x4015C9B")]
+		LOVESTORY_CECIL11_10,
+		// Token: 0x04019233 RID: 102963
+		[Token(Token = "0x4015C9C")]
+		LOVESTORY_CECIL11_11,
+		// Token: 0x04019234 RID: 102964
+		[Token(Token = "0x4015C9D")]
+		LOVESTORY_MURAKUMO1,
+		// Token: 0x04019235 RID: 102965
+		[Token(Token = "0x4015C9E")]
+		LOVESTORY_MURAKUMO2_1,
+		// Token: 0x04019236 RID: 102966
+		[Token(Token = "0x4015C9F")]
+		LOVESTORY_MURAKUMO2_2,
+		// Token: 0x04019237 RID: 102967
+		[Token(Token = "0x4015CA0")]
+		LOVESTORY_MURAKUMO2_3,
+		// Token: 0x04019238 RID: 102968
+		[Token(Token = "0x4015CA1")]
+		LOVESTORY_MURAKUMO2_4,
+		// Token: 0x04019239 RID: 102969
+		[Token(Token = "0x4015CA2")]
+		LOVESTORY_MURAKUMO3,
+		// Token: 0x0401923A RID: 102970
+		[Token(Token = "0x4015CA3")]
+		LOVESTORY_MURAKUMO4_1,
+		// Token: 0x0401923B RID: 102971
+		[Token(Token = "0x4015CA4")]
+		LOVESTORY_MURAKUMO4_2,
+		// Token: 0x0401923C RID: 102972
+		[Token(Token = "0x4015CA5")]
+		LOVESTORY_MURAKUMO4_3,
+		// Token: 0x0401923D RID: 102973
+		[Token(Token = "0x4015CA6")]
+		LOVESTORY_MURAKUMO4_4,
+		// Token: 0x0401923E RID: 102974
+		[Token(Token = "0x4015CA7")]
+		LOVESTORY_MURAKUMO5_1,
+		// Token: 0x0401923F RID: 102975
+		[Token(Token = "0x4015CA8")]
+		LOVESTORY_MURAKUMO5_2,
+		// Token: 0x04019240 RID: 102976
+		[Token(Token = "0x4015CA9")]
+		LOVESTORY_MURAKUMO6_1,
+		// Token: 0x04019241 RID: 102977
+		[Token(Token = "0x4015CAA")]
+		LOVESTORY_MURAKUMO6_2,
+		// Token: 0x04019242 RID: 102978
+		[Token(Token = "0x4015CAB")]
+		LOVESTORY_MURAKUMO7_1,
+		// Token: 0x04019243 RID: 102979
+		[Token(Token = "0x4015CAC")]
+		LOVESTORY_MURAKUMO7_2,
+		// Token: 0x04019244 RID: 102980
+		[Token(Token = "0x4015CAD")]
+		LOVESTORY_MURAKUMO8_1,
+		// Token: 0x04019245 RID: 102981
+		[Token(Token = "0x4015CAE")]
+		LOVESTORY_MURAKUMO8_2,
+		// Token: 0x04019246 RID: 102982
+		[Token(Token = "0x4015CAF")]
+		LOVESTORY_MURAKUMO9_1,
+		// Token: 0x04019247 RID: 102983
+		[Token(Token = "0x4015CB0")]
+		LOVESTORY_MURAKUMO9_2,
+		// Token: 0x04019248 RID: 102984
+		[Token(Token = "0x4015CB1")]
+		LOVESTORY_MURAKUMO9_3,
+		// Token: 0x04019249 RID: 102985
+		[Token(Token = "0x4015CB2")]
+		LOVESTORY_MURAKUMO9_4,
+		// Token: 0x0401924A RID: 102986
+		[Token(Token = "0x4015CB3")]
+		LOVESTORY_MURAKUMO9_5,
+		// Token: 0x0401924B RID: 102987
+		[Token(Token = "0x4015CB4")]
+		LOVESTORY_MURAKUMO9_6,
+		// Token: 0x0401924C RID: 102988
+		[Token(Token = "0x4015CB5")]
+		LOVESTORY_MURAKUMO9_7,
+		// Token: 0x0401924D RID: 102989
+		[Token(Token = "0x4015CB6")]
+		LOVESTORY_MURAKUMO9_8,
+		// Token: 0x0401924E RID: 102990
+		[Token(Token = "0x4015CB7")]
+		LOVESTORY_MURAKUMO10,
+		// Token: 0x0401924F RID: 102991
+		[Token(Token = "0x4015CB8")]
+		LOVESTORY_MURAKUMO11_1,
+		// Token: 0x04019250 RID: 102992
+		[Token(Token = "0x4015CB9")]
+		LOVESTORY_MURAKUMO11_2,
+		// Token: 0x04019251 RID: 102993
+		[Token(Token = "0x4015CBA")]
+		LOVESTORY_MURAKUMO11_3,
+		// Token: 0x04019252 RID: 102994
+		[Token(Token = "0x4015CBB")]
+		LOVESTORY_MURAKUMO11_4,
+		// Token: 0x04019253 RID: 102995
+		[Token(Token = "0x4015CBC")]
+		LOVESTORY_MURAKUMO11_5,
+		// Token: 0x04019254 RID: 102996
+		[Token(Token = "0x4015CBD")]
+		LOVESTORY_MURAKUMO11_6,
+		// Token: 0x04019255 RID: 102997
+		[Token(Token = "0x4015CBE")]
+		LOVESTORY_MURAKUMO11_7,
+		// Token: 0x04019256 RID: 102998
+		[Token(Token = "0x4015CBF")]
+		LOVESTORY_MURAKUMO11_8,
+		// Token: 0x04019257 RID: 102999
+		[Token(Token = "0x4015CC0")]
+		LOVESTORY_MURAKUMO11_9,
+		// Token: 0x04019258 RID: 103000
+		[Token(Token = "0x4015CC1")]
+		LOVESTORY_MURAKUMO11_10,
+		// Token: 0x04019259 RID: 103001
+		[Token(Token = "0x4015CC2")]
+		LOVESTORY_MURAKUMO11_11,
+		// Token: 0x0401925A RID: 103002
+		[Token(Token = "0x4015CC3")]
+		LOVESTORY_LYCA1,
+		// Token: 0x0401925B RID: 103003
+		[Token(Token = "0x4015CC4")]
+		LOVESTORY_LYCA2_1,
+		// Token: 0x0401925C RID: 103004
+		[Token(Token = "0x4015CC5")]
+		LOVESTORY_LYCA2_2,
+		// Token: 0x0401925D RID: 103005
+		[Token(Token = "0x4015CC6")]
+		LOVESTORY_LYCA2_3,
+		// Token: 0x0401925E RID: 103006
+		[Token(Token = "0x4015CC7")]
+		LOVESTORY_LYCA2_4,
+		// Token: 0x0401925F RID: 103007
+		[Token(Token = "0x4015CC8")]
+		LOVESTORY_LYCA3,
+		// Token: 0x04019260 RID: 103008
+		[Token(Token = "0x4015CC9")]
+		LOVESTORY_LYCA4_1,
+		// Token: 0x04019261 RID: 103009
+		[Token(Token = "0x4015CCA")]
+		LOVESTORY_LYCA4_2,
+		// Token: 0x04019262 RID: 103010
+		[Token(Token = "0x4015CCB")]
+		LOVESTORY_LYCA4_3,
+		// Token: 0x04019263 RID: 103011
+		[Token(Token = "0x4015CCC")]
+		LOVESTORY_LYCA4_4,
+		// Token: 0x04019264 RID: 103012
+		[Token(Token = "0x4015CCD")]
+		LOVESTORY_LYCA4_5,
+		// Token: 0x04019265 RID: 103013
+		[Token(Token = "0x4015CCE")]
+		LOVESTORY_LYCA5_1,
+		// Token: 0x04019266 RID: 103014
+		[Token(Token = "0x4015CCF")]
+		LOVESTORY_LYCA5_2,
+		// Token: 0x04019267 RID: 103015
+		[Token(Token = "0x4015CD0")]
+		LOVESTORY_LYCA6_1,
+		// Token: 0x04019268 RID: 103016
+		[Token(Token = "0x4015CD1")]
+		LOVESTORY_LYCA6_2,
+		// Token: 0x04019269 RID: 103017
+		[Token(Token = "0x4015CD2")]
+		LOVESTORY_LYCA7_1,
+		// Token: 0x0401926A RID: 103018
+		[Token(Token = "0x4015CD3")]
+		LOVESTORY_LYCA7_2,
+		// Token: 0x0401926B RID: 103019
+		[Token(Token = "0x4015CD4")]
+		LOVESTORY_LYCA8_1,
+		// Token: 0x0401926C RID: 103020
+		[Token(Token = "0x4015CD5")]
+		LOVESTORY_LYCA8_2,
+		// Token: 0x0401926D RID: 103021
+		[Token(Token = "0x4015CD6")]
+		LOVESTORY_LYCA9_1,
+		// Token: 0x0401926E RID: 103022
+		[Token(Token = "0x4015CD7")]
+		LOVESTORY_LYCA9_2,
+		// Token: 0x0401926F RID: 103023
+		[Token(Token = "0x4015CD8")]
+		LOVESTORY_LYCA9_3,
+		// Token: 0x04019270 RID: 103024
+		[Token(Token = "0x4015CD9")]
+		LOVESTORY_LYCA9_4,
+		// Token: 0x04019271 RID: 103025
+		[Token(Token = "0x4015CDA")]
+		LOVESTORY_LYCA9_5,
+		// Token: 0x04019272 RID: 103026
+		[Token(Token = "0x4015CDB")]
+		LOVESTORY_LYCA9_6,
+		// Token: 0x04019273 RID: 103027
+		[Token(Token = "0x4015CDC")]
+		LOVESTORY_LYCA9_7,
+		// Token: 0x04019274 RID: 103028
+		[Token(Token = "0x4015CDD")]
+		LOVESTORY_LYCA9_8,
+		// Token: 0x04019275 RID: 103029
+		[Token(Token = "0x4015CDE")]
+		LOVESTORY_LYCA9_9,
+		// Token: 0x04019276 RID: 103030
+		[Token(Token = "0x4015CDF")]
+		LOVESTORY_LYCA9_10,
+		// Token: 0x04019277 RID: 103031
+		[Token(Token = "0x4015CE0")]
+		LOVESTORY_LYCA9_11,
+		// Token: 0x04019278 RID: 103032
+		[Token(Token = "0x4015CE1")]
+		LOVESTORY_LYCA9_12,
+		// Token: 0x04019279 RID: 103033
+		[Token(Token = "0x4015CE2")]
+		LOVESTORY_LYCA9_13,
+		// Token: 0x0401927A RID: 103034
+		[Token(Token = "0x4015CE3")]
+		LOVESTORY_LYCA9_14,
+		// Token: 0x0401927B RID: 103035
+		[Token(Token = "0x4015CE4")]
+		LOVESTORY_LYCA9_15,
+		// Token: 0x0401927C RID: 103036
+		[Token(Token = "0x4015CE5")]
+		LOVESTORY_LYCA10,
+		// Token: 0x0401927D RID: 103037
+		[Token(Token = "0x4015CE6")]
+		LOVESTORY_LYCA11_1,
+		// Token: 0x0401927E RID: 103038
+		[Token(Token = "0x4015CE7")]
+		LOVESTORY_LYCA11_2,
+		// Token: 0x0401927F RID: 103039
+		[Token(Token = "0x4015CE8")]
+		LOVESTORY_LYCA11_3,
+		// Token: 0x04019280 RID: 103040
+		[Token(Token = "0x4015CE9")]
+		LOVESTORY_LYCA11_4,
+		// Token: 0x04019281 RID: 103041
+		[Token(Token = "0x4015CEA")]
+		LOVESTORY_LYCA11_5,
+		// Token: 0x04019282 RID: 103042
+		[Token(Token = "0x4015CEB")]
+		LOVESTORY_LYCA11_6,
+		// Token: 0x04019283 RID: 103043
+		[Token(Token = "0x4015CEC")]
+		LOVESTORY_LYCA11_7,
+		// Token: 0x04019284 RID: 103044
+		[Token(Token = "0x4015CED")]
+		LOVESTORY_LYCA11_8,
+		// Token: 0x04019285 RID: 103045
+		[Token(Token = "0x4015CEE")]
+		LOVESTORY_LYCA11_9,
+		// Token: 0x04019286 RID: 103046
+		[Token(Token = "0x4015CEF")]
+		LOVESTORY_LYCA11_10,
+		// Token: 0x04019287 RID: 103047
+		[Token(Token = "0x4015CF0")]
+		LOVESTORY_LYCA11_11,
+		// Token: 0x04019288 RID: 103048
+		[Token(Token = "0x4015CF1")]
+		LOVESTORY_REINHARD1,
+		// Token: 0x04019289 RID: 103049
+		[Token(Token = "0x4015CF2")]
+		LOVESTORY_REINHARD2_1,
+		// Token: 0x0401928A RID: 103050
+		[Token(Token = "0x4015CF3")]
+		LOVESTORY_REINHARD2_2,
+		// Token: 0x0401928B RID: 103051
+		[Token(Token = "0x4015CF4")]
+		LOVESTORY_REINHARD2_3,
+		// Token: 0x0401928C RID: 103052
+		[Token(Token = "0x4015CF5")]
+		LOVESTORY_REINHARD2_4,
+		// Token: 0x0401928D RID: 103053
+		[Token(Token = "0x4015CF6")]
+		LOVESTORY_REINHARD3,
+		// Token: 0x0401928E RID: 103054
+		[Token(Token = "0x4015CF7")]
+		LOVESTORY_REINHARD4_1,
+		// Token: 0x0401928F RID: 103055
+		[Token(Token = "0x4015CF8")]
+		LOVESTORY_REINHARD4_2,
+		// Token: 0x04019290 RID: 103056
+		[Token(Token = "0x4015CF9")]
+		LOVESTORY_REINHARD4_3,
+		// Token: 0x04019291 RID: 103057
+		[Token(Token = "0x4015CFA")]
+		LOVESTORY_REINHARD4_4,
+		// Token: 0x04019292 RID: 103058
+		[Token(Token = "0x4015CFB")]
+		LOVESTORY_REINHARD4_5,
+		// Token: 0x04019293 RID: 103059
+		[Token(Token = "0x4015CFC")]
+		LOVESTORY_REINHARD5_1,
+		// Token: 0x04019294 RID: 103060
+		[Token(Token = "0x4015CFD")]
+		LOVESTORY_REINHARD5_2,
+		// Token: 0x04019295 RID: 103061
+		[Token(Token = "0x4015CFE")]
+		LOVESTORY_REINHARD6_1,
+		// Token: 0x04019296 RID: 103062
+		[Token(Token = "0x4015CFF")]
+		LOVESTORY_REINHARD6_2,
+		// Token: 0x04019297 RID: 103063
+		[Token(Token = "0x4015D00")]
+		LOVESTORY_REINHARD7_1,
+		// Token: 0x04019298 RID: 103064
+		[Token(Token = "0x4015D01")]
+		LOVESTORY_REINHARD7_2,
+		// Token: 0x04019299 RID: 103065
+		[Token(Token = "0x4015D02")]
+		LOVESTORY_REINHARD8_1,
+		// Token: 0x0401929A RID: 103066
+		[Token(Token = "0x4015D03")]
+		LOVESTORY_REINHARD8_2,
+		// Token: 0x0401929B RID: 103067
+		[Token(Token = "0x4015D04")]
+		LOVESTORY_REINHARD9_1,
+		// Token: 0x0401929C RID: 103068
+		[Token(Token = "0x4015D05")]
+		LOVESTORY_REINHARD9_2,
+		// Token: 0x0401929D RID: 103069
+		[Token(Token = "0x4015D06")]
+		LOVESTORY_REINHARD9_3,
+		// Token: 0x0401929E RID: 103070
+		[Token(Token = "0x4015D07")]
+		LOVESTORY_REINHARD9_4,
+		// Token: 0x0401929F RID: 103071
+		[Token(Token = "0x4015D08")]
+		LOVESTORY_REINHARD9_5,
+		// Token: 0x040192A0 RID: 103072
+		[Token(Token = "0x4015D09")]
+		LOVESTORY_REINHARD9_6,
+		// Token: 0x040192A1 RID: 103073
+		[Token(Token = "0x4015D0A")]
+		LOVESTORY_REINHARD9_7,
+		// Token: 0x040192A2 RID: 103074
+		[Token(Token = "0x4015D0B")]
+		LOVESTORY_REINHARD9_8,
+		// Token: 0x040192A3 RID: 103075
+		[Token(Token = "0x4015D0C")]
+		LOVESTORY_REINHARD9_9,
+		// Token: 0x040192A4 RID: 103076
+		[Token(Token = "0x4015D0D")]
+		LOVESTORY_REINHARD9_10,
+		// Token: 0x040192A5 RID: 103077
+		[Token(Token = "0x4015D0E")]
+		LOVESTORY_REINHARD9_11,
+		// Token: 0x040192A6 RID: 103078
+		[Token(Token = "0x4015D0F")]
+		LOVESTORY_REINHARD10_1,
+		// Token: 0x040192A7 RID: 103079
+		[Token(Token = "0x4015D10")]
+		LOVESTORY_REINHARD10_2,
+		// Token: 0x040192A8 RID: 103080
+		[Token(Token = "0x4015D11")]
+		LOVESTORY_REINHARD10_3,
+		// Token: 0x040192A9 RID: 103081
+		[Token(Token = "0x4015D12")]
+		LOVESTORY_REINHARD11_1,
+		// Token: 0x040192AA RID: 103082
+		[Token(Token = "0x4015D13")]
+		LOVESTORY_REINHARD11_2,
+		// Token: 0x040192AB RID: 103083
+		[Token(Token = "0x4015D14")]
+		LOVESTORY_REINHARD11_3,
+		// Token: 0x040192AC RID: 103084
+		[Token(Token = "0x4015D15")]
+		LOVESTORY_REINHARD11_4,
+		// Token: 0x040192AD RID: 103085
+		[Token(Token = "0x4015D16")]
+		LOVESTORY_REINHARD11_5,
+		// Token: 0x040192AE RID: 103086
+		[Token(Token = "0x4015D17")]
+		LOVESTORY_REINHARD11_6,
+		// Token: 0x040192AF RID: 103087
+		[Token(Token = "0x4015D18")]
+		LOVESTORY_REINHARD11_7,
+		// Token: 0x040192B0 RID: 103088
+		[Token(Token = "0x4015D19")]
+		LOVESTORY_REINHARD11_8,
+		// Token: 0x040192B1 RID: 103089
+		[Token(Token = "0x4015D1A")]
+		LOVESTORY_REINHARD11_9,
+		// Token: 0x040192B2 RID: 103090
+		[Token(Token = "0x4015D1B")]
+		LOVESTORY_REINHARD11_10,
+		// Token: 0x040192B3 RID: 103091
+		[Token(Token = "0x4015D1C")]
+		LOVESTORY_REINHARD11_11,
+		// Token: 0x040192B4 RID: 103092
+		[Token(Token = "0x4015D1D")]
+		LOVESTORY_LUCAS1,
+		// Token: 0x040192B5 RID: 103093
+		[Token(Token = "0x4015D1E")]
+		LOVESTORY_LUCAS2_1,
+		// Token: 0x040192B6 RID: 103094
+		[Token(Token = "0x4015D1F")]
+		LOVESTORY_LUCAS2_2,
+		// Token: 0x040192B7 RID: 103095
+		[Token(Token = "0x4015D20")]
+		LOVESTORY_LUCAS2_3,
+		// Token: 0x040192B8 RID: 103096
+		[Token(Token = "0x4015D21")]
+		LOVESTORY_LUCAS2_4,
+		// Token: 0x040192B9 RID: 103097
+		[Token(Token = "0x4015D22")]
+		LOVESTORY_LUCAS3,
+		// Token: 0x040192BA RID: 103098
+		[Token(Token = "0x4015D23")]
+		LOVESTORY_LUCAS4_1,
+		// Token: 0x040192BB RID: 103099
+		[Token(Token = "0x4015D24")]
+		LOVESTORY_LUCAS4_2,
+		// Token: 0x040192BC RID: 103100
+		[Token(Token = "0x4015D25")]
+		LOVESTORY_LUCAS4_3,
+		// Token: 0x040192BD RID: 103101
+		[Token(Token = "0x4015D26")]
+		LOVESTORY_LUCAS4_4,
+		// Token: 0x040192BE RID: 103102
+		[Token(Token = "0x4015D27")]
+		LOVESTORY_LUCAS4_5,
+		// Token: 0x040192BF RID: 103103
+		[Token(Token = "0x4015D28")]
+		LOVESTORY_LUCAS4_6,
+		// Token: 0x040192C0 RID: 103104
+		[Token(Token = "0x4015D29")]
+		LOVESTORY_LUCAS5_1,
+		// Token: 0x040192C1 RID: 103105
+		[Token(Token = "0x4015D2A")]
+		LOVESTORY_LUCAS5_2,
+		// Token: 0x040192C2 RID: 103106
+		[Token(Token = "0x4015D2B")]
+		LOVESTORY_LUCAS6_1,
+		// Token: 0x040192C3 RID: 103107
+		[Token(Token = "0x4015D2C")]
+		LOVESTORY_LUCAS6_2,
+		// Token: 0x040192C4 RID: 103108
+		[Token(Token = "0x4015D2D")]
+		LOVESTORY_LUCAS7_1,
+		// Token: 0x040192C5 RID: 103109
+		[Token(Token = "0x4015D2E")]
+		LOVESTORY_LUCAS7_2,
+		// Token: 0x040192C6 RID: 103110
+		[Token(Token = "0x4015D2F")]
+		LOVESTORY_LUCAS8_1,
+		// Token: 0x040192C7 RID: 103111
+		[Token(Token = "0x4015D30")]
+		LOVESTORY_LUCAS8_2,
+		// Token: 0x040192C8 RID: 103112
+		[Token(Token = "0x4015D31")]
+		LOVESTORY_LUCAS9_1,
+		// Token: 0x040192C9 RID: 103113
+		[Token(Token = "0x4015D32")]
+		LOVESTORY_LUCAS9_2,
+		// Token: 0x040192CA RID: 103114
+		[Token(Token = "0x4015D33")]
+		LOVESTORY_LUCAS9_3,
+		// Token: 0x040192CB RID: 103115
+		[Token(Token = "0x4015D34")]
+		LOVESTORY_LUCAS9_4,
+		// Token: 0x040192CC RID: 103116
+		[Token(Token = "0x4015D35")]
+		LOVESTORY_LUCAS9_5,
+		// Token: 0x040192CD RID: 103117
+		[Token(Token = "0x4015D36")]
+		LOVESTORY_LUCAS9_6,
+		// Token: 0x040192CE RID: 103118
+		[Token(Token = "0x4015D37")]
+		LOVESTORY_LUCAS9_7,
+		// Token: 0x040192CF RID: 103119
+		[Token(Token = "0x4015D38")]
+		LOVESTORY_LUCAS9_8,
+		// Token: 0x040192D0 RID: 103120
+		[Token(Token = "0x4015D39")]
+		LOVESTORY_LUCAS9_9,
+		// Token: 0x040192D1 RID: 103121
+		[Token(Token = "0x4015D3A")]
+		LOVESTORY_LUCAS9_10,
+		// Token: 0x040192D2 RID: 103122
+		[Token(Token = "0x4015D3B")]
+		LOVESTORY_LUCAS9_11,
+		// Token: 0x040192D3 RID: 103123
+		[Token(Token = "0x4015D3C")]
+		LOVESTORY_LUCAS9_12,
+		// Token: 0x040192D4 RID: 103124
+		[Token(Token = "0x4015D3D")]
+		LOVESTORY_LUCAS10,
+		// Token: 0x040192D5 RID: 103125
+		[Token(Token = "0x4015D3E")]
+		LOVESTORY_LUCAS11_1,
+		// Token: 0x040192D6 RID: 103126
+		[Token(Token = "0x4015D3F")]
+		LOVESTORY_LUCAS11_2,
+		// Token: 0x040192D7 RID: 103127
+		[Token(Token = "0x4015D40")]
+		LOVESTORY_LUCAS11_3,
+		// Token: 0x040192D8 RID: 103128
+		[Token(Token = "0x4015D41")]
+		LOVESTORY_LUCAS11_4,
+		// Token: 0x040192D9 RID: 103129
+		[Token(Token = "0x4015D42")]
+		LOVESTORY_LUCAS11_5,
+		// Token: 0x040192DA RID: 103130
+		[Token(Token = "0x4015D43")]
+		LOVESTORY_LUCAS11_6,
+		// Token: 0x040192DB RID: 103131
+		[Token(Token = "0x4015D44")]
+		LOVESTORY_LUCAS11_7,
+		// Token: 0x040192DC RID: 103132
+		[Token(Token = "0x4015D45")]
+		LOVESTORY_LUCAS11_8,
+		// Token: 0x040192DD RID: 103133
+		[Token(Token = "0x4015D46")]
+		LOVESTORY_LUCAS11_9,
+		// Token: 0x040192DE RID: 103134
+		[Token(Token = "0x4015D47")]
+		LOVESTORY_LUCAS11_10,
+		// Token: 0x040192DF RID: 103135
+		[Token(Token = "0x4015D48")]
+		LOVESTORY_LUCAS11_11,
+		// Token: 0x040192E0 RID: 103136
+		[Token(Token = "0x4015D49")]
+		DATE_MEET_10_PRISCILLA = 4000,
+		// Token: 0x040192E1 RID: 103137
+		[Token(Token = "0x4015D4A")]
+		DATE_MEET_10_LUCY,
+		// Token: 0x040192E2 RID: 103138
+		[Token(Token = "0x4015D4B")]
+		DATE_MEET_10_SCARLETT,
+		// Token: 0x040192E3 RID: 103139
+		[Token(Token = "0x4015D4C")]
+		DATE_MEET_10_FUQUA,
+		// Token: 0x040192E4 RID: 103140
+		[Token(Token = "0x4015D4D")]
+		DATE_MEET_10_BEATRICE,
+		// Token: 0x040192E5 RID: 103141
+		[Token(Token = "0x4015D4E")]
+		DATE_MEET_10_LUDMILA,
+		// Token: 0x040192E6 RID: 103142
+		[Token(Token = "0x4015D4F")]
+		DATE_MEET_10_MARTIN,
+		// Token: 0x040192E7 RID: 103143
+		[Token(Token = "0x4015D50")]
+		DATE_MEET_10_CECILE,
+		// Token: 0x040192E8 RID: 103144
+		[Token(Token = "0x4015D51")]
+		DATE_MEET_10_MURAKUMO,
+		// Token: 0x040192E9 RID: 103145
+		[Token(Token = "0x4015D52")]
+		DATE_MEET_10_LYKA,
+		// Token: 0x040192EA RID: 103146
+		[Token(Token = "0x4015D53")]
+		DATE_MEET_10_REINHARD,
+		// Token: 0x040192EB RID: 103147
+		[Token(Token = "0x4015D54")]
+		DATE_MEET_10_LUCAS,
+		// Token: 0x040192EC RID: 103148
+		[Token(Token = "0x4015D55")]
+		DATE_MEET_19_PRISCILLA,
+		// Token: 0x040192ED RID: 103149
+		[Token(Token = "0x4015D56")]
+		DATE_MEET_19_LUCY,
+		// Token: 0x040192EE RID: 103150
+		[Token(Token = "0x4015D57")]
+		DATE_MEET_19_SCARLETT,
+		// Token: 0x040192EF RID: 103151
+		[Token(Token = "0x4015D58")]
+		DATE_MEET_19_FUQUA,
+		// Token: 0x040192F0 RID: 103152
+		[Token(Token = "0x4015D59")]
+		DATE_MEET_19_BEATRICE,
+		// Token: 0x040192F1 RID: 103153
+		[Token(Token = "0x4015D5A")]
+		DATE_MEET_19_LUDMILA,
+		// Token: 0x040192F2 RID: 103154
+		[Token(Token = "0x4015D5B")]
+		DATE_MEET_19_MARTIN,
+		// Token: 0x040192F3 RID: 103155
+		[Token(Token = "0x4015D5C")]
+		DATE_MEET_19_CECILE,
+		// Token: 0x040192F4 RID: 103156
+		[Token(Token = "0x4015D5D")]
+		DATE_MEET_19_MURAKUMO,
+		// Token: 0x040192F5 RID: 103157
+		[Token(Token = "0x4015D5E")]
+		DATE_MEET_19_LYKA,
+		// Token: 0x040192F6 RID: 103158
+		[Token(Token = "0x4015D5F")]
+		DATE_MEET_19_REINHARD,
+		// Token: 0x040192F7 RID: 103159
+		[Token(Token = "0x4015D60")]
+		DATE_MEET_19_LUCAS,
+		// Token: 0x040192F8 RID: 103160
+		[Token(Token = "0x4015D61")]
+		CONFESSION_CANCEL_PRICILLA = 4100,
+		// Token: 0x040192F9 RID: 103161
+		[Token(Token = "0x4015D62")]
+		CONFESSION_CANCEL_LUCY,
+		// Token: 0x040192FA RID: 103162
+		[Token(Token = "0x4015D63")]
+		CONFESSION_CANCEL_SCARLETT,
+		// Token: 0x040192FB RID: 103163
+		[Token(Token = "0x4015D64")]
+		CONFESSION_CANCEL_FUQUA,
+		// Token: 0x040192FC RID: 103164
+		[Token(Token = "0x4015D65")]
+		CONFESSION_CANCEL_BEATRICE,
+		// Token: 0x040192FD RID: 103165
+		[Token(Token = "0x4015D66")]
+		CONFESSION_CANCEL_LUDMILA,
+		// Token: 0x040192FE RID: 103166
+		[Token(Token = "0x4015D67")]
+		CONFESSION_CANCEL_MARTIN,
+		// Token: 0x040192FF RID: 103167
+		[Token(Token = "0x4015D68")]
+		CONFESSION_CANCEL_CECILE,
+		// Token: 0x04019300 RID: 103168
+		[Token(Token = "0x4015D69")]
+		CONFESSION_CANCEL_MURAKUMO,
+		// Token: 0x04019301 RID: 103169
+		[Token(Token = "0x4015D6A")]
+		CONFESSION_CANCEL_LYKA,
+		// Token: 0x04019302 RID: 103170
+		[Token(Token = "0x4015D6B")]
+		CONFESSION_CANCEL_REINHARD,
+		// Token: 0x04019303 RID: 103171
+		[Token(Token = "0x4015D6C")]
+		CONFESSION_CANCEL_LUCAS,
+		// Token: 0x04019304 RID: 103172
+		[Token(Token = "0x4015D6D")]
+		SUBEVENT_PROGRESSING = 5000,
+		// Token: 0x04019305 RID: 103173
+		[Token(Token = "0x4015D6E")]
+		SUBEVENT_3001_0 = 5010,
+		// Token: 0x04019306 RID: 103174
+		[Token(Token = "0x4015D6F")]
+		SUBEVENT_3001_1,
+		// Token: 0x04019307 RID: 103175
+		[Token(Token = "0x4015D70")]
+		SUBEVENT_3002_0 = 5020,
+		// Token: 0x04019308 RID: 103176
+		[Token(Token = "0x4015D71")]
+		SUBEVENT_3002_1,
+		// Token: 0x04019309 RID: 103177
+		[Token(Token = "0x4015D72")]
+		SUBEVENT_3002_2,
+		// Token: 0x0401930A RID: 103178
+		[Token(Token = "0x4015D73")]
+		SUBEVENT_3002_3,
+		// Token: 0x0401930B RID: 103179
+		[Token(Token = "0x4015D74")]
+		SUBEVENT_3003_0 = 5030,
+		// Token: 0x0401930C RID: 103180
+		[Token(Token = "0x4015D75")]
+		SUBEVENT_3003_1,
+		// Token: 0x0401930D RID: 103181
+		[Token(Token = "0x4015D76")]
+		SUBEVENT_3003_2,
+		// Token: 0x0401930E RID: 103182
+		[Token(Token = "0x4015D77")]
+		SUBEVENT_3004_0 = 5040,
+		// Token: 0x0401930F RID: 103183
+		[Token(Token = "0x4015D78")]
+		SUBEVENT_3004_1,
+		// Token: 0x04019310 RID: 103184
+		[Token(Token = "0x4015D79")]
+		SUBEVENT_3004_2,
+		// Token: 0x04019311 RID: 103185
+		[Token(Token = "0x4015D7A")]
+		SUBEVENT_3004_3,
+		// Token: 0x04019312 RID: 103186
+		[Token(Token = "0x4015D7B")]
+		SUBEVENT_3004_4,
+		// Token: 0x04019313 RID: 103187
+		[Token(Token = "0x4015D7C")]
+		SUBEVENT_3005_0 = 5050,
+		// Token: 0x04019314 RID: 103188
+		[Token(Token = "0x4015D7D")]
+		SUBEVENT_3005_1,
+		// Token: 0x04019315 RID: 103189
+		[Token(Token = "0x4015D7E")]
+		SUBEVENT_3006_0 = 5060,
+		// Token: 0x04019316 RID: 103190
+		[Token(Token = "0x4015D7F")]
+		SUBEVENT_3006_1,
+		// Token: 0x04019317 RID: 103191
+		[Token(Token = "0x4015D80")]
+		SUBEVENT_3008_0 = 5080,
+		// Token: 0x04019318 RID: 103192
+		[Token(Token = "0x4015D81")]
+		SUBEVENT_3008_1,
+		// Token: 0x04019319 RID: 103193
+		[Token(Token = "0x4015D82")]
+		SUBEVENT_3009_0 = 5090,
+		// Token: 0x0401931A RID: 103194
+		[Token(Token = "0x4015D83")]
+		SUBEVENT_3009_1,
+		// Token: 0x0401931B RID: 103195
+		[Token(Token = "0x4015D84")]
+		SUBEVENT_3009_2,
+		// Token: 0x0401931C RID: 103196
+		[Token(Token = "0x4015D85")]
+		SUBEVENT_3010_0 = 5100,
+		// Token: 0x0401931D RID: 103197
+		[Token(Token = "0x4015D86")]
+		SUBEVENT_3010_1,
+		// Token: 0x0401931E RID: 103198
+		[Token(Token = "0x4015D87")]
+		SUBEVENT_3010_2,
+		// Token: 0x0401931F RID: 103199
+		[Token(Token = "0x4015D88")]
+		SUBEVENT_3010_3,
+		// Token: 0x04019320 RID: 103200
+		[Token(Token = "0x4015D89")]
+		SUBEVENT_3010_4,
+		// Token: 0x04019321 RID: 103201
+		[Token(Token = "0x4015D8A")]
+		SUBEVENT_3010_5,
+		// Token: 0x04019322 RID: 103202
+		[Token(Token = "0x4015D8B")]
+		SUBEVENT_3010_6,
+		// Token: 0x04019323 RID: 103203
+		[Token(Token = "0x4015D8C")]
+		SUBEVENT_3011_0 = 5110,
+		// Token: 0x04019324 RID: 103204
+		[Token(Token = "0x4015D8D")]
+		SUBEVENT_3011_1,
+		// Token: 0x04019325 RID: 103205
+		[Token(Token = "0x4015D8E")]
+		SUBEVENT_3013_0 = 5130,
+		// Token: 0x04019326 RID: 103206
+		[Token(Token = "0x4015D8F")]
+		SUBEVENT_3013_1,
+		// Token: 0x04019327 RID: 103207
+		[Token(Token = "0x4015D90")]
+		SUBEVENT_3014_0 = 5140,
+		// Token: 0x04019328 RID: 103208
+		[Token(Token = "0x4015D91")]
+		SUBEVENT_3014_1,
+		// Token: 0x04019329 RID: 103209
+		[Token(Token = "0x4015D92")]
+		SUBEVENT_3015_0 = 5150,
+		// Token: 0x0401932A RID: 103210
+		[Token(Token = "0x4015D93")]
+		SUBEVENT_3015_1,
+		// Token: 0x0401932B RID: 103211
+		[Token(Token = "0x4015D94")]
+		SUBEVENT_3016_0 = 5160,
+		// Token: 0x0401932C RID: 103212
+		[Token(Token = "0x4015D95")]
+		SUBEVENT_3016_1,
+		// Token: 0x0401932D RID: 103213
+		[Token(Token = "0x4015D96")]
+		SUBEVENT_3016_2,
+		// Token: 0x0401932E RID: 103214
+		[Token(Token = "0x4015D97")]
+		SUBEVENT_3017_0 = 5170,
+		// Token: 0x0401932F RID: 103215
+		[Token(Token = "0x4015D98")]
+		SUBEVENT_3017_1,
+		// Token: 0x04019330 RID: 103216
+		[Token(Token = "0x4015D99")]
+		SUBEVENT_3019_0 = 5190,
+		// Token: 0x04019331 RID: 103217
+		[Token(Token = "0x4015D9A")]
+		SUBEVENT_3019_1,
+		// Token: 0x04019332 RID: 103218
+		[Token(Token = "0x4015D9B")]
+		SUBEVENT_3020_0 = 5200,
+		// Token: 0x04019333 RID: 103219
+		[Token(Token = "0x4015D9C")]
+		SUBEVENT_3020_1,
+		// Token: 0x04019334 RID: 103220
+		[Token(Token = "0x4015D9D")]
+		SUBEVENT_3020_2,
+		// Token: 0x04019335 RID: 103221
+		[Token(Token = "0x4015D9E")]
+		SUBEVENT_3020_3,
+		// Token: 0x04019336 RID: 103222
+		[Token(Token = "0x4015D9F")]
+		SUBEVENT_3022_0 = 5220,
+		// Token: 0x04019337 RID: 103223
+		[Token(Token = "0x4015DA0")]
+		SUBEVENT_3022_1,
+		// Token: 0x04019338 RID: 103224
+		[Token(Token = "0x4015DA1")]
+		SUBEVENT_3022_2,
+		// Token: 0x04019339 RID: 103225
+		[Token(Token = "0x4015DA2")]
+		SUBEVENT_3022_3,
+		// Token: 0x0401933A RID: 103226
+		[Token(Token = "0x4015DA3")]
+		SUBEVENT_3024_0 = 5240,
+		// Token: 0x0401933B RID: 103227
+		[Token(Token = "0x4015DA4")]
+		SUBEVENT_3024_1,
+		// Token: 0x0401933C RID: 103228
+		[Token(Token = "0x4015DA5")]
+		SUBEVENT_3025_0 = 5250,
+		// Token: 0x0401933D RID: 103229
+		[Token(Token = "0x4015DA6")]
+		SUBEVENT_3025_1,
+		// Token: 0x0401933E RID: 103230
+		[Token(Token = "0x4015DA7")]
+		SUBEVENT_3025_2,
+		// Token: 0x0401933F RID: 103231
+		[Token(Token = "0x4015DA8")]
+		SUBEVENT_3026_0 = 5260,
+		// Token: 0x04019340 RID: 103232
+		[Token(Token = "0x4015DA9")]
+		SUBEVENT_3026_1,
+		// Token: 0x04019341 RID: 103233
+		[Token(Token = "0x4015DAA")]
+		SUBEVENT_3026_2,
+		// Token: 0x04019342 RID: 103234
+		[Token(Token = "0x4015DAB")]
+		SUBEVENT_3027_0 = 5270,
+		// Token: 0x04019343 RID: 103235
+		[Token(Token = "0x4015DAC")]
+		SUBEVENT_3027_1,
+		// Token: 0x04019344 RID: 103236
+		[Token(Token = "0x4015DAD")]
+		SUBEVENT_3029_0 = 5290,
+		// Token: 0x04019345 RID: 103237
+		[Token(Token = "0x4015DAE")]
+		SUBEVENT_3029_1,
+		// Token: 0x04019346 RID: 103238
+		[Token(Token = "0x4015DAF")]
+		SUBEVENT_3030_0 = 5300,
+		// Token: 0x04019347 RID: 103239
+		[Token(Token = "0x4015DB0")]
+		SUBEVENT_3030_1,
+		// Token: 0x04019348 RID: 103240
+		[Token(Token = "0x4015DB1")]
+		SUBEVENT_3031_0 = 5310,
+		// Token: 0x04019349 RID: 103241
+		[Token(Token = "0x4015DB2")]
+		SUBEVENT_3031_1,
+		// Token: 0x0401934A RID: 103242
+		[Token(Token = "0x4015DB3")]
+		SUBEVENT_3032_0 = 5320,
+		// Token: 0x0401934B RID: 103243
+		[Token(Token = "0x4015DB4")]
+		SUBEVENT_3032_1,
+		// Token: 0x0401934C RID: 103244
+		[Token(Token = "0x4015DB5")]
+		SUBEVENT_3032_2,
+		// Token: 0x0401934D RID: 103245
+		[Token(Token = "0x4015DB6")]
+		SUBEVENT_3032_3,
+		// Token: 0x0401934E RID: 103246
+		[Token(Token = "0x4015DB7")]
+		SUBEVENT_3032_4,
+		// Token: 0x0401934F RID: 103247
+		[Token(Token = "0x4015DB8")]
+		SUBEVENT_3033_0 = 5330,
+		// Token: 0x04019350 RID: 103248
+		[Token(Token = "0x4015DB9")]
+		SUBEVENT_3033_1,
+		// Token: 0x04019351 RID: 103249
+		[Token(Token = "0x4015DBA")]
+		SUBEVENT_3033_2,
+		// Token: 0x04019352 RID: 103250
+		[Token(Token = "0x4015DBB")]
+		SUBEVENT_3033_3,
+		// Token: 0x04019353 RID: 103251
+		[Token(Token = "0x4015DBC")]
+		SUBEVENT_3034_0 = 5340,
+		// Token: 0x04019354 RID: 103252
+		[Token(Token = "0x4015DBD")]
+		SUBEVENT_3034_1,
+		// Token: 0x04019355 RID: 103253
+		[Token(Token = "0x4015DBE")]
+		SUBEVENT_3034_2,
+		// Token: 0x04019356 RID: 103254
+		[Token(Token = "0x4015DBF")]
+		SUBEVENT_3035_0 = 5350,
+		// Token: 0x04019357 RID: 103255
+		[Token(Token = "0x4015DC0")]
+		SUBEVENT_3035_1,
+		// Token: 0x04019358 RID: 103256
+		[Token(Token = "0x4015DC1")]
+		SUBEVENT_3037_0 = 5370,
+		// Token: 0x04019359 RID: 103257
+		[Token(Token = "0x4015DC2")]
+		SUBEVENT_3037_1,
+		// Token: 0x0401935A RID: 103258
+		[Token(Token = "0x4015DC3")]
+		SUBEVENT_3037_2,
+		// Token: 0x0401935B RID: 103259
+		[Token(Token = "0x4015DC4")]
+		SUBEVENT_3037_3,
+		// Token: 0x0401935C RID: 103260
+		[Token(Token = "0x4015DC5")]
+		SUBEVENT_3037_4,
+		// Token: 0x0401935D RID: 103261
+		[Token(Token = "0x4015DC6")]
+		SUBEVENT_3038_0 = 5380,
+		// Token: 0x0401935E RID: 103262
+		[Token(Token = "0x4015DC7")]
+		SUBEVENT_3038_1,
+		// Token: 0x0401935F RID: 103263
+		[Token(Token = "0x4015DC8")]
+		SUBEVENT_3039_0 = 5390,
+		// Token: 0x04019360 RID: 103264
+		[Token(Token = "0x4015DC9")]
+		SUBEVENT_3039_1,
+		// Token: 0x04019361 RID: 103265
+		[Token(Token = "0x4015DCA")]
+		SUBEVENT_3040_0 = 5400,
+		// Token: 0x04019362 RID: 103266
+		[Token(Token = "0x4015DCB")]
+		SUBEVENT_3040_1,
+		// Token: 0x04019363 RID: 103267
+		[Token(Token = "0x4015DCC")]
+		SUBEVENT_3041_0 = 5410,
+		// Token: 0x04019364 RID: 103268
+		[Token(Token = "0x4015DCD")]
+		SUBEVENT_3041_1,
+		// Token: 0x04019365 RID: 103269
+		[Token(Token = "0x4015DCE")]
+		SUBEVENT_3042_0 = 5420,
+		// Token: 0x04019366 RID: 103270
+		[Token(Token = "0x4015DCF")]
+		SUBEVENT_3042_1,
+		// Token: 0x04019367 RID: 103271
+		[Token(Token = "0x4015DD0")]
+		SUBEVENT_3043_0 = 5430,
+		// Token: 0x04019368 RID: 103272
+		[Token(Token = "0x4015DD1")]
+		SUBEVENT_3043_1,
+		// Token: 0x04019369 RID: 103273
+		[Token(Token = "0x4015DD2")]
+		SUBEVENT_3044_0 = 5440,
+		// Token: 0x0401936A RID: 103274
+		[Token(Token = "0x4015DD3")]
+		SUBEVENT_3044_1,
+		// Token: 0x0401936B RID: 103275
+		[Token(Token = "0x4015DD4")]
+		SUBEVENT_3045_0 = 5450,
+		// Token: 0x0401936C RID: 103276
+		[Token(Token = "0x4015DD5")]
+		SUBEVENT_3045_1,
+		// Token: 0x0401936D RID: 103277
+		[Token(Token = "0x4015DD6")]
+		SUBEVENT_3046_0 = 5460,
+		// Token: 0x0401936E RID: 103278
+		[Token(Token = "0x4015DD7")]
+		SUBEVENT_3046_1,
+		// Token: 0x0401936F RID: 103279
+		[Token(Token = "0x4015DD8")]
+		SUBEVENT_3047_0 = 5470,
+		// Token: 0x04019370 RID: 103280
+		[Token(Token = "0x4015DD9")]
+		SUBEVENT_3047_1,
+		// Token: 0x04019371 RID: 103281
+		[Token(Token = "0x4015DDA")]
+		SUBEVENT_3048_0 = 5480,
+		// Token: 0x04019372 RID: 103282
+		[Token(Token = "0x4015DDB")]
+		SUBEVENT_3048_1,
+		// Token: 0x04019373 RID: 103283
+		[Token(Token = "0x4015DDC")]
+		SUBEVENT_3049_0 = 5490,
+		// Token: 0x04019374 RID: 103284
+		[Token(Token = "0x4015DDD")]
+		SUBEVENT_3049_1,
+		// Token: 0x04019375 RID: 103285
+		[Token(Token = "0x4015DDE")]
+		SUBEVENT_3050_0 = 5500,
+		// Token: 0x04019376 RID: 103286
+		[Token(Token = "0x4015DDF")]
+		SUBEVENT_3050_1,
+		// Token: 0x04019377 RID: 103287
+		[Token(Token = "0x4015DE0")]
+		SUBEVENT_3050_2,
+		// Token: 0x04019378 RID: 103288
+		[Token(Token = "0x4015DE1")]
+		SUBEVENT_3050_3,
+		// Token: 0x04019379 RID: 103289
+		[Token(Token = "0x4015DE2")]
+		SUBEVENT_3051_0 = 5510,
+		// Token: 0x0401937A RID: 103290
+		[Token(Token = "0x4015DE3")]
+		SUBEVENT_3051_1,
+		// Token: 0x0401937B RID: 103291
+		[Token(Token = "0x4015DE4")]
+		SUBEVENT_3051_2,
+		// Token: 0x0401937C RID: 103292
+		[Token(Token = "0x4015DE5")]
+		SUBEVENT_3052_0 = 5520,
+		// Token: 0x0401937D RID: 103293
+		[Token(Token = "0x4015DE6")]
+		SUBEVENT_3052_1,
+		// Token: 0x0401937E RID: 103294
+		[Token(Token = "0x4015DE7")]
+		SUBEVENT_3052_2,
+		// Token: 0x0401937F RID: 103295
+		[Token(Token = "0x4015DE8")]
+		SUBEVENT_3053_0 = 5530,
+		// Token: 0x04019380 RID: 103296
+		[Token(Token = "0x4015DE9")]
+		SUBEVENT_3053_1,
+		// Token: 0x04019381 RID: 103297
+		[Token(Token = "0x4015DEA")]
+		SUBEVENT_3053_2,
+		// Token: 0x04019382 RID: 103298
+		[Token(Token = "0x4015DEB")]
+		SUBEVENT_3054_0 = 5540,
+		// Token: 0x04019383 RID: 103299
+		[Token(Token = "0x4015DEC")]
+		SUBEVENT_3054_1,
+		// Token: 0x04019384 RID: 103300
+		[Token(Token = "0x4015DED")]
+		SUBEVENT_3054_2,
+		// Token: 0x04019385 RID: 103301
+		[Token(Token = "0x4015DEE")]
+		SUBEVENT_3055_0 = 5550,
+		// Token: 0x04019386 RID: 103302
+		[Token(Token = "0x4015DEF")]
+		SUBEVENT_3055_1,
+		// Token: 0x04019387 RID: 103303
+		[Token(Token = "0x4015DF0")]
+		SUBEVENT_3055_2,
+		// Token: 0x04019388 RID: 103304
+		[Token(Token = "0x4015DF1")]
+		SUBEVENT_3056_0 = 5560,
+		// Token: 0x04019389 RID: 103305
+		[Token(Token = "0x4015DF2")]
+		SUBEVENT_3056_1,
+		// Token: 0x0401938A RID: 103306
+		[Token(Token = "0x4015DF3")]
+		SUBEVENT_3056_2,
+		// Token: 0x0401938B RID: 103307
+		[Token(Token = "0x4015DF4")]
+		SUBEVENT_3057_0 = 5570,
+		// Token: 0x0401938C RID: 103308
+		[Token(Token = "0x4015DF5")]
+		SUBEVENT_3057_1,
+		// Token: 0x0401938D RID: 103309
+		[Token(Token = "0x4015DF6")]
+		SUBEVENT_3057_2,
+		// Token: 0x0401938E RID: 103310
+		[Token(Token = "0x4015DF7")]
+		MAP_OPEN_POLICE = 7000,
+		// Token: 0x0401938F RID: 103311
+		[Token(Token = "0x4015DF8")]
+		MAP_OPEN_POLICE_BED,
+		// Token: 0x04019390 RID: 103312
+		[Token(Token = "0x4015DF9")]
+		MAP_OPEN_EVENTSPACE = 7003,
+		// Token: 0x04019391 RID: 103313
+		[Token(Token = "0x4015DFA")]
+		MAP_OPEN_FOREST_FIELD = 7005,
+		// Token: 0x04019392 RID: 103314
+		[Token(Token = "0x4015DFB")]
+		MAP_OPEN_FOREST_D1,
+		// Token: 0x04019393 RID: 103315
+		[Token(Token = "0x4015DFC")]
+		MAP_OPEN_FOREST_D19,
+		// Token: 0x04019394 RID: 103316
+		[Token(Token = "0x4015DFD")]
+		MAP_OPEN_FOREST_D7,
+		// Token: 0x04019395 RID: 103317
+		[Token(Token = "0x4015DFE")]
+		MAP_OPEN_FOREST_D14,
+		// Token: 0x04019396 RID: 103318
+		[Token(Token = "0x4015DFF")]
+		MAP_OPEN_FIREMT_FIELD,
+		// Token: 0x04019397 RID: 103319
+		[Token(Token = "0x4015E00")]
+		MAP_OPEN_FIREMT_D3,
+		// Token: 0x04019398 RID: 103320
+		[Token(Token = "0x4015E01")]
+		MAP_OPEN_FIREMT_D5,
+		// Token: 0x04019399 RID: 103321
+		[Token(Token = "0x4015E02")]
+		MAP_OPEN_FIREMT_D13,
+		// Token: 0x0401939A RID: 103322
+		[Token(Token = "0x4015E03")]
+		MAP_OPEN_ICE_FIELD,
+		// Token: 0x0401939B RID: 103323
+		[Token(Token = "0x4015E04")]
+		MAP_OPEN_ICE_D4,
+		// Token: 0x0401939C RID: 103324
+		[Token(Token = "0x4015E05")]
+		MAP_OPEN_ICE_D6,
+		// Token: 0x0401939D RID: 103325
+		[Token(Token = "0x4015E06")]
+		MAP_OPEN_FARMDRAGON_01,
+		// Token: 0x0401939E RID: 103326
+		[Token(Token = "0x4015E07")]
+		MAP_OPEN_FARMDRAGON_02,
+		// Token: 0x0401939F RID: 103327
+		[Token(Token = "0x4015E08")]
+		MAP_OPEN_FARMDRAGON_03,
+		// Token: 0x040193A0 RID: 103328
+		[Token(Token = "0x4015E09")]
+		MAP_OPEN_FARMDRAGON_04,
+		// Token: 0x040193A1 RID: 103329
+		[Token(Token = "0x4015E0A")]
+		MAP_OPEN_FARMDRAGON_05,
+		// Token: 0x040193A2 RID: 103330
+		[Token(Token = "0x4015E0B")]
+		MAP_OPEN_D1_1F,
+		// Token: 0x040193A3 RID: 103331
+		[Token(Token = "0x4015E0C")]
+		MAP_OPEN_D1_2F,
+		// Token: 0x040193A4 RID: 103332
+		[Token(Token = "0x4015E0D")]
+		MAP_OPEN_D2_1F,
+		// Token: 0x040193A5 RID: 103333
+		[Token(Token = "0x4015E0E")]
+		MAP_OPEN_D2_2F,
+		// Token: 0x040193A6 RID: 103334
+		[Token(Token = "0x4015E0F")]
+		MAP_OPEN_D2_3F,
+		// Token: 0x040193A7 RID: 103335
+		[Token(Token = "0x4015E10")]
+		MAP_OPEN_D3_1F,
+		// Token: 0x040193A8 RID: 103336
+		[Token(Token = "0x4015E11")]
+		MAP_OPEN_D3_2F,
+		// Token: 0x040193A9 RID: 103337
+		[Token(Token = "0x4015E12")]
+		MAP_OPEN_D3_3F,
+		// Token: 0x040193AA RID: 103338
+		[Token(Token = "0x4015E13")]
+		MAP_OPEN_D4_1F,
+		// Token: 0x040193AB RID: 103339
+		[Token(Token = "0x4015E14")]
+		MAP_OPEN_D4_2F,
+		// Token: 0x040193AC RID: 103340
+		[Token(Token = "0x4015E15")]
+		MAP_OPEN_D4_3F,
+		// Token: 0x040193AD RID: 103341
+		[Token(Token = "0x4015E16")]
+		MAP_OPEN_D5_1F,
+		// Token: 0x040193AE RID: 103342
+		[Token(Token = "0x4015E17")]
+		MAP_OPEN_D5_2F,
+		// Token: 0x040193AF RID: 103343
+		[Token(Token = "0x4015E18")]
+		MAP_OPEN_D5_3F,
+		// Token: 0x040193B0 RID: 103344
+		[Token(Token = "0x4015E19")]
+		MAP_OPEN_D5_4F,
+		// Token: 0x040193B1 RID: 103345
+		[Token(Token = "0x4015E1A")]
+		MAP_OPEN_D6_1F,
+		// Token: 0x040193B2 RID: 103346
+		[Token(Token = "0x4015E1B")]
+		MAP_OPEN_D6_2F,
+		// Token: 0x040193B3 RID: 103347
+		[Token(Token = "0x4015E1C")]
+		MAP_OPEN_D7_1F,
+		// Token: 0x040193B4 RID: 103348
+		[Token(Token = "0x4015E1D")]
+		MAP_OPEN_D7_2F,
+		// Token: 0x040193B5 RID: 103349
+		[Token(Token = "0x4015E1E")]
+		MAP_OPEN_D7_3F,
+		// Token: 0x040193B6 RID: 103350
+		[Token(Token = "0x4015E1F")]
+		MAP_OPEN_D8_1F,
+		// Token: 0x040193B7 RID: 103351
+		[Token(Token = "0x4015E20")]
+		MAP_OPEN_D8_2F,
+		// Token: 0x040193B8 RID: 103352
+		[Token(Token = "0x4015E21")]
+		MAP_OPEN_D9_1F,
+		// Token: 0x040193B9 RID: 103353
+		[Token(Token = "0x4015E22")]
+		MAP_OPEN_D9_2F,
+		// Token: 0x040193BA RID: 103354
+		[Token(Token = "0x4015E23")]
+		MAP_OPEN_D10_1F,
+		// Token: 0x040193BB RID: 103355
+		[Token(Token = "0x4015E24")]
+		MAP_OPEN_D10_2F,
+		// Token: 0x040193BC RID: 103356
+		[Token(Token = "0x4015E25")]
+		MAP_OPEN_D11_1F,
+		// Token: 0x040193BD RID: 103357
+		[Token(Token = "0x4015E26")]
+		MAP_OPEN_D11_2F,
+		// Token: 0x040193BE RID: 103358
+		[Token(Token = "0x4015E27")]
+		MAP_OPEN_D11_3F,
+		// Token: 0x040193BF RID: 103359
+		[Token(Token = "0x4015E28")]
+		MAP_OPEN_D12_1F,
+		// Token: 0x040193C0 RID: 103360
+		[Token(Token = "0x4015E29")]
+		MAP_OPEN_D12_2F,
+		// Token: 0x040193C1 RID: 103361
+		[Token(Token = "0x4015E2A")]
+		MAP_OPEN_D12_3F,
+		// Token: 0x040193C2 RID: 103362
+		[Token(Token = "0x4015E2B")]
+		MAP_OPEN_D12_4F,
+		// Token: 0x040193C3 RID: 103363
+		[Token(Token = "0x4015E2C")]
+		MAP_OPEN_D13_1F,
+		// Token: 0x040193C4 RID: 103364
+		[Token(Token = "0x4015E2D")]
+		MAP_OPEN_D13_2F,
+		// Token: 0x040193C5 RID: 103365
+		[Token(Token = "0x4015E2E")]
+		MAP_OPEN_D13_3F,
+		// Token: 0x040193C6 RID: 103366
+		[Token(Token = "0x4015E2F")]
+		MAP_OPEN_D14_1F,
+		// Token: 0x040193C7 RID: 103367
+		[Token(Token = "0x4015E30")]
+		MAP_OPEN_D14_2F,
+		// Token: 0x040193C8 RID: 103368
+		[Token(Token = "0x4015E31")]
+		MAP_OPEN_D14_3F,
+		// Token: 0x040193C9 RID: 103369
+		[Token(Token = "0x4015E32")]
+		MAP_OPEN_D15_1F,
+		// Token: 0x040193CA RID: 103370
+		[Token(Token = "0x4015E33")]
+		MAP_OPEN_D15_2F,
+		// Token: 0x040193CB RID: 103371
+		[Token(Token = "0x4015E34")]
+		MAP_OPEN_D15_3F,
+		// Token: 0x040193CC RID: 103372
+		[Token(Token = "0x4015E35")]
+		MAP_OPEN_D16_1F,
+		// Token: 0x040193CD RID: 103373
+		[Token(Token = "0x4015E36")]
+		MAP_OPEN_D16_2F,
+		// Token: 0x040193CE RID: 103374
+		[Token(Token = "0x4015E37")]
+		MAP_OPEN_D16_3F,
+		// Token: 0x040193CF RID: 103375
+		[Token(Token = "0x4015E38")]
+		MAP_OPEN_D17_1F,
+		// Token: 0x040193D0 RID: 103376
+		[Token(Token = "0x4015E39")]
+		MAP_OPEN_D17_2F,
+		// Token: 0x040193D1 RID: 103377
+		[Token(Token = "0x4015E3A")]
+		MAP_OPEN_D18_1F,
+		// Token: 0x040193D2 RID: 103378
+		[Token(Token = "0x4015E3B")]
+		MAP_OPEN_D19_1F,
+		// Token: 0x040193D3 RID: 103379
+		[Token(Token = "0x4015E3C")]
+		MAP_OPEN_D19_2F,
+		// Token: 0x040193D4 RID: 103380
+		[Token(Token = "0x4015E3D")]
+		MAP_OPEN_D19_3F,
+		// Token: 0x040193D5 RID: 103381
+		[Token(Token = "0x4015E3E")]
+		MAP_OPEN_D19_4F,
+		// Token: 0x040193D6 RID: 103382
+		[Token(Token = "0x4015E3F")]
+		MAP_OPEN_D19_5F,
+		// Token: 0x040193D7 RID: 103383
+		[Token(Token = "0x4015E40")]
+		MAP_OPEN_D19_6F,
+		// Token: 0x040193D8 RID: 103384
+		[Token(Token = "0x4015E41")]
+		MAP_OPEN_D19_7F,
+		// Token: 0x040193D9 RID: 103385
+		[Token(Token = "0x4015E42")]
+		MAP_OPEN_D19_8F,
+		// Token: 0x040193DA RID: 103386
+		[Token(Token = "0x4015E43")]
+		MAP_OPEN_D19_9F,
+		// Token: 0x040193DB RID: 103387
+		[Token(Token = "0x4015E44")]
+		MAP_OPEN_D19_10F,
+		// Token: 0x040193DC RID: 103388
+		[Token(Token = "0x4015E45")]
+		MAP_OPEN_D19_11F,
+		// Token: 0x040193DD RID: 103389
+		[Token(Token = "0x4015E46")]
+		MAP_OPEN_D19_12F,
+		// Token: 0x040193DE RID: 103390
+		[Token(Token = "0x4015E47")]
+		MAP_OPEN_D19_13F,
+		// Token: 0x040193DF RID: 103391
+		[Token(Token = "0x4015E48")]
+		MAP_OPEN_D19_14F,
+		// Token: 0x040193E0 RID: 103392
+		[Token(Token = "0x4015E49")]
+		MAP_OPEN_D19_15F,
+		// Token: 0x040193E1 RID: 103393
+		[Token(Token = "0x4015E4A")]
+		MAP_OPEN_D19_16F,
+		// Token: 0x040193E2 RID: 103394
+		[Token(Token = "0x4015E4B")]
+		MAP_OPEN_D19_17F,
+		// Token: 0x040193E3 RID: 103395
+		[Token(Token = "0x4015E4C")]
+		MAP_OPEN_D19_18F,
+		// Token: 0x040193E4 RID: 103396
+		[Token(Token = "0x4015E4D")]
+		MAP_OPEN_D19_19F,
+		// Token: 0x040193E5 RID: 103397
+		[Token(Token = "0x4015E4E")]
+		MAP_OPEN_D19_20F,
+		// Token: 0x040193E6 RID: 103398
+		[Token(Token = "0x4015E4F")]
+		TUTORIAL_ADV_001 = 8001,
+		// Token: 0x040193E7 RID: 103399
+		[Token(Token = "0x4015E50")]
+		TUTORIAL_ADV_002,
+		// Token: 0x040193E8 RID: 103400
+		[Token(Token = "0x4015E51")]
+		TUTORIAL_ADV_003,
+		// Token: 0x040193E9 RID: 103401
+		[Token(Token = "0x4015E52")]
+		TUTORIAL_ADV_004,
+		// Token: 0x040193EA RID: 103402
+		[Token(Token = "0x4015E53")]
+		TUTORIAL_ADV_005,
+		// Token: 0x040193EB RID: 103403
+		[Token(Token = "0x4015E54")]
+		TUTORIAL_ADV_006,
+		// Token: 0x040193EC RID: 103404
+		[Token(Token = "0x4015E55")]
+		TUTORIAL_ADV_007,
+		// Token: 0x040193ED RID: 103405
+		[Token(Token = "0x4015E56")]
+		TUTORIAL_ADV_008,
+		// Token: 0x040193EE RID: 103406
+		[Token(Token = "0x4015E57")]
+		TUTORIAL_ADV_009,
+		// Token: 0x040193EF RID: 103407
+		[Token(Token = "0x4015E58")]
+		TUTORIAL_ADV_010,
+		// Token: 0x040193F0 RID: 103408
+		[Token(Token = "0x4015E59")]
+		TUTORIAL_ADV_011,
+		// Token: 0x040193F1 RID: 103409
+		[Token(Token = "0x4015E5A")]
+		TUTORIAL_ADV_012,
+		// Token: 0x040193F2 RID: 103410
+		[Token(Token = "0x4015E5B")]
+		TUTORIAL_ADV_013,
+		// Token: 0x040193F3 RID: 103411
+		[Token(Token = "0x4015E5C")]
+		TUTORIAL_ADV_014,
+		// Token: 0x040193F4 RID: 103412
+		[Token(Token = "0x4015E5D")]
+		TUTORIAL_ADV_015,
+		// Token: 0x040193F5 RID: 103413
+		[Token(Token = "0x4015E5E")]
+		TUTORIAL_ADV_016,
+		// Token: 0x040193F6 RID: 103414
+		[Token(Token = "0x4015E5F")]
+		TUTORIAL_ADV_017,
+		// Token: 0x040193F7 RID: 103415
+		[Token(Token = "0x4015E60")]
+		TUTORIAL_ADV_018,
+		// Token: 0x040193F8 RID: 103416
+		[Token(Token = "0x4015E61")]
+		TUTORIAL_ADV_019,
+		// Token: 0x040193F9 RID: 103417
+		[Token(Token = "0x4015E62")]
+		TUTORIAL_ADV_020,
+		// Token: 0x040193FA RID: 103418
+		[Token(Token = "0x4015E63")]
+		TUTORIAL_ADV_021,
+		// Token: 0x040193FB RID: 103419
+		[Token(Token = "0x4015E64")]
+		TUTORIAL_ADV_022,
+		// Token: 0x040193FC RID: 103420
+		[Token(Token = "0x4015E65")]
+		TUTORIAL_ADV_023,
+		// Token: 0x040193FD RID: 103421
+		[Token(Token = "0x4015E66")]
+		TUTORIAL_ADV_024,
+		// Token: 0x040193FE RID: 103422
+		[Token(Token = "0x4015E67")]
+		TUTORIAL_ADV_025,
+		// Token: 0x040193FF RID: 103423
+		[Token(Token = "0x4015E68")]
+		TUTORIAL_ADV_026,
+		// Token: 0x04019400 RID: 103424
+		[Token(Token = "0x4015E69")]
+		TUTORIAL_ADV_027,
+		// Token: 0x04019401 RID: 103425
+		[Token(Token = "0x4015E6A")]
+		TUTORIAL_ADV_028,
+		// Token: 0x04019402 RID: 103426
+		[Token(Token = "0x4015E6B")]
+		TUTORIAL_ADV_029,
+		// Token: 0x04019403 RID: 103427
+		[Token(Token = "0x4015E6C")]
+		TUTORIAL_ADV_030,
+		// Token: 0x04019404 RID: 103428
+		[Token(Token = "0x4015E6D")]
+		TUTORIAL_ADV_031,
+		// Token: 0x04019405 RID: 103429
+		[Token(Token = "0x4015E6E")]
+		TUTORIAL_ADV_032,
+		// Token: 0x04019406 RID: 103430
+		[Token(Token = "0x4015E6F")]
+		TUTORIAL_ADV_033,
+		// Token: 0x04019407 RID: 103431
+		[Token(Token = "0x4015E70")]
+		TUTORIAL_ADV_034,
+		// Token: 0x04019408 RID: 103432
+		[Token(Token = "0x4015E71")]
+		TUTORIAL_ADV_035,
+		// Token: 0x04019409 RID: 103433
+		[Token(Token = "0x4015E72")]
+		TUTORIAL_ADV_036,
+		// Token: 0x0401940A RID: 103434
+		[Token(Token = "0x4015E73")]
+		TUTORIAL_ADV_037,
+		// Token: 0x0401940B RID: 103435
+		[Token(Token = "0x4015E74")]
+		TUTORIAL_ADV_038,
+		// Token: 0x0401940C RID: 103436
+		[Token(Token = "0x4015E75")]
+		TUTORIAL_ADV_039,
+		// Token: 0x0401940D RID: 103437
+		[Token(Token = "0x4015E76")]
+		TUTORIAL_ADV_040,
+		// Token: 0x0401940E RID: 103438
+		[Token(Token = "0x4015E77")]
+		TUTORIAL_ADV_041,
+		// Token: 0x0401940F RID: 103439
+		[Token(Token = "0x4015E78")]
+		TUTORIAL_ADV_042,
+		// Token: 0x04019410 RID: 103440
+		[Token(Token = "0x4015E79")]
+		TUTORIAL_ADV_043,
+		// Token: 0x04019411 RID: 103441
+		[Token(Token = "0x4015E7A")]
+		TUTORIAL_ADV_044,
+		// Token: 0x04019412 RID: 103442
+		[Token(Token = "0x4015E7B")]
+		TUTORIAL_ADV_045,
+		// Token: 0x04019413 RID: 103443
+		[Token(Token = "0x4015E7C")]
+		TUTORIAL_ADV_046,
+		// Token: 0x04019414 RID: 103444
+		[Token(Token = "0x4015E7D")]
+		TUTORIAL_ADV_047,
+		// Token: 0x04019415 RID: 103445
+		[Token(Token = "0x4015E7E")]
+		TUTORIAL_ADV_048,
+		// Token: 0x04019416 RID: 103446
+		[Token(Token = "0x4015E7F")]
+		TUTORIAL_ADV_049,
+		// Token: 0x04019417 RID: 103447
+		[Token(Token = "0x4015E80")]
+		TUTORIAL_ADV_050,
+		// Token: 0x04019418 RID: 103448
+		[Token(Token = "0x4015E81")]
+		TUTORIAL_ADV_051,
+		// Token: 0x04019419 RID: 103449
+		[Token(Token = "0x4015E82")]
+		TUTORIAL_ADV_052,
+		// Token: 0x0401941A RID: 103450
+		[Token(Token = "0x4015E83")]
+		TUTORIAL_ADV_053,
+		// Token: 0x0401941B RID: 103451
+		[Token(Token = "0x4015E84")]
+		TUTORIAL_ADV_054,
+		// Token: 0x0401941C RID: 103452
+		[Token(Token = "0x4015E85")]
+		TUTORIAL_ADV_055,
+		// Token: 0x0401941D RID: 103453
+		[Token(Token = "0x4015E86")]
+		TUTORIAL_ADV_056,
+		// Token: 0x0401941E RID: 103454
+		[Token(Token = "0x4015E87")]
+		TUTORIAL_ADV_057,
+		// Token: 0x0401941F RID: 103455
+		[Token(Token = "0x4015E88")]
+		TUTORIAL_ADV_058,
+		// Token: 0x04019420 RID: 103456
+		[Token(Token = "0x4015E89")]
+		TUTORIAL_ADV_059,
+		// Token: 0x04019421 RID: 103457
+		[Token(Token = "0x4015E8A")]
+		TUTORIAL_ADV_060,
+		// Token: 0x04019422 RID: 103458
+		[Token(Token = "0x4015E8B")]
+		TUTORIAL_ADV_061,
+		// Token: 0x04019423 RID: 103459
+		[Token(Token = "0x4015E8C")]
+		TUTORIAL_ADV_062,
+		// Token: 0x04019424 RID: 103460
+		[Token(Token = "0x4015E8D")]
+		TUTORIAL_ADV_063,
+		// Token: 0x04019425 RID: 103461
+		[Token(Token = "0x4015E8E")]
+		TUTORIAL_ADV_064,
+		// Token: 0x04019426 RID: 103462
+		[Token(Token = "0x4015E8F")]
+		TUTORIAL_ADV_065,
+		// Token: 0x04019427 RID: 103463
+		[Token(Token = "0x4015E90")]
+		TUTORIAL_ADV_066,
+		// Token: 0x04019428 RID: 103464
+		[Token(Token = "0x4015E91")]
+		TUTORIAL_ADV_067,
+		// Token: 0x04019429 RID: 103465
+		[Token(Token = "0x4015E92")]
+		TUTORIAL_ADV_068,
+		// Token: 0x0401942A RID: 103466
+		[Token(Token = "0x4015E93")]
+		TUTORIAL_ADV_069,
+		// Token: 0x0401942B RID: 103467
+		[Token(Token = "0x4015E94")]
+		FLAG_kyubi_rebattle = 12856,
+		// Token: 0x0401942C RID: 103468
+		[Token(Token = "0x4015E95")]
+		FLAG_kyubi_rekill,
+		// Token: 0x0401942D RID: 103469
+		[Token(Token = "0x4015E96")]
+		FLAG_kerube_rebattle,
+		// Token: 0x0401942E RID: 103470
+		[Token(Token = "0x4015E97")]
+		FLAG_kerube_rekill,
+		// Token: 0x0401942F RID: 103471
+		[Token(Token = "0x4015E98")]
+		FLAG_bajiri_rebattle,
+		// Token: 0x04019430 RID: 103472
+		[Token(Token = "0x4015E99")]
+		FLAG_bajiri_rekill,
+		// Token: 0x04019431 RID: 103473
+		[Token(Token = "0x4015E9A")]
+		FLAG_krake_rebattle,
+		// Token: 0x04019432 RID: 103474
+		[Token(Token = "0x4015E9B")]
+		FLAG_krake_rekill,
+		// Token: 0x04019433 RID: 103475
+		[Token(Token = "0x4015E9C")]
+		FLAG_dragon_rebattle,
+		// Token: 0x04019434 RID: 103476
+		[Token(Token = "0x4015E9D")]
+		FLAG_dragon_rekill,
+		// Token: 0x04019435 RID: 103477
+		[Token(Token = "0x4015E9E")]
+		FLAG_hari_rebattle,
+		// Token: 0x04019436 RID: 103478
+		[Token(Token = "0x4015E9F")]
+		FLAG_hari_rekill,
+		// Token: 0x04019437 RID: 103479
+		[Token(Token = "0x4015EA0")]
+		FLAG_hsas_rebattle,
+		// Token: 0x04019438 RID: 103480
+		[Token(Token = "0x4015EA1")]
+		FLAG_hsas_rekill,
+		// Token: 0x04019439 RID: 103481
+		[Token(Token = "0x4015EA2")]
+		FLAG_kamere_rebattle,
+		// Token: 0x0401943A RID: 103482
+		[Token(Token = "0x4015EA3")]
+		FLAG_kamere_rekill,
+		// Token: 0x0401943B RID: 103483
+		[Token(Token = "0x4015EA4")]
+		FLAG_rock_rebattle,
+		// Token: 0x0401943C RID: 103484
+		[Token(Token = "0x4015EA5")]
+		FLAG_rock_rekill,
+		// Token: 0x0401943D RID: 103485
+		[Token(Token = "0x4015EA6")]
+		FLAG_skull_rebattle,
+		// Token: 0x0401943E RID: 103486
+		[Token(Token = "0x4015EA7")]
+		FLAG_skull_rekill,
+		// Token: 0x0401943F RID: 103487
+		[Token(Token = "0x4015EA8")]
+		FLAG_revi_rebattle,
+		// Token: 0x04019440 RID: 103488
+		[Token(Token = "0x4015EA9")]
+		FLAG_revi_rekill,
+		// Token: 0x04019441 RID: 103489
+		[Token(Token = "0x4015EAA")]
+		FLAG_heka_rebattle,
+		// Token: 0x04019442 RID: 103490
+		[Token(Token = "0x4015EAB")]
+		FLAG_heka_rekill,
+		// Token: 0x04019443 RID: 103491
+		[Token(Token = "0x4015EAC")]
+		FLAG_dead_rebattle,
+		// Token: 0x04019444 RID: 103492
+		[Token(Token = "0x4015EAD")]
+		FLAG_dead_rekill,
+		// Token: 0x04019445 RID: 103493
+		[Token(Token = "0x4015EAE")]
+		FLAG_reva_rebattle,
+		// Token: 0x04019446 RID: 103494
+		[Token(Token = "0x4015EAF")]
+		FLAG_reva_rekill,
+		// Token: 0x04019447 RID: 103495
+		[Token(Token = "0x4015EB0")]
+		FLAG_sas2_rebattle,
+		// Token: 0x04019448 RID: 103496
+		[Token(Token = "0x4015EB1")]
+		FLAG_sas2_rekill,
+		// Token: 0x04019449 RID: 103497
+		[Token(Token = "0x4015EB2")]
+		FLAG_kame2_rebattle,
+		// Token: 0x0401944A RID: 103498
+		[Token(Token = "0x4015EB3")]
+		FLAG_kame2_rekill,
+		// Token: 0x0401944B RID: 103499
+		[Token(Token = "0x4015EB4")]
+		FLAG_rock2_rebattle,
+		// Token: 0x0401944C RID: 103500
+		[Token(Token = "0x4015EB5")]
+		FLAG_rock2_rekill,
+		// Token: 0x0401944D RID: 103501
+		[Token(Token = "0x4015EB6")]
+		FLAG_kurage_rebattle,
+		// Token: 0x0401944E RID: 103502
+		[Token(Token = "0x4015EB7")]
+		FLAG_kurage_rekill,
+		// Token: 0x0401944F RID: 103503
+		[Token(Token = "0x4015EB8")]
+		FLAG_uro_rebattle,
+		// Token: 0x04019450 RID: 103504
+		[Token(Token = "0x4015EB9")]
+		FLAG_uro_rekill,
+		// Token: 0x04019451 RID: 103505
+		[Token(Token = "0x4015EBA")]
+		FLAG_uddo_rebattle,
+		// Token: 0x04019452 RID: 103506
+		[Token(Token = "0x4015EBB")]
+		FLAG_uddo_rekill,
+		// Token: 0x04019453 RID: 103507
+		[Token(Token = "0x4015EBC")]
+		FLAG_aries_rebattle,
+		// Token: 0x04019454 RID: 103508
+		[Token(Token = "0x4015EBD")]
+		FLAG_aries_rekill,
+		// Token: 0x04019455 RID: 103509
+		[Token(Token = "0x4015EBE")]
+		FLAG_audo_rebattle,
+		// Token: 0x04019456 RID: 103510
+		[Token(Token = "0x4015EBF")]
+		FLAG_audo_rekill,
+		// Token: 0x04019457 RID: 103511
+		[Token(Token = "0x4015EC0")]
+		FLAG_gand_rebattle,
+		// Token: 0x04019458 RID: 103512
+		[Token(Token = "0x4015EC1")]
+		FLAG_gand_rekill,
+		// Token: 0x04019459 RID: 103513
+		[Token(Token = "0x4015EC2")]
+		FLAG_last_rebattle,
+		// Token: 0x0401945A RID: 103514
+		[Token(Token = "0x4015EC3")]
+		FLAG_last_rekill,
+		// Token: 0x0401945B RID: 103515
+		[Token(Token = "0x4015EC4")]
+		FLAG_chall_haka_rebattle,
+		// Token: 0x0401945C RID: 103516
+		[Token(Token = "0x4015EC5")]
+		FLAG_chall_haka_rekill,
+		// Token: 0x0401945D RID: 103517
+		[Token(Token = "0x4015EC6")]
+		FLAG_chall_revi_rebattle,
+		// Token: 0x0401945E RID: 103518
+		[Token(Token = "0x4015EC7")]
+		FLAG_chall_revi_rekill,
+		// Token: 0x0401945F RID: 103519
+		[Token(Token = "0x4015EC8")]
+		FLAG_chall_hari_rebattle,
+		// Token: 0x04019460 RID: 103520
+		[Token(Token = "0x4015EC9")]
+		FLAG_chall_hari_rekill,
+		// Token: 0x04019461 RID: 103521
+		[Token(Token = "0x4015ECA")]
+		FLAG_chall_yado_rebattle,
+		// Token: 0x04019462 RID: 103522
+		[Token(Token = "0x4015ECB")]
+		FLAG_chall_yado_rekill,
+		// Token: 0x04019463 RID: 103523
+		[Token(Token = "0x4015ECC")]
+		FLAG_chall_baji_rebattle,
+		// Token: 0x04019464 RID: 103524
+		[Token(Token = "0x4015ECD")]
+		FLAG_chall_baji_rekill,
+		// Token: 0x04019465 RID: 103525
+		[Token(Token = "0x4015ECE")]
+		FLAG_chall_keru_rebattle,
+		// Token: 0x04019466 RID: 103526
+		[Token(Token = "0x4015ECF")]
+		FLAG_chall_keru_rekill,
+		// Token: 0x04019467 RID: 103527
+		[Token(Token = "0x4015ED0")]
+		FLAG_chall_hasi_rebattle,
+		// Token: 0x04019468 RID: 103528
+		[Token(Token = "0x4015ED1")]
+		FLAG_chall_hasi_rekill,
+		// Token: 0x04019469 RID: 103529
+		[Token(Token = "0x4015ED2")]
+		FLAG_chall_ara_rebattle,
+		// Token: 0x0401946A RID: 103530
+		[Token(Token = "0x4015ED3")]
+		FLAG_chall_ara_rekill,
+		// Token: 0x0401946B RID: 103531
+		[Token(Token = "0x4015ED4")]
+		FLAG_chall_ino_rebattle,
+		// Token: 0x0401946C RID: 103532
+		[Token(Token = "0x4015ED5")]
+		FLAG_chall_ino_rekill,
+		// Token: 0x0401946D RID: 103533
+		[Token(Token = "0x4015ED6")]
+		FLAG_chall_uro_rebattle,
+		// Token: 0x0401946E RID: 103534
+		[Token(Token = "0x4015ED7")]
+		FLAG_chall_uro_rekill,
+		// Token: 0x0401946F RID: 103535
+		[Token(Token = "0x4015ED8")]
+		FLAG_chall2_dead_rebattle,
+		// Token: 0x04019470 RID: 103536
+		[Token(Token = "0x4015ED9")]
+		FLAG_chall2_dead_rekill,
+		// Token: 0x04019471 RID: 103537
+		[Token(Token = "0x4015EDA")]
+		FLAG_chall2_hasi_rebattle,
+		// Token: 0x04019472 RID: 103538
+		[Token(Token = "0x4015EDB")]
+		FLAG_chall2_hasi_rekill,
+		// Token: 0x04019473 RID: 103539
+		[Token(Token = "0x4015EDC")]
+		FLAG_chall2_kura_rebattle,
+		// Token: 0x04019474 RID: 103540
+		[Token(Token = "0x4015EDD")]
+		FLAG_chall2_kura_rekill,
+		// Token: 0x04019475 RID: 103541
+		[Token(Token = "0x4015EDE")]
+		FLAG_chall2_yado_rebattle,
+		// Token: 0x04019476 RID: 103542
+		[Token(Token = "0x4015EDF")]
+		FLAG_chall2_yado_rekill,
+		// Token: 0x04019477 RID: 103543
+		[Token(Token = "0x4015EE0")]
+		FLAG_chall2_ino_rebattle,
+		// Token: 0x04019478 RID: 103544
+		[Token(Token = "0x4015EE1")]
+		FLAG_chall2_ino_rekill,
+		// Token: 0x04019479 RID: 103545
+		[Token(Token = "0x4015EE2")]
+		FLAG_chall2_ara_rebattle,
+		// Token: 0x0401947A RID: 103546
+		[Token(Token = "0x4015EE3")]
+		FLAG_chall2_ara_rekill,
+		// Token: 0x0401947B RID: 103547
+		[Token(Token = "0x4015EE4")]
+		FLAG_chall2_ari_rebattle,
+		// Token: 0x0401947C RID: 103548
+		[Token(Token = "0x4015EE5")]
+		FLAG_chall2_ari_rekill,
+		// Token: 0x0401947D RID: 103549
+		[Token(Token = "0x4015EE6")]
+		FLAG_chall2_audo_rebattle,
+		// Token: 0x0401947E RID: 103550
+		[Token(Token = "0x4015EE7")]
+		FLAG_chall2_audo_rekill,
+		// Token: 0x0401947F RID: 103551
+		[Token(Token = "0x4015EE8")]
+		FLAG_chall2_skull_rebattle,
+		// Token: 0x04019480 RID: 103552
+		[Token(Token = "0x4015EE9")]
+		FLAG_chall2_skull_rekill,
+		// Token: 0x04019481 RID: 103553
+		[Token(Token = "0x4015EEA")]
+		FLAG_chall_mommy_rebattle,
+		// Token: 0x04019482 RID: 103554
+		[Token(Token = "0x4015EEB")]
+		FLAG_chall_mommy_rekill,
+		// Token: 0x04019483 RID: 103555
+		[Token(Token = "0x4015EEC")]
+		FLAG_PRISCILLA_Love1 = 20001,
+		// Token: 0x04019484 RID: 103556
+		[Token(Token = "0x4015EED")]
+		FLAG_PRISCILLA_Love2,
+		// Token: 0x04019485 RID: 103557
+		[Token(Token = "0x4015EEE")]
+		FLAG_PRISCILLA_Love3,
+		// Token: 0x04019486 RID: 103558
+		[Token(Token = "0x4015EEF")]
+		FLAG_PRISCILLA_Love4,
+		// Token: 0x04019487 RID: 103559
+		[Token(Token = "0x4015EF0")]
+		FLAG_LUCY_Love1,
+		// Token: 0x04019488 RID: 103560
+		[Token(Token = "0x4015EF1")]
+		FLAG_LUCY_Love2,
+		// Token: 0x04019489 RID: 103561
+		[Token(Token = "0x4015EF2")]
+		FLAG_LUCY_Love3,
+		// Token: 0x0401948A RID: 103562
+		[Token(Token = "0x4015EF3")]
+		FLAG_LUCY_Love4,
+		// Token: 0x0401948B RID: 103563
+		[Token(Token = "0x4015EF4")]
+		FLAG_SCARLETT_Love1,
+		// Token: 0x0401948C RID: 103564
+		[Token(Token = "0x4015EF5")]
+		FLAG_SCARLETT_Love2,
+		// Token: 0x0401948D RID: 103565
+		[Token(Token = "0x4015EF6")]
+		FLAG_SCARLETT_Love3,
+		// Token: 0x0401948E RID: 103566
+		[Token(Token = "0x4015EF7")]
+		FLAG_SCARLETT_Love4,
+		// Token: 0x0401948F RID: 103567
+		[Token(Token = "0x4015EF8")]
+		FLAG_FUQUA_Love1,
+		// Token: 0x04019490 RID: 103568
+		[Token(Token = "0x4015EF9")]
+		FLAG_FUQUA_Love2,
+		// Token: 0x04019491 RID: 103569
+		[Token(Token = "0x4015EFA")]
+		FLAG_FUQUA_Love3,
+		// Token: 0x04019492 RID: 103570
+		[Token(Token = "0x4015EFB")]
+		FLAG_FUQUA_Love4,
+		// Token: 0x04019493 RID: 103571
+		[Token(Token = "0x4015EFC")]
+		FLAG_BEATRICE_Love1,
+		// Token: 0x04019494 RID: 103572
+		[Token(Token = "0x4015EFD")]
+		FLAG_BEATRICE_Love2,
+		// Token: 0x04019495 RID: 103573
+		[Token(Token = "0x4015EFE")]
+		FLAG_BEATRICE_Love3,
+		// Token: 0x04019496 RID: 103574
+		[Token(Token = "0x4015EFF")]
+		FLAG_BEATRICE_Love4,
+		// Token: 0x04019497 RID: 103575
+		[Token(Token = "0x4015F00")]
+		FLAG_LUDMILA_Love1,
+		// Token: 0x04019498 RID: 103576
+		[Token(Token = "0x4015F01")]
+		FLAG_LUDMILA_Love2,
+		// Token: 0x04019499 RID: 103577
+		[Token(Token = "0x4015F02")]
+		FLAG_LUDMILA_Love3,
+		// Token: 0x0401949A RID: 103578
+		[Token(Token = "0x4015F03")]
+		FLAG_LUDMILA_Love4,
+		// Token: 0x0401949B RID: 103579
+		[Token(Token = "0x4015F04")]
+		FLAG_MARTIN_Love1,
+		// Token: 0x0401949C RID: 103580
+		[Token(Token = "0x4015F05")]
+		FLAG_MARTIN_Love2,
+		// Token: 0x0401949D RID: 103581
+		[Token(Token = "0x4015F06")]
+		FLAG_MARTIN_Love3,
+		// Token: 0x0401949E RID: 103582
+		[Token(Token = "0x4015F07")]
+		FLAG_MARTIN_Love4,
+		// Token: 0x0401949F RID: 103583
+		[Token(Token = "0x4015F08")]
+		FLAG_CECILE_Love1,
+		// Token: 0x040194A0 RID: 103584
+		[Token(Token = "0x4015F09")]
+		FLAG_CECILE_Love2,
+		// Token: 0x040194A1 RID: 103585
+		[Token(Token = "0x4015F0A")]
+		FLAG_CECILE_Love3,
+		// Token: 0x040194A2 RID: 103586
+		[Token(Token = "0x4015F0B")]
+		FLAG_CECILE_Love4,
+		// Token: 0x040194A3 RID: 103587
+		[Token(Token = "0x4015F0C")]
+		FLAG_MURAKUMO_Love1,
+		// Token: 0x040194A4 RID: 103588
+		[Token(Token = "0x4015F0D")]
+		FLAG_MURAKUMO_Love2,
+		// Token: 0x040194A5 RID: 103589
+		[Token(Token = "0x4015F0E")]
+		FLAG_MURAKUMO_Love3,
+		// Token: 0x040194A6 RID: 103590
+		[Token(Token = "0x4015F0F")]
+		FLAG_MURAKUMO_Love4,
+		// Token: 0x040194A7 RID: 103591
+		[Token(Token = "0x4015F10")]
+		FLAG_LYKA_Love1,
+		// Token: 0x040194A8 RID: 103592
+		[Token(Token = "0x4015F11")]
+		FLAG_LYKA_Love2,
+		// Token: 0x040194A9 RID: 103593
+		[Token(Token = "0x4015F12")]
+		FLAG_LYKA_Love3,
+		// Token: 0x040194AA RID: 103594
+		[Token(Token = "0x4015F13")]
+		FLAG_LYKA_Love4,
+		// Token: 0x040194AB RID: 103595
+		[Token(Token = "0x4015F14")]
+		FLAG_REINHARD_Love1,
+		// Token: 0x040194AC RID: 103596
+		[Token(Token = "0x4015F15")]
+		FLAG_REINHARD_Love2,
+		// Token: 0x040194AD RID: 103597
+		[Token(Token = "0x4015F16")]
+		FLAG_REINHARD_Love3,
+		// Token: 0x040194AE RID: 103598
+		[Token(Token = "0x4015F17")]
+		FLAG_REINHARD_Love4,
+		// Token: 0x040194AF RID: 103599
+		[Token(Token = "0x4015F18")]
+		FLAG_LUCAS_Love1,
+		// Token: 0x040194B0 RID: 103600
+		[Token(Token = "0x4015F19")]
+		FLAG_LUCAS_Love2,
+		// Token: 0x040194B1 RID: 103601
+		[Token(Token = "0x4015F1A")]
+		FLAG_LUCAS_Love3,
+		// Token: 0x040194B2 RID: 103602
+		[Token(Token = "0x4015F1B")]
+		FLAG_LUCAS_Love4,
+		// Token: 0x040194B3 RID: 103603
+		[Token(Token = "0x4015F1C")]
+		FLAG_ELCHE_Love1,
+		// Token: 0x040194B4 RID: 103604
+		[Token(Token = "0x4015F1D")]
+		FLAG_ELCHE_Love2,
+		// Token: 0x040194B5 RID: 103605
+		[Token(Token = "0x4015F1E")]
+		FLAG_ELCHE_Love3,
+		// Token: 0x040194B6 RID: 103606
+		[Token(Token = "0x4015F1F")]
+		FLAG_ELCHE_Love4,
+		// Token: 0x040194B7 RID: 103607
+		[Token(Token = "0x4015F20")]
+		FLAG_PALMO_Love1,
+		// Token: 0x040194B8 RID: 103608
+		[Token(Token = "0x4015F21")]
+		FLAG_PALMO_Love2,
+		// Token: 0x040194B9 RID: 103609
+		[Token(Token = "0x4015F22")]
+		FLAG_PALMO_Love3,
+		// Token: 0x040194BA RID: 103610
+		[Token(Token = "0x4015F23")]
+		FLAG_PALMO_Love4,
+		// Token: 0x040194BB RID: 103611
+		[Token(Token = "0x4015F24")]
+		FLAG_HEINZ_Love1,
+		// Token: 0x040194BC RID: 103612
+		[Token(Token = "0x4015F25")]
+		FLAG_HEINZ_Love2,
+		// Token: 0x040194BD RID: 103613
+		[Token(Token = "0x4015F26")]
+		FLAG_HEINZ_Love3,
+		// Token: 0x040194BE RID: 103614
+		[Token(Token = "0x4015F27")]
+		FLAG_HEINZ_Love4,
+		// Token: 0x040194BF RID: 103615
+		[Token(Token = "0x4015F28")]
+		FLAG_RANDOLPH_Love1,
+		// Token: 0x040194C0 RID: 103616
+		[Token(Token = "0x4015F29")]
+		FLAG_RANDOLPH_Love2,
+		// Token: 0x040194C1 RID: 103617
+		[Token(Token = "0x4015F2A")]
+		FLAG_RANDOLPH_Love3,
+		// Token: 0x040194C2 RID: 103618
+		[Token(Token = "0x4015F2B")]
+		FLAG_RANDOLPH_Love4,
+		// Token: 0x040194C3 RID: 103619
+		[Token(Token = "0x4015F2C")]
+		FLAG_YUKI_Love1,
+		// Token: 0x040194C4 RID: 103620
+		[Token(Token = "0x4015F2D")]
+		FLAG_YUKI_Love2,
+		// Token: 0x040194C5 RID: 103621
+		[Token(Token = "0x4015F2E")]
+		FLAG_YUKI_Love3,
+		// Token: 0x040194C6 RID: 103622
+		[Token(Token = "0x4015F2F")]
+		FLAG_YUKI_Love4,
+		// Token: 0x040194C7 RID: 103623
+		[Token(Token = "0x4015F30")]
+		FLAG_SIMONE_Love1,
+		// Token: 0x040194C8 RID: 103624
+		[Token(Token = "0x4015F31")]
+		FLAG_SIMONE_Love2,
+		// Token: 0x040194C9 RID: 103625
+		[Token(Token = "0x4015F32")]
+		FLAG_SIMONE_Love3,
+		// Token: 0x040194CA RID: 103626
+		[Token(Token = "0x4015F33")]
+		FLAG_SIMONE_Love4,
+		// Token: 0x040194CB RID: 103627
+		[Token(Token = "0x4015F34")]
+		FLAG_MISASAGI_Love1,
+		// Token: 0x040194CC RID: 103628
+		[Token(Token = "0x4015F35")]
+		FLAG_MISASAGI_Love2,
+		// Token: 0x040194CD RID: 103629
+		[Token(Token = "0x4015F36")]
+		FLAG_MISASAGI_Love3,
+		// Token: 0x040194CE RID: 103630
+		[Token(Token = "0x4015F37")]
+		FLAG_MISASAGI_Love4,
+		// Token: 0x040194CF RID: 103631
+		[Token(Token = "0x4015F38")]
+		FLAG_TERRY_Love1,
+		// Token: 0x040194D0 RID: 103632
+		[Token(Token = "0x4015F39")]
+		FLAG_TERRY_Love2,
+		// Token: 0x040194D1 RID: 103633
+		[Token(Token = "0x4015F3A")]
+		FLAG_TERRY_Love3,
+		// Token: 0x040194D2 RID: 103634
+		[Token(Token = "0x4015F3B")]
+		FLAG_TERRY_Love4,
+		// Token: 0x040194D3 RID: 103635
+		[Token(Token = "0x4015F3C")]
+		FLAG_RIVIA_Love1,
+		// Token: 0x040194D4 RID: 103636
+		[Token(Token = "0x4015F3D")]
+		FLAG_RIVIA_Love2,
+		// Token: 0x040194D5 RID: 103637
+		[Token(Token = "0x4015F3E")]
+		FLAG_RIVIA_Love3,
+		// Token: 0x040194D6 RID: 103638
+		[Token(Token = "0x4015F3F")]
+		FLAG_RIVIA_Love4,
+		// Token: 0x040194D7 RID: 103639
+		[Token(Token = "0x4015F40")]
+		FLAG_RIVIASILON_Love1,
+		// Token: 0x040194D8 RID: 103640
+		[Token(Token = "0x4015F41")]
+		FLAG_RIVIASILON_Love2,
+		// Token: 0x040194D9 RID: 103641
+		[Token(Token = "0x4015F42")]
+		FLAG_RIVIASILON_Love3,
+		// Token: 0x040194DA RID: 103642
+		[Token(Token = "0x4015F43")]
+		FLAG_RIVIASILON_Love4,
+		// Token: 0x040194DB RID: 103643
+		[Token(Token = "0x4015F44")]
+		FLAG_REDIA_Love1,
+		// Token: 0x040194DC RID: 103644
+		[Token(Token = "0x4015F45")]
+		FLAG_REDIA_Love2,
+		// Token: 0x040194DD RID: 103645
+		[Token(Token = "0x4015F46")]
+		FLAG_REDIA_Love3,
+		// Token: 0x040194DE RID: 103646
+		[Token(Token = "0x4015F47")]
+		FLAG_REDIA_Love4,
+		// Token: 0x040194DF RID: 103647
+		[Token(Token = "0x4015F48")]
+		FLAG_REVADIA_Love1,
+		// Token: 0x040194E0 RID: 103648
+		[Token(Token = "0x4015F49")]
+		FLAG_REVADIA_Love2,
+		// Token: 0x040194E1 RID: 103649
+		[Token(Token = "0x4015F4A")]
+		FLAG_REVADIA_Love3,
+		// Token: 0x040194E2 RID: 103650
+		[Token(Token = "0x4015F4B")]
+		FLAG_REVADIA_Love4,
+		// Token: 0x040194E3 RID: 103651
+		[Token(Token = "0x4015F4C")]
+		FLAG_DOGU_Love1,
+		// Token: 0x040194E4 RID: 103652
+		[Token(Token = "0x4015F4D")]
+		FLAG_DOGU_Love2,
+		// Token: 0x040194E5 RID: 103653
+		[Token(Token = "0x4015F4E")]
+		FLAG_DOGU_Love3,
+		// Token: 0x040194E6 RID: 103654
+		[Token(Token = "0x4015F4F")]
+		FLAG_DOGU_Love4,
+		// Token: 0x040194E7 RID: 103655
+		[Token(Token = "0x4015F50")]
+		FLAG_JULIAN_Love1,
+		// Token: 0x040194E8 RID: 103656
+		[Token(Token = "0x4015F51")]
+		FLAG_JULIAN_Love2,
+		// Token: 0x040194E9 RID: 103657
+		[Token(Token = "0x4015F52")]
+		FLAG_JULIAN_Love3,
+		// Token: 0x040194EA RID: 103658
+		[Token(Token = "0x4015F53")]
+		FLAG_JULIAN_Love4,
+		// Token: 0x040194EB RID: 103659
+		[Token(Token = "0x4015F54")]
+		FLAG_HINA_Love1,
+		// Token: 0x040194EC RID: 103660
+		[Token(Token = "0x4015F55")]
+		FLAG_HINA_Love2,
+		// Token: 0x040194ED RID: 103661
+		[Token(Token = "0x4015F56")]
+		FLAG_HINA_Love3,
+		// Token: 0x040194EE RID: 103662
+		[Token(Token = "0x4015F57")]
+		FLAG_HINA_Love4,
+		// Token: 0x040194EF RID: 103663
+		[Token(Token = "0x4015F58")]
+		FLAG_BABY_Love1,
+		// Token: 0x040194F0 RID: 103664
+		[Token(Token = "0x4015F59")]
+		FLAG_BABY_Love2,
+		// Token: 0x040194F1 RID: 103665
+		[Token(Token = "0x4015F5A")]
+		FLAG_BABY_Love3,
+		// Token: 0x040194F2 RID: 103666
+		[Token(Token = "0x4015F5B")]
+		FLAG_BABY_Love4,
+		// Token: 0x040194F3 RID: 103667
+		[Token(Token = "0x4015F5C")]
+		FLAG_CHILDBOY_Love1,
+		// Token: 0x040194F4 RID: 103668
+		[Token(Token = "0x4015F5D")]
+		FLAG_CHILDBOY_Love2,
+		// Token: 0x040194F5 RID: 103669
+		[Token(Token = "0x4015F5E")]
+		FLAG_CHILDBOY_Love3,
+		// Token: 0x040194F6 RID: 103670
+		[Token(Token = "0x4015F5F")]
+		FLAG_CHILDBOY_Love4,
+		// Token: 0x040194F7 RID: 103671
+		[Token(Token = "0x4015F60")]
+		FLAG_CHILDGIRL_Love1,
+		// Token: 0x040194F8 RID: 103672
+		[Token(Token = "0x4015F61")]
+		FLAG_CHILDGIRL_Love2,
+		// Token: 0x040194F9 RID: 103673
+		[Token(Token = "0x4015F62")]
+		FLAG_CHILDGIRL_Love3,
+		// Token: 0x040194FA RID: 103674
+		[Token(Token = "0x4015F63")]
+		FLAG_CHILDGIRL_Love4,
+		// Token: 0x040194FB RID: 103675
+		[Token(Token = "0x4015F64")]
+		FLAG_DAGU_Love1,
+		// Token: 0x040194FC RID: 103676
+		[Token(Token = "0x4015F65")]
+		FLAG_DAGU_Love2,
+		// Token: 0x040194FD RID: 103677
+		[Token(Token = "0x4015F66")]
+		FLAG_DAGU_Love3,
+		// Token: 0x040194FE RID: 103678
+		[Token(Token = "0x4015F67")]
+		FLAG_DAGU_Love4,
+		// Token: 0x040194FF RID: 103679
+		[Token(Token = "0x4015F68")]
+		FLAG_MARGARET_Love1,
+		// Token: 0x04019500 RID: 103680
+		[Token(Token = "0x4015F69")]
+		FLAG_MARGARET_Love2,
+		// Token: 0x04019501 RID: 103681
+		[Token(Token = "0x4015F6A")]
+		FLAG_MARGARET_Love3,
+		// Token: 0x04019502 RID: 103682
+		[Token(Token = "0x4015F6B")]
+		FLAG_MARGARET_Love4,
+		// Token: 0x04019503 RID: 103683
+		[Token(Token = "0x4015F6C")]
+		FLAG_OSWALD_Love1,
+		// Token: 0x04019504 RID: 103684
+		[Token(Token = "0x4015F6D")]
+		FLAG_OSWALD_Love2,
+		// Token: 0x04019505 RID: 103685
+		[Token(Token = "0x4015F6E")]
+		FLAG_OSWALD_Love3,
+		// Token: 0x04019506 RID: 103686
+		[Token(Token = "0x4015F6F")]
+		FLAG_OSWALD_Love4,
+		// Token: 0x04019507 RID: 103687
+		[Token(Token = "0x4015F70")]
+		FLAG_GANDAGE_Love1,
+		// Token: 0x04019508 RID: 103688
+		[Token(Token = "0x4015F71")]
+		FLAG_GANDAGE_Love2,
+		// Token: 0x04019509 RID: 103689
+		[Token(Token = "0x4015F72")]
+		FLAG_GANDAGE_Love3,
+		// Token: 0x0401950A RID: 103690
+		[Token(Token = "0x4015F73")]
+		FLAG_GANDAGE_Love4,
+		// Token: 0x0401950B RID: 103691
+		[Token(Token = "0x4015F74")]
+		FLAG_SUB_3006_QUIZ1 = 30001,
+		// Token: 0x0401950C RID: 103692
+		[Token(Token = "0x4015F75")]
+		FLAG_SUB_3006_QUIZ2,
+		// Token: 0x0401950D RID: 103693
+		[Token(Token = "0x4015F76")]
+		FLAG_SUB_3006_QUIZ3,
+		// Token: 0x0401950E RID: 103694
+		[Token(Token = "0x4015F77")]
+		FLAG_SUB_3002_CHOICE1 = 30011,
+		// Token: 0x0401950F RID: 103695
+		[Token(Token = "0x4015F78")]
+		FLAG_SUB_3002_CHOICE2,
+		// Token: 0x04019510 RID: 103696
+		[Token(Token = "0x4015F79")]
+		FLAG_SUB_3002_CHOICE3,
+		// Token: 0x04019511 RID: 103697
+		[Token(Token = "0x4015F7A")]
+		FLAG_SUB_3049_CHOICE1,
+		// Token: 0x04019512 RID: 103698
+		[Token(Token = "0x4015F7B")]
+		FLAG_SUB_3049_CHOICE2,
+		// Token: 0x04019513 RID: 103699
+		[Token(Token = "0x4015F7C")]
+		FLAG_SUB_3049_CHOICE3,
+		// Token: 0x04019514 RID: 103700
+		[Token(Token = "0x4015F7D")]
+		FLAG_SUB_3003_CHOICE1,
+		// Token: 0x04019515 RID: 103701
+		[Token(Token = "0x4015F7E")]
+		FLAG_SUB_3003_CHOICE2,
+		// Token: 0x04019516 RID: 103702
+		[Token(Token = "0x4015F7F")]
+		FLAG_SUB_3003_CHOICE3,
+		// Token: 0x04019517 RID: 103703
+		[Token(Token = "0x4015F80")]
+		FLAG_SUB_3011_QUIZ1 = 30021,
+		// Token: 0x04019518 RID: 103704
+		[Token(Token = "0x4015F81")]
+		FLAG_SUB_3011_QUIZ2,
+		// Token: 0x04019519 RID: 103705
+		[Token(Token = "0x4015F82")]
+		OBTAIN_DORYU = 30102,
+		// Token: 0x0401951A RID: 103706
+		[Token(Token = "0x4015F83")]
+		OBTAIN_DORYU2,
+		// Token: 0x0401951B RID: 103707
+		[Token(Token = "0x4015F84")]
+		OBTAIN_DORYU3,
+		// Token: 0x0401951C RID: 103708
+		[Token(Token = "0x4015F85")]
+		OBTAIN_DORYU4,
+		// Token: 0x0401951D RID: 103709
+		[Token(Token = "0x4015F86")]
+		OBTAIN_DORYU5,
+		// Token: 0x0401951E RID: 103710
+		[Token(Token = "0x4015F87")]
+		TEJYOU = 31000,
+		// Token: 0x0401951F RID: 103711
+		[Token(Token = "0x4015F88")]
+		FLAG_ORDER_TARGET_001 = 47001,
+		// Token: 0x04019520 RID: 103712
+		[Token(Token = "0x4015F89")]
+		FLAG_ORDER_TARGET_002,
+		// Token: 0x04019521 RID: 103713
+		[Token(Token = "0x4015F8A")]
+		FLAG_ORDER_TARGET_003,
+		// Token: 0x04019522 RID: 103714
+		[Token(Token = "0x4015F8B")]
+		FLAG_ORDER_TARGET_004,
+		// Token: 0x04019523 RID: 103715
+		[Token(Token = "0x4015F8C")]
+		FLAG_ORDER_TARGET_005,
+		// Token: 0x04019524 RID: 103716
+		[Token(Token = "0x4015F8D")]
+		FLAG_ORDER_TARGET_006,
+		// Token: 0x04019525 RID: 103717
+		[Token(Token = "0x4015F8E")]
+		FLAG_ORDER_TARGET_007,
+		// Token: 0x04019526 RID: 103718
+		[Token(Token = "0x4015F8F")]
+		FLAG_ORDER_TARGET_008,
+		// Token: 0x04019527 RID: 103719
+		[Token(Token = "0x4015F90")]
+		FLAG_ORDER_TARGET_009,
+		// Token: 0x04019528 RID: 103720
+		[Token(Token = "0x4015F91")]
+		FLAG_ORDER_TARGET_010,
+		// Token: 0x04019529 RID: 103721
+		[Token(Token = "0x4015F92")]
+		FLAG_ORDER_TARGET_011,
+		// Token: 0x0401952A RID: 103722
+		[Token(Token = "0x4015F93")]
+		FLAG_ORDER_TARGET_012,
+		// Token: 0x0401952B RID: 103723
+		[Token(Token = "0x4015F94")]
+		FLAG_ORDER_TARGET_013,
+		// Token: 0x0401952C RID: 103724
+		[Token(Token = "0x4015F95")]
+		FLAG_ORDER_TARGET_014,
+		// Token: 0x0401952D RID: 103725
+		[Token(Token = "0x4015F96")]
+		FLAG_ORDER_TARGET_015,
+		// Token: 0x0401952E RID: 103726
+		[Token(Token = "0x4015F97")]
+		FLAG_ORDER_TARGET_016,
+		// Token: 0x0401952F RID: 103727
+		[Token(Token = "0x4015F98")]
+		FLAG_ORDER_TARGET_017,
+		// Token: 0x04019530 RID: 103728
+		[Token(Token = "0x4015F99")]
+		FLAG_ORDER_TARGET_018,
+		// Token: 0x04019531 RID: 103729
+		[Token(Token = "0x4015F9A")]
+		FLAG_ORDER_TARGET_019,
+		// Token: 0x04019532 RID: 103730
+		[Token(Token = "0x4015F9B")]
+		FLAG_ORDER_TARGET_020,
+		// Token: 0x04019533 RID: 103731
+		[Token(Token = "0x4015F9C")]
+		FLAG_ORDER_TARGET_021,
+		// Token: 0x04019534 RID: 103732
+		[Token(Token = "0x4015F9D")]
+		FLAG_ORDER_TARGET_022,
+		// Token: 0x04019535 RID: 103733
+		[Token(Token = "0x4015F9E")]
+		FLAG_ORDER_TARGET_023,
+		// Token: 0x04019536 RID: 103734
+		[Token(Token = "0x4015F9F")]
+		FLAG_ORDER_TARGET_024,
+		// Token: 0x04019537 RID: 103735
+		[Token(Token = "0x4015FA0")]
+		FLAG_ORDER_TARGET_025,
+		// Token: 0x04019538 RID: 103736
+		[Token(Token = "0x4015FA1")]
+		FLAG_ORDER_TARGET_026,
+		// Token: 0x04019539 RID: 103737
+		[Token(Token = "0x4015FA2")]
+		FLAG_ORDER_TARGET_027,
+		// Token: 0x0401953A RID: 103738
+		[Token(Token = "0x4015FA3")]
+		FLAG_ORDER_TARGET_028,
+		// Token: 0x0401953B RID: 103739
+		[Token(Token = "0x4015FA4")]
+		FLAG_ORDER_TARGET_029,
+		// Token: 0x0401953C RID: 103740
+		[Token(Token = "0x4015FA5")]
+		FLAG_ORDER_TARGET_030,
+		// Token: 0x0401953D RID: 103741
+		[Token(Token = "0x4015FA6")]
+		FLAG_ORDER_ACCEPT_001 = 48001,
+		// Token: 0x0401953E RID: 103742
+		[Token(Token = "0x4015FA7")]
+		FLAG_ORDER_ACCEPT_002,
+		// Token: 0x0401953F RID: 103743
+		[Token(Token = "0x4015FA8")]
+		FLAG_ORDER_ACCEPT_003,
+		// Token: 0x04019540 RID: 103744
+		[Token(Token = "0x4015FA9")]
+		FLAG_ORDER_ACCEPT_004,
+		// Token: 0x04019541 RID: 103745
+		[Token(Token = "0x4015FAA")]
+		FLAG_ORDER_ACCEPT_005,
+		// Token: 0x04019542 RID: 103746
+		[Token(Token = "0x4015FAB")]
+		FLAG_ORDER_ACCEPT_006,
+		// Token: 0x04019543 RID: 103747
+		[Token(Token = "0x4015FAC")]
+		FLAG_ORDER_ACCEPT_007,
+		// Token: 0x04019544 RID: 103748
+		[Token(Token = "0x4015FAD")]
+		FLAG_ORDER_ACCEPT_008,
+		// Token: 0x04019545 RID: 103749
+		[Token(Token = "0x4015FAE")]
+		FLAG_ORDER_ACCEPT_009,
+		// Token: 0x04019546 RID: 103750
+		[Token(Token = "0x4015FAF")]
+		FLAG_ORDER_ACCEPT_010,
+		// Token: 0x04019547 RID: 103751
+		[Token(Token = "0x4015FB0")]
+		FLAG_ORDER_ACCEPT_011,
+		// Token: 0x04019548 RID: 103752
+		[Token(Token = "0x4015FB1")]
+		FLAG_ORDER_ACCEPT_012,
+		// Token: 0x04019549 RID: 103753
+		[Token(Token = "0x4015FB2")]
+		FLAG_ORDER_ACCEPT_013,
+		// Token: 0x0401954A RID: 103754
+		[Token(Token = "0x4015FB3")]
+		FLAG_ORDER_ACCEPT_014,
+		// Token: 0x0401954B RID: 103755
+		[Token(Token = "0x4015FB4")]
+		FLAG_ORDER_ACCEPT_015,
+		// Token: 0x0401954C RID: 103756
+		[Token(Token = "0x4015FB5")]
+		FLAG_ORDER_ACCEPT_016,
+		// Token: 0x0401954D RID: 103757
+		[Token(Token = "0x4015FB6")]
+		FLAG_ORDER_ACCEPT_017,
+		// Token: 0x0401954E RID: 103758
+		[Token(Token = "0x4015FB7")]
+		FLAG_ORDER_ACCEPT_018,
+		// Token: 0x0401954F RID: 103759
+		[Token(Token = "0x4015FB8")]
+		FLAG_ORDER_ACCEPT_019,
+		// Token: 0x04019550 RID: 103760
+		[Token(Token = "0x4015FB9")]
+		FLAG_ORDER_ACCEPT_020,
+		// Token: 0x04019551 RID: 103761
+		[Token(Token = "0x4015FBA")]
+		FLAG_ORDER_ACCEPT_021,
+		// Token: 0x04019552 RID: 103762
+		[Token(Token = "0x4015FBB")]
+		FLAG_ORDER_ACCEPT_022,
+		// Token: 0x04019553 RID: 103763
+		[Token(Token = "0x4015FBC")]
+		FLAG_ORDER_ACCEPT_023,
+		// Token: 0x04019554 RID: 103764
+		[Token(Token = "0x4015FBD")]
+		FLAG_ORDER_ACCEPT_024,
+		// Token: 0x04019555 RID: 103765
+		[Token(Token = "0x4015FBE")]
+		FLAG_ORDER_ACCEPT_025,
+		// Token: 0x04019556 RID: 103766
+		[Token(Token = "0x4015FBF")]
+		FLAG_ORDER_ACCEPT_026,
+		// Token: 0x04019557 RID: 103767
+		[Token(Token = "0x4015FC0")]
+		FLAG_ORDER_ACCEPT_027,
+		// Token: 0x04019558 RID: 103768
+		[Token(Token = "0x4015FC1")]
+		FLAG_ORDER_ACCEPT_028,
+		// Token: 0x04019559 RID: 103769
+		[Token(Token = "0x4015FC2")]
+		FLAG_ORDER_ACCEPT_029,
+		// Token: 0x0401955A RID: 103770
+		[Token(Token = "0x4015FC3")]
+		FLAG_ORDER_ACCEPT_030,
+		// Token: 0x0401955B RID: 103771
+		[Token(Token = "0x4015FC4")]
+		FLAG_ORDER_ACCEPT_031,
+		// Token: 0x0401955C RID: 103772
+		[Token(Token = "0x4015FC5")]
+		FLAG_ORDER_ACCEPT_032,
+		// Token: 0x0401955D RID: 103773
+		[Token(Token = "0x4015FC6")]
+		FLAG_ORDER_ACCEPT_033,
+		// Token: 0x0401955E RID: 103774
+		[Token(Token = "0x4015FC7")]
+		FLAG_ORDER_ACCEPT_034,
+		// Token: 0x0401955F RID: 103775
+		[Token(Token = "0x4015FC8")]
+		FLAG_ORDER_ACCEPT_035,
+		// Token: 0x04019560 RID: 103776
+		[Token(Token = "0x4015FC9")]
+		FLAG_ORDER_ACCEPT_036,
+		// Token: 0x04019561 RID: 103777
+		[Token(Token = "0x4015FCA")]
+		FLAG_ORDER_ACCEPT_037,
+		// Token: 0x04019562 RID: 103778
+		[Token(Token = "0x4015FCB")]
+		FLAG_ORDER_ACCEPT_038,
+		// Token: 0x04019563 RID: 103779
+		[Token(Token = "0x4015FCC")]
+		FLAG_ORDER_ACCEPT_039,
+		// Token: 0x04019564 RID: 103780
+		[Token(Token = "0x4015FCD")]
+		FLAG_ORDER_ACCEPT_040,
+		// Token: 0x04019565 RID: 103781
+		[Token(Token = "0x4015FCE")]
+		FLAG_ORDER_ACCEPT_041,
+		// Token: 0x04019566 RID: 103782
+		[Token(Token = "0x4015FCF")]
+		FLAG_ORDER_ACCEPT_042,
+		// Token: 0x04019567 RID: 103783
+		[Token(Token = "0x4015FD0")]
+		FLAG_ORDER_ACCEPT_043,
+		// Token: 0x04019568 RID: 103784
+		[Token(Token = "0x4015FD1")]
+		FLAG_ORDER_ACCEPT_044,
+		// Token: 0x04019569 RID: 103785
+		[Token(Token = "0x4015FD2")]
+		FLAG_ORDER_ACCEPT_045,
+		// Token: 0x0401956A RID: 103786
+		[Token(Token = "0x4015FD3")]
+		FLAG_ORDER_ACCEPT_046,
+		// Token: 0x0401956B RID: 103787
+		[Token(Token = "0x4015FD4")]
+		FLAG_ORDER_ACCEPT_047,
+		// Token: 0x0401956C RID: 103788
+		[Token(Token = "0x4015FD5")]
+		FLAG_ORDER_ACCEPT_048,
+		// Token: 0x0401956D RID: 103789
+		[Token(Token = "0x4015FD6")]
+		FLAG_ORDER_ACCEPT_049,
+		// Token: 0x0401956E RID: 103790
+		[Token(Token = "0x4015FD7")]
+		FLAG_ORDER_ACCEPT_050,
+		// Token: 0x0401956F RID: 103791
+		[Token(Token = "0x4015FD8")]
+		FLAG_ORDER_ACCEPT_051,
+		// Token: 0x04019570 RID: 103792
+		[Token(Token = "0x4015FD9")]
+		FLAG_ORDER_ACCEPT_052,
+		// Token: 0x04019571 RID: 103793
+		[Token(Token = "0x4015FDA")]
+		FLAG_ORDER_ACCEPT_053,
+		// Token: 0x04019572 RID: 103794
+		[Token(Token = "0x4015FDB")]
+		FLAG_ORDER_ACCEPT_054,
+		// Token: 0x04019573 RID: 103795
+		[Token(Token = "0x4015FDC")]
+		FLAG_ORDER_ACCEPT_055,
+		// Token: 0x04019574 RID: 103796
+		[Token(Token = "0x4015FDD")]
+		FLAG_ORDER_ACCEPT_056,
+		// Token: 0x04019575 RID: 103797
+		[Token(Token = "0x4015FDE")]
+		FLAG_ORDER_ACCEPT_057,
+		// Token: 0x04019576 RID: 103798
+		[Token(Token = "0x4015FDF")]
+		FLAG_ORDER_ACCEPT_058,
+		// Token: 0x04019577 RID: 103799
+		[Token(Token = "0x4015FE0")]
+		FLAG_ORDER_ACCEPT_059,
+		// Token: 0x04019578 RID: 103800
+		[Token(Token = "0x4015FE1")]
+		FLAG_ORDER_ACCEPT_060,
+		// Token: 0x04019579 RID: 103801
+		[Token(Token = "0x4015FE2")]
+		FLAG_ORDER_ACCEPT_061,
+		// Token: 0x0401957A RID: 103802
+		[Token(Token = "0x4015FE3")]
+		FLAG_ORDER_ACCEPT_062,
+		// Token: 0x0401957B RID: 103803
+		[Token(Token = "0x4015FE4")]
+		FLAG_ORDER_ACCEPT_063,
+		// Token: 0x0401957C RID: 103804
+		[Token(Token = "0x4015FE5")]
+		FLAG_ORDER_ACCEPT_064,
+		// Token: 0x0401957D RID: 103805
+		[Token(Token = "0x4015FE6")]
+		FLAG_ORDER_ACCEPT_065,
+		// Token: 0x0401957E RID: 103806
+		[Token(Token = "0x4015FE7")]
+		FLAG_ORDER_ACCEPT_066,
+		// Token: 0x0401957F RID: 103807
+		[Token(Token = "0x4015FE8")]
+		FLAG_ORDER_ACCEPT_067,
+		// Token: 0x04019580 RID: 103808
+		[Token(Token = "0x4015FE9")]
+		FLAG_ORDER_ACCEPT_068,
+		// Token: 0x04019581 RID: 103809
+		[Token(Token = "0x4015FEA")]
+		FLAG_ORDER_ACCEPT_069,
+		// Token: 0x04019582 RID: 103810
+		[Token(Token = "0x4015FEB")]
+		FLAG_ORDER_ACCEPT_070,
+		// Token: 0x04019583 RID: 103811
+		[Token(Token = "0x4015FEC")]
+		FLAG_ORDER_ACCEPT_071,
+		// Token: 0x04019584 RID: 103812
+		[Token(Token = "0x4015FED")]
+		FLAG_ORDER_ACCEPT_072,
+		// Token: 0x04019585 RID: 103813
+		[Token(Token = "0x4015FEE")]
+		FLAG_ORDER_ACCEPT_073,
+		// Token: 0x04019586 RID: 103814
+		[Token(Token = "0x4015FEF")]
+		FLAG_ORDER_ACCEPT_074,
+		// Token: 0x04019587 RID: 103815
+		[Token(Token = "0x4015FF0")]
+		FLAG_ORDER_ACCEPT_075,
+		// Token: 0x04019588 RID: 103816
+		[Token(Token = "0x4015FF1")]
+		FLAG_ORDER_ACCEPT_076,
+		// Token: 0x04019589 RID: 103817
+		[Token(Token = "0x4015FF2")]
+		FLAG_ORDER_ACCEPT_077,
+		// Token: 0x0401958A RID: 103818
+		[Token(Token = "0x4015FF3")]
+		FLAG_ORDER_ACCEPT_078,
+		// Token: 0x0401958B RID: 103819
+		[Token(Token = "0x4015FF4")]
+		FLAG_ORDER_ACCEPT_079,
+		// Token: 0x0401958C RID: 103820
+		[Token(Token = "0x4015FF5")]
+		FLAG_ORDER_ACCEPT_080,
+		// Token: 0x0401958D RID: 103821
+		[Token(Token = "0x4015FF6")]
+		FLAG_ORDER_ACCEPT_081,
+		// Token: 0x0401958E RID: 103822
+		[Token(Token = "0x4015FF7")]
+		FLAG_ORDER_ACCEPT_082,
+		// Token: 0x0401958F RID: 103823
+		[Token(Token = "0x4015FF8")]
+		FLAG_ORDER_ACCEPT_083,
+		// Token: 0x04019590 RID: 103824
+		[Token(Token = "0x4015FF9")]
+		FLAG_ORDER_ACCEPT_084,
+		// Token: 0x04019591 RID: 103825
+		[Token(Token = "0x4015FFA")]
+		FLAG_ORDER_ACCEPT_085,
+		// Token: 0x04019592 RID: 103826
+		[Token(Token = "0x4015FFB")]
+		FLAG_ORDER_ACCEPT_086,
+		// Token: 0x04019593 RID: 103827
+		[Token(Token = "0x4015FFC")]
+		FLAG_ORDER_ACCEPT_087,
+		// Token: 0x04019594 RID: 103828
+		[Token(Token = "0x4015FFD")]
+		FLAG_ORDER_ACCEPT_088,
+		// Token: 0x04019595 RID: 103829
+		[Token(Token = "0x4015FFE")]
+		FLAG_ORDER_ACCEPT_089,
+		// Token: 0x04019596 RID: 103830
+		[Token(Token = "0x4015FFF")]
+		FLAG_ORDER_ACCEPT_090,
+		// Token: 0x04019597 RID: 103831
+		[Token(Token = "0x4016000")]
+		FLAG_ORDER_ACCEPT_091,
+		// Token: 0x04019598 RID: 103832
+		[Token(Token = "0x4016001")]
+		FLAG_ORDER_ACCEPT_092,
+		// Token: 0x04019599 RID: 103833
+		[Token(Token = "0x4016002")]
+		FLAG_ORDER_ACCEPT_093,
+		// Token: 0x0401959A RID: 103834
+		[Token(Token = "0x4016003")]
+		FLAG_ORDER_ACCEPT_094,
+		// Token: 0x0401959B RID: 103835
+		[Token(Token = "0x4016004")]
+		FLAG_ORDER_ACCEPT_095,
+		// Token: 0x0401959C RID: 103836
+		[Token(Token = "0x4016005")]
+		FLAG_ORDER_ACCEPT_096,
+		// Token: 0x0401959D RID: 103837
+		[Token(Token = "0x4016006")]
+		FLAG_ORDER_ACCEPT_097,
+		// Token: 0x0401959E RID: 103838
+		[Token(Token = "0x4016007")]
+		FLAG_ORDER_ACCEPT_098,
+		// Token: 0x0401959F RID: 103839
+		[Token(Token = "0x4016008")]
+		FLAG_ORDER_ACCEPT_099,
+		// Token: 0x040195A0 RID: 103840
+		[Token(Token = "0x4016009")]
+		FLAG_ORDER_ACCEPT_100,
+		// Token: 0x040195A1 RID: 103841
+		[Token(Token = "0x401600A")]
+		FLAG_ORDER_CLEAR_001 = 49001,
+		// Token: 0x040195A2 RID: 103842
+		[Token(Token = "0x401600B")]
+		FLAG_ORDER_CLEAR_002,
+		// Token: 0x040195A3 RID: 103843
+		[Token(Token = "0x401600C")]
+		FLAG_ORDER_CLEAR_003,
+		// Token: 0x040195A4 RID: 103844
+		[Token(Token = "0x401600D")]
+		FLAG_ORDER_CLEAR_004,
+		// Token: 0x040195A5 RID: 103845
+		[Token(Token = "0x401600E")]
+		FLAG_ORDER_CLEAR_005,
+		// Token: 0x040195A6 RID: 103846
+		[Token(Token = "0x401600F")]
+		FLAG_ORDER_CLEAR_006,
+		// Token: 0x040195A7 RID: 103847
+		[Token(Token = "0x4016010")]
+		FLAG_ORDER_CLEAR_007,
+		// Token: 0x040195A8 RID: 103848
+		[Token(Token = "0x4016011")]
+		FLAG_ORDER_CLEAR_008,
+		// Token: 0x040195A9 RID: 103849
+		[Token(Token = "0x4016012")]
+		FLAG_ORDER_CLEAR_009,
+		// Token: 0x040195AA RID: 103850
+		[Token(Token = "0x4016013")]
+		FLAG_ORDER_CLEAR_010,
+		// Token: 0x040195AB RID: 103851
+		[Token(Token = "0x4016014")]
+		FLAG_ORDER_CLEAR_011,
+		// Token: 0x040195AC RID: 103852
+		[Token(Token = "0x4016015")]
+		FLAG_ORDER_CLEAR_012,
+		// Token: 0x040195AD RID: 103853
+		[Token(Token = "0x4016016")]
+		FLAG_ORDER_CLEAR_013,
+		// Token: 0x040195AE RID: 103854
+		[Token(Token = "0x4016017")]
+		FLAG_ORDER_CLEAR_014,
+		// Token: 0x040195AF RID: 103855
+		[Token(Token = "0x4016018")]
+		FLAG_ORDER_CLEAR_015,
+		// Token: 0x040195B0 RID: 103856
+		[Token(Token = "0x4016019")]
+		FLAG_ORDER_CLEAR_016,
+		// Token: 0x040195B1 RID: 103857
+		[Token(Token = "0x401601A")]
+		FLAG_ORDER_CLEAR_017,
+		// Token: 0x040195B2 RID: 103858
+		[Token(Token = "0x401601B")]
+		FLAG_ORDER_CLEAR_018,
+		// Token: 0x040195B3 RID: 103859
+		[Token(Token = "0x401601C")]
+		FLAG_ORDER_CLEAR_019,
+		// Token: 0x040195B4 RID: 103860
+		[Token(Token = "0x401601D")]
+		FLAG_ORDER_CLEAR_020,
+		// Token: 0x040195B5 RID: 103861
+		[Token(Token = "0x401601E")]
+		FLAG_ORDER_CLEAR_021,
+		// Token: 0x040195B6 RID: 103862
+		[Token(Token = "0x401601F")]
+		FLAG_ORDER_CLEAR_022,
+		// Token: 0x040195B7 RID: 103863
+		[Token(Token = "0x4016020")]
+		FLAG_ORDER_CLEAR_023,
+		// Token: 0x040195B8 RID: 103864
+		[Token(Token = "0x4016021")]
+		FLAG_ORDER_CLEAR_024,
+		// Token: 0x040195B9 RID: 103865
+		[Token(Token = "0x4016022")]
+		FLAG_ORDER_CLEAR_025,
+		// Token: 0x040195BA RID: 103866
+		[Token(Token = "0x4016023")]
+		FLAG_ORDER_CLEAR_026,
+		// Token: 0x040195BB RID: 103867
+		[Token(Token = "0x4016024")]
+		FLAG_ORDER_CLEAR_027,
+		// Token: 0x040195BC RID: 103868
+		[Token(Token = "0x4016025")]
+		FLAG_ORDER_CLEAR_028,
+		// Token: 0x040195BD RID: 103869
+		[Token(Token = "0x4016026")]
+		FLAG_ORDER_CLEAR_029,
+		// Token: 0x040195BE RID: 103870
+		[Token(Token = "0x4016027")]
+		FLAG_ORDER_CLEAR_030,
+		// Token: 0x040195BF RID: 103871
+		[Token(Token = "0x4016028")]
+		FLAG_ORDER_CLEAR_031,
+		// Token: 0x040195C0 RID: 103872
+		[Token(Token = "0x4016029")]
+		FLAG_ORDER_CLEAR_032,
+		// Token: 0x040195C1 RID: 103873
+		[Token(Token = "0x401602A")]
+		FLAG_ORDER_CLEAR_033,
+		// Token: 0x040195C2 RID: 103874
+		[Token(Token = "0x401602B")]
+		FLAG_ORDER_CLEAR_034,
+		// Token: 0x040195C3 RID: 103875
+		[Token(Token = "0x401602C")]
+		FLAG_ORDER_CLEAR_035,
+		// Token: 0x040195C4 RID: 103876
+		[Token(Token = "0x401602D")]
+		FLAG_ORDER_CLEAR_036,
+		// Token: 0x040195C5 RID: 103877
+		[Token(Token = "0x401602E")]
+		FLAG_ORDER_CLEAR_037,
+		// Token: 0x040195C6 RID: 103878
+		[Token(Token = "0x401602F")]
+		FLAG_ORDER_CLEAR_038,
+		// Token: 0x040195C7 RID: 103879
+		[Token(Token = "0x4016030")]
+		FLAG_ORDER_CLEAR_039,
+		// Token: 0x040195C8 RID: 103880
+		[Token(Token = "0x4016031")]
+		FLAG_ORDER_CLEAR_040,
+		// Token: 0x040195C9 RID: 103881
+		[Token(Token = "0x4016032")]
+		FLAG_ORDER_CLEAR_041,
+		// Token: 0x040195CA RID: 103882
+		[Token(Token = "0x4016033")]
+		FLAG_ORDER_CLEAR_042,
+		// Token: 0x040195CB RID: 103883
+		[Token(Token = "0x4016034")]
+		FLAG_ORDER_CLEAR_043,
+		// Token: 0x040195CC RID: 103884
+		[Token(Token = "0x4016035")]
+		FLAG_ORDER_CLEAR_044,
+		// Token: 0x040195CD RID: 103885
+		[Token(Token = "0x4016036")]
+		FLAG_ORDER_CLEAR_045,
+		// Token: 0x040195CE RID: 103886
+		[Token(Token = "0x4016037")]
+		FLAG_ORDER_CLEAR_046,
+		// Token: 0x040195CF RID: 103887
+		[Token(Token = "0x4016038")]
+		FLAG_ORDER_CLEAR_047,
+		// Token: 0x040195D0 RID: 103888
+		[Token(Token = "0x4016039")]
+		FLAG_ORDER_CLEAR_048,
+		// Token: 0x040195D1 RID: 103889
+		[Token(Token = "0x401603A")]
+		FLAG_ORDER_CLEAR_049,
+		// Token: 0x040195D2 RID: 103890
+		[Token(Token = "0x401603B")]
+		FLAG_ORDER_CLEAR_050,
+		// Token: 0x040195D3 RID: 103891
+		[Token(Token = "0x401603C")]
+		FLAG_ORDER_CLEAR_051,
+		// Token: 0x040195D4 RID: 103892
+		[Token(Token = "0x401603D")]
+		FLAG_ORDER_CLEAR_052,
+		// Token: 0x040195D5 RID: 103893
+		[Token(Token = "0x401603E")]
+		FLAG_ORDER_CLEAR_053,
+		// Token: 0x040195D6 RID: 103894
+		[Token(Token = "0x401603F")]
+		FLAG_ORDER_CLEAR_054,
+		// Token: 0x040195D7 RID: 103895
+		[Token(Token = "0x4016040")]
+		FLAG_ORDER_CLEAR_055,
+		// Token: 0x040195D8 RID: 103896
+		[Token(Token = "0x4016041")]
+		FLAG_ORDER_CLEAR_056,
+		// Token: 0x040195D9 RID: 103897
+		[Token(Token = "0x4016042")]
+		FLAG_ORDER_CLEAR_057,
+		// Token: 0x040195DA RID: 103898
+		[Token(Token = "0x4016043")]
+		FLAG_ORDER_CLEAR_058,
+		// Token: 0x040195DB RID: 103899
+		[Token(Token = "0x4016044")]
+		FLAG_ORDER_CLEAR_059,
+		// Token: 0x040195DC RID: 103900
+		[Token(Token = "0x4016045")]
+		FLAG_ORDER_CLEAR_060,
+		// Token: 0x040195DD RID: 103901
+		[Token(Token = "0x4016046")]
+		FLAG_ORDER_CLEAR_061,
+		// Token: 0x040195DE RID: 103902
+		[Token(Token = "0x4016047")]
+		FLAG_ORDER_CLEAR_062,
+		// Token: 0x040195DF RID: 103903
+		[Token(Token = "0x4016048")]
+		FLAG_ORDER_CLEAR_063,
+		// Token: 0x040195E0 RID: 103904
+		[Token(Token = "0x4016049")]
+		FLAG_ORDER_CLEAR_064,
+		// Token: 0x040195E1 RID: 103905
+		[Token(Token = "0x401604A")]
+		FLAG_ORDER_CLEAR_065,
+		// Token: 0x040195E2 RID: 103906
+		[Token(Token = "0x401604B")]
+		FLAG_ORDER_CLEAR_066,
+		// Token: 0x040195E3 RID: 103907
+		[Token(Token = "0x401604C")]
+		FLAG_ORDER_CLEAR_067,
+		// Token: 0x040195E4 RID: 103908
+		[Token(Token = "0x401604D")]
+		FLAG_ORDER_CLEAR_068,
+		// Token: 0x040195E5 RID: 103909
+		[Token(Token = "0x401604E")]
+		FLAG_ORDER_CLEAR_069,
+		// Token: 0x040195E6 RID: 103910
+		[Token(Token = "0x401604F")]
+		FLAG_ORDER_CLEAR_070,
+		// Token: 0x040195E7 RID: 103911
+		[Token(Token = "0x4016050")]
+		FLAG_ORDER_CLEAR_071,
+		// Token: 0x040195E8 RID: 103912
+		[Token(Token = "0x4016051")]
+		FLAG_ORDER_CLEAR_072,
+		// Token: 0x040195E9 RID: 103913
+		[Token(Token = "0x4016052")]
+		FLAG_ORDER_CLEAR_073,
+		// Token: 0x040195EA RID: 103914
+		[Token(Token = "0x4016053")]
+		FLAG_ORDER_CLEAR_074,
+		// Token: 0x040195EB RID: 103915
+		[Token(Token = "0x4016054")]
+		FLAG_ORDER_CLEAR_075,
+		// Token: 0x040195EC RID: 103916
+		[Token(Token = "0x4016055")]
+		FLAG_ORDER_CLEAR_076,
+		// Token: 0x040195ED RID: 103917
+		[Token(Token = "0x4016056")]
+		FLAG_ORDER_CLEAR_077,
+		// Token: 0x040195EE RID: 103918
+		[Token(Token = "0x4016057")]
+		FLAG_ORDER_CLEAR_078,
+		// Token: 0x040195EF RID: 103919
+		[Token(Token = "0x4016058")]
+		FLAG_ORDER_CLEAR_079,
+		// Token: 0x040195F0 RID: 103920
+		[Token(Token = "0x4016059")]
+		FLAG_ORDER_CLEAR_080,
+		// Token: 0x040195F1 RID: 103921
+		[Token(Token = "0x401605A")]
+		FLAG_ORDER_CLEAR_081,
+		// Token: 0x040195F2 RID: 103922
+		[Token(Token = "0x401605B")]
+		FLAG_ORDER_CLEAR_082,
+		// Token: 0x040195F3 RID: 103923
+		[Token(Token = "0x401605C")]
+		FLAG_ORDER_CLEAR_083,
+		// Token: 0x040195F4 RID: 103924
+		[Token(Token = "0x401605D")]
+		FLAG_ORDER_CLEAR_084,
+		// Token: 0x040195F5 RID: 103925
+		[Token(Token = "0x401605E")]
+		FLAG_ORDER_CLEAR_085,
+		// Token: 0x040195F6 RID: 103926
+		[Token(Token = "0x401605F")]
+		FLAG_ORDER_CLEAR_086,
+		// Token: 0x040195F7 RID: 103927
+		[Token(Token = "0x4016060")]
+		FLAG_ORDER_CLEAR_087,
+		// Token: 0x040195F8 RID: 103928
+		[Token(Token = "0x4016061")]
+		FLAG_ORDER_CLEAR_088,
+		// Token: 0x040195F9 RID: 103929
+		[Token(Token = "0x4016062")]
+		FLAG_ORDER_CLEAR_089,
+		// Token: 0x040195FA RID: 103930
+		[Token(Token = "0x4016063")]
+		FLAG_ORDER_CLEAR_090,
+		// Token: 0x040195FB RID: 103931
+		[Token(Token = "0x4016064")]
+		FLAG_ORDER_CLEAR_091,
+		// Token: 0x040195FC RID: 103932
+		[Token(Token = "0x4016065")]
+		FLAG_ORDER_CLEAR_092,
+		// Token: 0x040195FD RID: 103933
+		[Token(Token = "0x4016066")]
+		FLAG_ORDER_CLEAR_093,
+		// Token: 0x040195FE RID: 103934
+		[Token(Token = "0x4016067")]
+		FLAG_ORDER_CLEAR_094,
+		// Token: 0x040195FF RID: 103935
+		[Token(Token = "0x4016068")]
+		FLAG_ORDER_CLEAR_095,
+		// Token: 0x04019600 RID: 103936
+		[Token(Token = "0x4016069")]
+		FLAG_ORDER_CLEAR_096,
+		// Token: 0x04019601 RID: 103937
+		[Token(Token = "0x401606A")]
+		FLAG_ORDER_CLEAR_097,
+		// Token: 0x04019602 RID: 103938
+		[Token(Token = "0x401606B")]
+		FLAG_ORDER_CLEAR_098,
+		// Token: 0x04019603 RID: 103939
+		[Token(Token = "0x401606C")]
+		FLAG_ORDER_CLEAR_099,
+		// Token: 0x04019604 RID: 103940
+		[Token(Token = "0x401606D")]
+		FLAG_ORDER_CLEAR_100,
+		// Token: 0x04019605 RID: 103941
+		[Token(Token = "0x401606E")]
+		FLAG_FREE_ONSEN_001 = 49800,
+		// Token: 0x04019606 RID: 103942
+		[Token(Token = "0x401606F")]
+		FLAG_FREE_ONSEN_002,
+		// Token: 0x04019607 RID: 103943
+		[Token(Token = "0x4016070")]
+		FLAG_FREE_ONSEN_003,
+		// Token: 0x04019608 RID: 103944
+		[Token(Token = "0x4016071")]
+		FLAG_FREE_ONSEN_004,
+		// Token: 0x04019609 RID: 103945
+		[Token(Token = "0x4016072")]
+		FLAG_FREE_ONSEN_005,
+		// Token: 0x0401960A RID: 103946
+		[Token(Token = "0x4016073")]
+		FLAG_Extend_DoubleBed,
+		// Token: 0x0401960B RID: 103947
+		[Token(Token = "0x4016074")]
+		FLAG_Extend_DualCooking,
+		// Token: 0x0401960C RID: 103948
+		[Token(Token = "0x4016075")]
+		FLAG_Extend_DualBlacksmith,
+		// Token: 0x0401960D RID: 103949
+		[Token(Token = "0x4016076")]
+		FLAG_Having_ChildBed,
+		// Token: 0x0401960E RID: 103950
+		[Token(Token = "0x4016077")]
+		FLAG_Funiture_Handmaid_Get,
+		// Token: 0x0401960F RID: 103951
+		[Token(Token = "0x4016078")]
+		FLAG_Festival_Xmas_Open,
+		// Token: 0x04019610 RID: 103952
+		[Token(Token = "0x4016079")]
+		FLAG_Variety_Extend_Lv1,
+		// Token: 0x04019611 RID: 103953
+		[Token(Token = "0x401607A")]
+		FLAG_ORDER_SEED_001 = 49900,
+		// Token: 0x04019612 RID: 103954
+		[Token(Token = "0x401607B")]
+		FLAG_ORDER_SEED_002,
+		// Token: 0x04019613 RID: 103955
+		[Token(Token = "0x401607C")]
+		FLAG_ORDER_SEED_003,
+		// Token: 0x04019614 RID: 103956
+		[Token(Token = "0x401607D")]
+		FLAG_ORDER_SEED_004,
+		// Token: 0x04019615 RID: 103957
+		[Token(Token = "0x401607E")]
+		FLAG_ORDER_SEED_005,
+		// Token: 0x04019616 RID: 103958
+		[Token(Token = "0x401607F")]
+		FLAG_RENNAI_50301 = 50301,
+		// Token: 0x04019617 RID: 103959
+		[Token(Token = "0x4016080")]
+		FLAG_RENNAI_50302,
+		// Token: 0x04019618 RID: 103960
+		[Token(Token = "0x4016081")]
+		FLAG_RENNAI_50303,
+		// Token: 0x04019619 RID: 103961
+		[Token(Token = "0x4016082")]
+		FLAG_RENNAI_50304,
+		// Token: 0x0401961A RID: 103962
+		[Token(Token = "0x4016083")]
+		FLAG_RENNAI_50701 = 50701,
+		// Token: 0x0401961B RID: 103963
+		[Token(Token = "0x4016084")]
+		FLAG_RENNAI_50702,
+		// Token: 0x0401961C RID: 103964
+		[Token(Token = "0x4016085")]
+		FLAG_RENNAI_50703,
+		// Token: 0x0401961D RID: 103965
+		[Token(Token = "0x4016086")]
+		FLAG_RENNAI_50704,
+		// Token: 0x0401961E RID: 103966
+		[Token(Token = "0x4016087")]
+		FLAG_RENNAI_50705,
+		// Token: 0x0401961F RID: 103967
+		[Token(Token = "0x4016088")]
+		FLAG_RENNAI_50706,
+		// Token: 0x04019620 RID: 103968
+		[Token(Token = "0x4016089")]
+		FLAG_RENNAI_50707,
+		// Token: 0x04019621 RID: 103969
+		[Token(Token = "0x401608A")]
+		FLAG_RENNAI_50708,
+		// Token: 0x04019622 RID: 103970
+		[Token(Token = "0x401608B")]
+		FLAG_RENNAI_50709,
+		// Token: 0x04019623 RID: 103971
+		[Token(Token = "0x401608C")]
+		FLAG_RENNAI_50801 = 50801,
+		// Token: 0x04019624 RID: 103972
+		[Token(Token = "0x401608D")]
+		FLAG_RENNAI_50802,
+		// Token: 0x04019625 RID: 103973
+		[Token(Token = "0x401608E")]
+		FLAG_RENNAI_50901 = 50901,
+		// Token: 0x04019626 RID: 103974
+		[Token(Token = "0x401608F")]
+		FLAG_RENNAI_50902,
+		// Token: 0x04019627 RID: 103975
+		[Token(Token = "0x4016090")]
+		FLAG_RENNAI_50903,
+		// Token: 0x04019628 RID: 103976
+		[Token(Token = "0x4016091")]
+		FLAG_RENNAI_51001 = 51001,
+		// Token: 0x04019629 RID: 103977
+		[Token(Token = "0x4016092")]
+		FLAG_RENNAI_51002,
+		// Token: 0x0401962A RID: 103978
+		[Token(Token = "0x4016093")]
+		FLAG_RENNAI_51003,
+		// Token: 0x0401962B RID: 103979
+		[Token(Token = "0x4016094")]
+		FLAG_RENNAI_51004,
+		// Token: 0x0401962C RID: 103980
+		[Token(Token = "0x4016095")]
+		FLAG_RENNAI_51005,
+		// Token: 0x0401962D RID: 103981
+		[Token(Token = "0x4016096")]
+		FLAG_RENNAI_56001 = 56001,
+		// Token: 0x0401962E RID: 103982
+		[Token(Token = "0x4016097")]
+		FLAG_RENNAI_60001 = 60001,
+		// Token: 0x0401962F RID: 103983
+		[Token(Token = "0x4016098")]
+		FLAG_RENNAI_60002,
+		// Token: 0x04019630 RID: 103984
+		[Token(Token = "0x4016099")]
+		FLAG_RENNAI_90201 = 90201,
+		// Token: 0x04019631 RID: 103985
+		[Token(Token = "0x401609A")]
+		FLAG_RENNAI_90301 = 90301,
+		// Token: 0x04019632 RID: 103986
+		[Token(Token = "0x401609B")]
+		FLAG_RENNAI_90401 = 90401,
+		// Token: 0x04019633 RID: 103987
+		[Token(Token = "0x401609C")]
+		FLAG_RENNAI_90501 = 90501,
+		// Token: 0x04019634 RID: 103988
+		[Token(Token = "0x401609D")]
+		FLAG_RENNAI_90601 = 90601,
+		// Token: 0x04019635 RID: 103989
+		[Token(Token = "0x401609E")]
+		FLAG_RENNAI_90701 = 90701,
+		// Token: 0x04019636 RID: 103990
+		[Token(Token = "0x401609F")]
+		FLAG_RENNAI_90801 = 90801,
+		// Token: 0x04019637 RID: 103991
+		[Token(Token = "0x40160A0")]
+		FLAG_RENNAI_90901 = 90901,
+		// Token: 0x04019638 RID: 103992
+		[Token(Token = "0x40160A1")]
+		FLAG_RENNAI_91001 = 91001,
+		// Token: 0x04019639 RID: 103993
+		[Token(Token = "0x40160A2")]
+		FLAG_RENNAI_91101 = 91101,
+		// Token: 0x0401963A RID: 103994
+		[Token(Token = "0x40160A3")]
+		FLAG_RENNAI_91201 = 91201,
+		// Token: 0x0401963B RID: 103995
+		[Token(Token = "0x40160A4")]
+		FLAG_RENNAI_91301 = 91301,
+		// Token: 0x0401963C RID: 103996
+		[Token(Token = "0x40160A5")]
+		FLAG_RENNAI_91399 = 91399,
+		// Token: 0x0401963D RID: 103997
+		[Token(Token = "0x40160A6")]
+		FLAG_RENNAI_91401 = 91401,
+		// Token: 0x0401963E RID: 103998
+		[Token(Token = "0x40160A7")]
+		FLAG_RENNAI_92000 = 92000,
+		// Token: 0x0401963F RID: 103999
+		[Token(Token = "0x40160A8")]
+		FLAG_RENNAI_92001,
+		// Token: 0x04019640 RID: 104000
+		[Token(Token = "0x40160A9")]
+		FLAG_treasure_ooiwa_ON_OFF,
+		// Token: 0x04019641 RID: 104001
+		[Token(Token = "0x40160AA")]
+		FLAG_D9rune_ON_OFF,
+		// Token: 0x04019642 RID: 104002
+		[Token(Token = "0x40160AB")]
+		FLAG_D10rune_ON_OFF,
+		// Token: 0x04019643 RID: 104003
+		[Token(Token = "0x40160AC")]
+		FLAG_D11rune_ON_OFF,
+		// Token: 0x04019644 RID: 104004
+		[Token(Token = "0x40160AD")]
+		FLAG_SCARLET_NICKNAME = 1600,
+		// Token: 0x04019645 RID: 104005
+		[Token(Token = "0x40160AE")]
+		FLAG_OMATSURI_GET_FISHING_ROD = 92006,
+		// Token: 0x04019646 RID: 104006
+		[Token(Token = "0x40160AF")]
+		SUBEVENT_3058_0,
+		// Token: 0x04019647 RID: 104007
+		[Token(Token = "0x40160B0")]
+		SUBEVENT_3058_1,
+		// Token: 0x04019648 RID: 104008
+		[Token(Token = "0x40160B1")]
+		SUBEVENT_3059_0,
+		// Token: 0x04019649 RID: 104009
+		[Token(Token = "0x40160B2")]
+		SUBEVENT_3059_1,
+		// Token: 0x0401964A RID: 104010
+		[Token(Token = "0x40160B3")]
+		SUBEVENT_3060_0,
+		// Token: 0x0401964B RID: 104011
+		[Token(Token = "0x40160B4")]
+		SUBEVENT_3060_1,
+		// Token: 0x0401964C RID: 104012
+		[Token(Token = "0x40160B5")]
+		SUBEVENT_3061_0,
+		// Token: 0x0401964D RID: 104013
+		[Token(Token = "0x40160B6")]
+		SUBEVENT_3061_1,
+		// Token: 0x0401964E RID: 104014
+		[Token(Token = "0x40160B7")]
+		SUBEVENT_3062_0,
+		// Token: 0x0401964F RID: 104015
+		[Token(Token = "0x40160B8")]
+		SUBEVENT_3062_1,
+		// Token: 0x04019650 RID: 104016
+		[Token(Token = "0x40160B9")]
+		SUBEVENT_3063_0,
+		// Token: 0x04019651 RID: 104017
+		[Token(Token = "0x40160BA")]
+		SUBEVENT_3063_1,
+		// Token: 0x04019652 RID: 104018
+		[Token(Token = "0x40160BB")]
+		SUBEVENT_3064_0,
+		// Token: 0x04019653 RID: 104019
+		[Token(Token = "0x40160BC")]
+		SUBEVENT_3064_1,
+		// Token: 0x04019654 RID: 104020
+		[Token(Token = "0x40160BD")]
+		SUBEVENT_3065_0,
+		// Token: 0x04019655 RID: 104021
+		[Token(Token = "0x40160BE")]
+		SUBEVENT_3065_1,
+		// Token: 0x04019656 RID: 104022
+		[Token(Token = "0x40160BF")]
+		SUBEVENT_3066_0,
+		// Token: 0x04019657 RID: 104023
+		[Token(Token = "0x40160C0")]
+		SUBEVENT_3066_1,
+		// Token: 0x04019658 RID: 104024
+		[Token(Token = "0x40160C1")]
+		SUBEVENT_3067_0,
+		// Token: 0x04019659 RID: 104025
+		[Token(Token = "0x40160C2")]
+		SUBEVENT_3067_1,
+		// Token: 0x0401965A RID: 104026
+		[Token(Token = "0x40160C3")]
+		SUBEVENT_3068_0,
+		// Token: 0x0401965B RID: 104027
+		[Token(Token = "0x40160C4")]
+		SUBEVENT_3068_1,
+		// Token: 0x0401965C RID: 104028
+		[Token(Token = "0x40160C5")]
+		SUBEVENT_3069_0,
+		// Token: 0x0401965D RID: 104029
+		[Token(Token = "0x40160C6")]
+		SUBEVENT_3069_1,
+		// Token: 0x0401965E RID: 104030
+		[Token(Token = "0x40160C7")]
+		SUBEVENT_3070_0,
+		// Token: 0x0401965F RID: 104031
+		[Token(Token = "0x40160C8")]
+		SUBEVENT_3070_1,
+		// Token: 0x04019660 RID: 104032
+		[Token(Token = "0x40160C9")]
+		SUBEVENT_3071_0,
+		// Token: 0x04019661 RID: 104033
+		[Token(Token = "0x40160CA")]
+		SUBEVENT_3071_1,
+		// Token: 0x04019662 RID: 104034
+		[Token(Token = "0x40160CB")]
+		SUBEVENT_3072_0,
+		// Token: 0x04019663 RID: 104035
+		[Token(Token = "0x40160CC")]
+		SUBEVENT_3072_1,
+		// Token: 0x04019664 RID: 104036
+		[Token(Token = "0x40160CD")]
+		SUBEVENT_3073_0,
+		// Token: 0x04019665 RID: 104037
+		[Token(Token = "0x40160CE")]
+		SUBEVENT_3073_1,
+		// Token: 0x04019666 RID: 104038
+		[Token(Token = "0x40160CF")]
+		SUBEVENT_3074_0,
+		// Token: 0x04019667 RID: 104039
+		[Token(Token = "0x40160D0")]
+		SUBEVENT_3074_1,
+		// Token: 0x04019668 RID: 104040
+		[Token(Token = "0x40160D1")]
+		SUBEVENT_3075_0,
+		// Token: 0x04019669 RID: 104041
+		[Token(Token = "0x40160D2")]
+		SUBEVENT_3075_1,
+		// Token: 0x0401966A RID: 104042
+		[Token(Token = "0x40160D3")]
+		SUBEVENT_3076_0,
+		// Token: 0x0401966B RID: 104043
+		[Token(Token = "0x40160D4")]
+		SUBEVENT_3076_1,
+		// Token: 0x0401966C RID: 104044
+		[Token(Token = "0x40160D5")]
+		SUBEVENT_3077_0,
+		// Token: 0x0401966D RID: 104045
+		[Token(Token = "0x40160D6")]
+		SUBEVENT_3077_1,
+		// Token: 0x0401966E RID: 104046
+		[Token(Token = "0x40160D7")]
+		SUBEVENT_3078_0,
+		// Token: 0x0401966F RID: 104047
+		[Token(Token = "0x40160D8")]
+		SUBEVENT_3078_1,
+		// Token: 0x04019670 RID: 104048
+		[Token(Token = "0x40160D9")]
+		SUBEVENT_3079_0,
+		// Token: 0x04019671 RID: 104049
+		[Token(Token = "0x40160DA")]
+		SUBEVENT_3079_1,
+		// Token: 0x04019672 RID: 104050
+		[Token(Token = "0x40160DB")]
+		SUBEVENT_3080_0,
+		// Token: 0x04019673 RID: 104051
+		[Token(Token = "0x40160DC")]
+		SUBEVENT_3080_1,
+		// Token: 0x04019674 RID: 104052
+		[Token(Token = "0x40160DD")]
+		SUBEVENT_3081_0,
+		// Token: 0x04019675 RID: 104053
+		[Token(Token = "0x40160DE")]
+		SUBEVENT_3081_1,
+		// Token: 0x04019676 RID: 104054
+		[Token(Token = "0x40160DF")]
+		SUBEVENT_3082_0,
+		// Token: 0x04019677 RID: 104055
+		[Token(Token = "0x40160E0")]
+		SUBEVENT_3082_1,
+		// Token: 0x04019678 RID: 104056
+		[Token(Token = "0x40160E1")]
+		SUBEVENT_3083_0,
+		// Token: 0x04019679 RID: 104057
+		[Token(Token = "0x40160E2")]
+		SUBEVENT_3083_1,
+		// Token: 0x0401967A RID: 104058
+		[Token(Token = "0x40160E3")]
+		SUBEVENT_3084_0,
+		// Token: 0x0401967B RID: 104059
+		[Token(Token = "0x40160E4")]
+		SUBEVENT_3084_1,
+		// Token: 0x0401967C RID: 104060
+		[Token(Token = "0x40160E5")]
+		SUBEVENT_3085_0,
+		// Token: 0x0401967D RID: 104061
+		[Token(Token = "0x40160E6")]
+		SUBEVENT_3085_1,
+		// Token: 0x0401967E RID: 104062
+		[Token(Token = "0x40160E7")]
+		SUBEVENT_3086_0,
+		// Token: 0x0401967F RID: 104063
+		[Token(Token = "0x40160E8")]
+		SUBEVENT_3086_1,
+		// Token: 0x04019680 RID: 104064
+		[Token(Token = "0x40160E9")]
+		SUBEVENT_3087_0,
+		// Token: 0x04019681 RID: 104065
+		[Token(Token = "0x40160EA")]
+		SUBEVENT_3087_1,
+		// Token: 0x04019682 RID: 104066
+		[Token(Token = "0x40160EB")]
+		SUBEVENT_3088_0,
+		// Token: 0x04019683 RID: 104067
+		[Token(Token = "0x40160EC")]
+		SUBEVENT_3088_1,
+		// Token: 0x04019684 RID: 104068
+		[Token(Token = "0x40160ED")]
+		SUBEVENT_3089_0,
+		// Token: 0x04019685 RID: 104069
+		[Token(Token = "0x40160EE")]
+		SUBEVENT_3089_1,
+		// Token: 0x04019686 RID: 104070
+		[Token(Token = "0x40160EF")]
+		SUBEVENT_3090_0,
+		// Token: 0x04019687 RID: 104071
+		[Token(Token = "0x40160F0")]
+		SUBEVENT_3090_1,
+		// Token: 0x04019688 RID: 104072
+		[Token(Token = "0x40160F1")]
+		SUBEVENT_3091_0,
+		// Token: 0x04019689 RID: 104073
+		[Token(Token = "0x40160F2")]
+		SUBEVENT_3091_1,
+		// Token: 0x0401968A RID: 104074
+		[Token(Token = "0x40160F3")]
+		SUBEVENT_3092_0,
+		// Token: 0x0401968B RID: 104075
+		[Token(Token = "0x40160F4")]
+		SUBEVENT_3092_1,
+		// Token: 0x0401968C RID: 104076
+		[Token(Token = "0x40160F5")]
+		SUBEVENT_3093_0,
+		// Token: 0x0401968D RID: 104077
+		[Token(Token = "0x40160F6")]
+		SUBEVENT_3093_1,
+		// Token: 0x0401968E RID: 104078
+		[Token(Token = "0x40160F7")]
+		SUBEVENT_3094_0,
+		// Token: 0x0401968F RID: 104079
+		[Token(Token = "0x40160F8")]
+		SUBEVENT_3094_1,
+		// Token: 0x04019690 RID: 104080
+		[Token(Token = "0x40160F9")]
+		SUBEVENT_3095_0,
+		// Token: 0x04019691 RID: 104081
+		[Token(Token = "0x40160FA")]
+		SUBEVENT_3095_1,
+		// Token: 0x04019692 RID: 104082
+		[Token(Token = "0x40160FB")]
+		SUBEVENT_3096_0,
+		// Token: 0x04019693 RID: 104083
+		[Token(Token = "0x40160FC")]
+		SUBEVENT_3096_1,
+		// Token: 0x04019694 RID: 104084
+		[Token(Token = "0x40160FD")]
+		SUBEVENT_3097_0,
+		// Token: 0x04019695 RID: 104085
+		[Token(Token = "0x40160FE")]
+		SUBEVENT_3097_1,
+		// Token: 0x04019696 RID: 104086
+		[Token(Token = "0x40160FF")]
+		SUBEVENT_3098_0,
+		// Token: 0x04019697 RID: 104087
+		[Token(Token = "0x4016100")]
+		SUBEVENT_3098_1,
+		// Token: 0x04019698 RID: 104088
+		[Token(Token = "0x4016101")]
+		SUBEVENT_3099_0,
+		// Token: 0x04019699 RID: 104089
+		[Token(Token = "0x4016102")]
+		SUBEVENT_3099_1,
+		// Token: 0x0401969A RID: 104090
+		[Token(Token = "0x4016103")]
+		SUBEVENT_3100_0,
+		// Token: 0x0401969B RID: 104091
+		[Token(Token = "0x4016104")]
+		SUBEVENT_3100_1,
+		// Token: 0x0401969C RID: 104092
+		[Token(Token = "0x4016105")]
+		SUBEVENT_3101_0,
+		// Token: 0x0401969D RID: 104093
+		[Token(Token = "0x4016106")]
+		SUBEVENT_3101_1,
+		// Token: 0x0401969E RID: 104094
+		[Token(Token = "0x4016107")]
+		SUBEVENT_3102_0,
+		// Token: 0x0401969F RID: 104095
+		[Token(Token = "0x4016108")]
+		SUBEVENT_3102_1,
+		// Token: 0x040196A0 RID: 104096
+		[Token(Token = "0x4016109")]
+		SUBEVENT_3103_0,
+		// Token: 0x040196A1 RID: 104097
+		[Token(Token = "0x401610A")]
+		SUBEVENT_3103_1,
+		// Token: 0x040196A2 RID: 104098
+		[Token(Token = "0x401610B")]
+		SUBEVENT_3104_0,
+		// Token: 0x040196A3 RID: 104099
+		[Token(Token = "0x401610C")]
+		SUBEVENT_3104_1,
+		// Token: 0x040196A4 RID: 104100
+		[Token(Token = "0x401610D")]
+		SUBEVENT_3105_0,
+		// Token: 0x040196A5 RID: 104101
+		[Token(Token = "0x401610E")]
+		SUBEVENT_3105_1,
+		// Token: 0x040196A6 RID: 104102
+		[Token(Token = "0x401610F")]
+		PRISCILLA_MARRIAGED,
+		// Token: 0x040196A7 RID: 104103
+		[Token(Token = "0x4016110")]
+		LUCY_MARRIAGED,
+		// Token: 0x040196A8 RID: 104104
+		[Token(Token = "0x4016111")]
+		SCARLET_MARRIAGED,
+		// Token: 0x040196A9 RID: 104105
+		[Token(Token = "0x4016112")]
+		FUUKA_MARRIAGED,
+		// Token: 0x040196AA RID: 104106
+		[Token(Token = "0x4016113")]
+		BEATRICE_MARRIAGED,
+		// Token: 0x040196AB RID: 104107
+		[Token(Token = "0x4016114")]
+		LUDMILA_MARRIAGED,
+		// Token: 0x040196AC RID: 104108
+		[Token(Token = "0x4016115")]
+		MARTIN_MARRIAGED,
+		// Token: 0x040196AD RID: 104109
+		[Token(Token = "0x4016116")]
+		CECIL_MARRIAGED,
+		// Token: 0x040196AE RID: 104110
+		[Token(Token = "0x4016117")]
+		MURAKUMO_MARRIAGED,
+		// Token: 0x040196AF RID: 104111
+		[Token(Token = "0x4016118")]
+		LYCA_MARRIAGED,
+		// Token: 0x040196B0 RID: 104112
+		[Token(Token = "0x4016119")]
+		REINHARD_MARRIAGED,
+		// Token: 0x040196B1 RID: 104113
+		[Token(Token = "0x401611A")]
+		LUCAS_MARRIAGED,
+		// Token: 0x040196B2 RID: 104114
+		[Token(Token = "0x401611B")]
+		EPILOGUE_1,
+		// Token: 0x040196B3 RID: 104115
+		[Token(Token = "0x401611C")]
+		EPILOGUE_2,
+		// Token: 0x040196B4 RID: 104116
+		[Token(Token = "0x401611D")]
+		EPILOGUE_3,
+		// Token: 0x040196B5 RID: 104117
+		[Token(Token = "0x401611E")]
+		Max
+	}
+}

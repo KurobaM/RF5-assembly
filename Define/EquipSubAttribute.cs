@@ -1,0 +1,251 @@
+﻿using System;
+using Il2CppDummyDll;
+
+namespace Define
+{
+	// Token: 0x020011F0 RID: 4592
+	[Token(Token = "0x2000BC4")]
+	public enum EquipSubAttribute
+	{
+		// Token: 0x04018992 RID: 100754
+		[Token(Token = "0x40153FB")]
+		ACC_LUCKY_DROP,
+		// Token: 0x04018993 RID: 100755
+		[Token(Token = "0x40153FC")]
+		ACC_EXP_UP,
+		// Token: 0x04018994 RID: 100756
+		[Token(Token = "0x40153FD")]
+		ACC_EXP_SKILL_UP,
+		// Token: 0x04018995 RID: 100757
+		[Token(Token = "0x40153FE")]
+		ACC_MIKAWASHI,
+		// Token: 0x04018996 RID: 100758
+		[Token(Token = "0x40153FF")]
+		ACC_MATOU,
+		// Token: 0x04018997 RID: 100759
+		[Token(Token = "0x4015400")]
+		ACC_CHARGE_UP,
+		// Token: 0x04018998 RID: 100760
+		[Token(Token = "0x4015401")]
+		ACC_RP_HALF,
+		// Token: 0x04018999 RID: 100761
+		[Token(Token = "0x4015402")]
+		ACC_RP_ZERO,
+		// Token: 0x0401899A RID: 100762
+		[Token(Token = "0x4015403")]
+		ACC_STATE_REVERSE,
+		// Token: 0x0401899B RID: 100763
+		[Token(Token = "0x4015404")]
+		ACC_HP_REGENE,
+		// Token: 0x0401899C RID: 100764
+		[Token(Token = "0x4015405")]
+		ACC_RP_REGENE,
+		// Token: 0x0401899D RID: 100765
+		[Token(Token = "0x4015406")]
+		ACC_PUP_FMONSTER,
+		// Token: 0x0401899E RID: 100766
+		[Token(Token = "0x4015407")]
+		ACC_PUP_PATY,
+		// Token: 0x0401899F RID: 100767
+		[Token(Token = "0x4015408")]
+		ACC_PUP_FARM,
+		// Token: 0x040189A0 RID: 100768
+		[Token(Token = "0x4015409")]
+		ACC_MONSTER_ZERO,
+		// Token: 0x040189A1 RID: 100769
+		[Token(Token = "0x401540A")]
+		ACC_POISON,
+		// Token: 0x040189A2 RID: 100770
+		[Token(Token = "0x401540B")]
+		ACC_PARALYSIS,
+		// Token: 0x040189A3 RID: 100771
+		[Token(Token = "0x401540C")]
+		ACC_SEAL,
+		// Token: 0x040189A4 RID: 100772
+		[Token(Token = "0x401540D")]
+		EQUIPMENT_DEF,
+		// Token: 0x040189A5 RID: 100773
+		[Token(Token = "0x401540E")]
+		ACC_MU_DEF,
+		// Token: 0x040189A6 RID: 100774
+		[Token(Token = "0x401540F")]
+		ACC_ATK_LENGTH,
+		// Token: 0x040189A7 RID: 100775
+		[Token(Token = "0x4015410")]
+		ACC_HP_MAX,
+		// Token: 0x040189A8 RID: 100776
+		[Token(Token = "0x4015411")]
+		EQUIPMENT_LOUPE,
+		// Token: 0x040189A9 RID: 100777
+		[Token(Token = "0x4015412")]
+		EQUIPMENT_KNOCK,
+		// Token: 0x040189AA RID: 100778
+		[Token(Token = "0x4015413")]
+		ACC_THROW_CHANGE,
+		// Token: 0x040189AB RID: 100779
+		[Token(Token = "0x4015414")]
+		EQUIPMENT_SNEAKING,
+		// Token: 0x040189AC RID: 100780
+		[Token(Token = "0x4015415")]
+		EQUIPMENT_NODASH,
+		// Token: 0x040189AD RID: 100781
+		[Token(Token = "0x4015416")]
+		EQUIPMENT_DASHUP,
+		// Token: 0x040189AE RID: 100782
+		[Token(Token = "0x4015417")]
+		EQUIPMENT_MAXDASH,
+		// Token: 0x040189AF RID: 100783
+		[Token(Token = "0x4015418")]
+		EQUIPMENT_SPEEDDOWN,
+		// Token: 0x040189B0 RID: 100784
+		[Token(Token = "0x4015419")]
+		EQUIPMENT_HEAVY,
+		// Token: 0x040189B1 RID: 100785
+		[Token(Token = "0x401541A")]
+		EQUIPMENT_ROLLING,
+		// Token: 0x040189B2 RID: 100786
+		[Token(Token = "0x401541B")]
+		ACC_ANNETTE,
+		// Token: 0x040189B3 RID: 100787
+		[Token(Token = "0x401541C")]
+		ACC_NO_YAWN,
+		// Token: 0x040189B4 RID: 100788
+		[Token(Token = "0x401541D")]
+		ACC_UP_RECOVERY,
+		// Token: 0x040189B5 RID: 100789
+		[Token(Token = "0x401541E")]
+		ACC_NO_DEFENSE,
+		// Token: 0x040189B6 RID: 100790
+		[Token(Token = "0x401541F")]
+		EQUIPMENT_SET_1,
+		// Token: 0x040189B7 RID: 100791
+		[Token(Token = "0x4015420")]
+		EQUIPMENT_SET_2,
+		// Token: 0x040189B8 RID: 100792
+		[Token(Token = "0x4015421")]
+		EQUIPMENT_SET_3,
+		// Token: 0x040189B9 RID: 100793
+		[Token(Token = "0x4015422")]
+		EQUIPMENT_SET_4,
+		// Token: 0x040189BA RID: 100794
+		[Token(Token = "0x4015423")]
+		EQUIPMENT_SE_CHANGE1,
+		// Token: 0x040189BB RID: 100795
+		[Token(Token = "0x4015424")]
+		EQUIPMENT_SE_CHANGE2,
+		// Token: 0x040189BC RID: 100796
+		[Token(Token = "0x4015425")]
+		EQUIPMENT_FAMILY,
+		// Token: 0x040189BD RID: 100797
+		[Token(Token = "0x4015426")]
+		ACC_FAMILY,
+		// Token: 0x040189BE RID: 100798
+		[Token(Token = "0x4015427")]
+		EQUIPMENT_BFR_ATC,
+		// Token: 0x040189BF RID: 100799
+		[Token(Token = "0x4015428")]
+		EQUIPMENT_GST_ATC,
+		// Token: 0x040189C0 RID: 100800
+		[Token(Token = "0x4015429")]
+		EQUIPMENT_SPRING_ATC,
+		// Token: 0x040189C1 RID: 100801
+		[Token(Token = "0x401542A")]
+		EQUIPMENT_SUMMER_ATC,
+		// Token: 0x040189C2 RID: 100802
+		[Token(Token = "0x401542B")]
+		EQUIPMENT_AUTUMN_ATC,
+		// Token: 0x040189C3 RID: 100803
+		[Token(Token = "0x401542C")]
+		EQUIPMENT_WINTER_ATC,
+		// Token: 0x040189C4 RID: 100804
+		[Token(Token = "0x401542D")]
+		EQUIPMENT_WINTER_MAGIC,
+		// Token: 0x040189C5 RID: 100805
+		[Token(Token = "0x401542E")]
+		EQUIPMENT_HATAKE_PLOW,
+		// Token: 0x040189C6 RID: 100806
+		[Token(Token = "0x401542F")]
+		EQUIPMENT_THUNDER_INVALID,
+		// Token: 0x040189C7 RID: 100807
+		[Token(Token = "0x4015430")]
+		STRENGTHENING_LUCKY_DROP,
+		// Token: 0x040189C8 RID: 100808
+		[Token(Token = "0x4015431")]
+		STRENGTHENING_BAITETSU,
+		// Token: 0x040189C9 RID: 100809
+		[Token(Token = "0x4015432")]
+		STRENGTHENING_10BAITETSU,
+		// Token: 0x040189CA RID: 100810
+		[Token(Token = "0x4015433")]
+		STRENGTHENING_RARE,
+		// Token: 0x040189CB RID: 100811
+		[Token(Token = "0x4015434")]
+		STRENGTHENING_DAMAGE1,
+		// Token: 0x040189CC RID: 100812
+		[Token(Token = "0x4015435")]
+		STRENGTHENING_ATTRIBUTE,
+		// Token: 0x040189CD RID: 100813
+		[Token(Token = "0x4015436")]
+		STRENGTHENING_GOLD_KABU,
+		// Token: 0x040189CE RID: 100814
+		[Token(Token = "0x4015437")]
+		STRENGTHENING_GOLD_POTATO,
+		// Token: 0x040189CF RID: 100815
+		[Token(Token = "0x4015438")]
+		STRENGTHENING_GOLD_KABOCHA,
+		// Token: 0x040189D0 RID: 100816
+		[Token(Token = "0x4015439")]
+		STRENGTHENING_GOLD_KYABETU,
+		// Token: 0x040189D1 RID: 100817
+		[Token(Token = "0x401543A")]
+		STRENGTHENING_BUTTAIX,
+		// Token: 0x040189D2 RID: 100818
+		[Token(Token = "0x401543B")]
+		STRENGTHENING_CORE_1,
+		// Token: 0x040189D3 RID: 100819
+		[Token(Token = "0x401543C")]
+		STRENGTHENING_CORE_2,
+		// Token: 0x040189D4 RID: 100820
+		[Token(Token = "0x401543D")]
+		STRENGTHENING_CORE_3,
+		// Token: 0x040189D5 RID: 100821
+		[Token(Token = "0x401543E")]
+		STRENGTHENING_CORE_4,
+		// Token: 0x040189D6 RID: 100822
+		[Token(Token = "0x401543F")]
+		STRENGTHENING_FISH,
+		// Token: 0x040189D7 RID: 100823
+		[Token(Token = "0x4015440")]
+		STRENGTHENING_GURITTA,
+		// Token: 0x040189D8 RID: 100824
+		[Token(Token = "0x4015441")]
+		STRENGTHENING_KESSYO_1,
+		// Token: 0x040189D9 RID: 100825
+		[Token(Token = "0x4015442")]
+		STRENGTHENING_KESSYO_2,
+		// Token: 0x040189DA RID: 100826
+		[Token(Token = "0x4015443")]
+		STRENGTHENING_KESSYO_3,
+		// Token: 0x040189DB RID: 100827
+		[Token(Token = "0x4015444")]
+		STRENGTHENING_KESSYO_4,
+		// Token: 0x040189DC RID: 100828
+		[Token(Token = "0x4015445")]
+		STRENGTHENING_KESSYO_5,
+		// Token: 0x040189DD RID: 100829
+		[Token(Token = "0x4015446")]
+		STRENGTHENING_KESSYO_6,
+		// Token: 0x040189DE RID: 100830
+		[Token(Token = "0x4015447")]
+		STRENGTHENING_KESSYO_7,
+		// Token: 0x040189DF RID: 100831
+		[Token(Token = "0x4015448")]
+		STRENGTHENING_KESSYO_8,
+		// Token: 0x040189E0 RID: 100832
+		[Token(Token = "0x4015449")]
+		STRENGTHENING_RYUNOUROKO,
+		// Token: 0x040189E1 RID: 100833
+		[Token(Token = "0x401544A")]
+		LENGTH
+	}
+}

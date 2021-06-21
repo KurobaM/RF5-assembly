@@ -1,0 +1,65 @@
+﻿using System;
+using Il2CppDummyDll;
+
+// Token: 0x020004DA RID: 1242
+[Token(Token = "0x2000391")]
+public enum CROP_TYPE
+{
+	// Token: 0x04006551 RID: 25937
+	[Token(Token = "0x4005FF1")]
+	RF4_CROP_TYPE_HARVEST = 1,
+	// Token: 0x04006552 RID: 25938
+	[Token(Token = "0x4005FF2")]
+	RF4_CROP_TYPE_COL,
+	// Token: 0x04006553 RID: 25939
+	[Token(Token = "0x4005FF3")]
+	RF4_CROP_TYPE_EARTH_Z = 4,
+	// Token: 0x04006554 RID: 25940
+	[Token(Token = "0x4005FF4")]
+	RF4_CROP_TYPE_GRASS = 8,
+	// Token: 0x04006555 RID: 25941
+	[Token(Token = "0x4005FF5")]
+	RF4_CROP_TYPE_CULTIVATE = 16,
+	// Token: 0x04006556 RID: 25942
+	[Token(Token = "0x4005FF6")]
+	RF4_CROP_TYPE_ROCK = 32,
+	// Token: 0x04006557 RID: 25943
+	[Token(Token = "0x4005FF7")]
+	RF4_CROP_TYPE_WOOD = 64,
+	// Token: 0x04006558 RID: 25944
+	[Token(Token = "0x4005FF8")]
+	RF4_CROP_TYPE_FLOWER = 128,
+	// Token: 0x04006559 RID: 25945
+	[Token(Token = "0x4005FF9")]
+	RF4_CROP_TYPE_VEGETABLE = 256,
+	// Token: 0x0400655A RID: 25946
+	[Token(Token = "0x4005FFA")]
+	RF4_CROP_TYPE_TREE = 512,
+	// Token: 0x0400655B RID: 25947
+	[Token(Token = "0x4005FFB")]
+	RF4_CROP_TYPE_DUNG = 1024,
+	// Token: 0x0400655C RID: 25948
+	[Token(Token = "0x4005FFC")]
+	RF4_CROP_TYPE_SP = 4096,
+	// Token: 0x0400655D RID: 25949
+	[Token(Token = "0x4005FFD")]
+	RF4_CROP_TYPE_SU = 8192,
+	// Token: 0x0400655E RID: 25950
+	[Token(Token = "0x4005FFE")]
+	RF4_CROP_TYPE_FA = 16384,
+	// Token: 0x0400655F RID: 25951
+	[Token(Token = "0x4005FFF")]
+	RF4_CROP_TYPE_WI = 32768,
+	// Token: 0x04006560 RID: 25952
+	[Token(Token = "0x4006000")]
+	RF4_CROP_TYPE_BAD_SP = 65536,
+	// Token: 0x04006561 RID: 25953
+	[Token(Token = "0x4006001")]
+	RF4_CROP_TYPE_BAD_SU = 131072,
+	// Token: 0x04006562 RID: 25954
+	[Token(Token = "0x4006002")]
+	RF4_CROP_TYPE_BAD_FA = 262144,
+	// Token: 0x04006563 RID: 25955
+	[Token(Token = "0x4006003")]
+	RF4_CROP_TYPE_BAD_WI = 524288
+}
